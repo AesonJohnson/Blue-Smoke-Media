@@ -1,0 +1,15 @@
+.App {
+  text-align: center;
+  .home {
+    img {
+      height: 20vh;
+      width: 50%;
+    }
+    h1 {
+      display: inline;
+      font-size: 1rem;
+      font-weight: normal;
+      color: lightskyblue;
+    }
+  }
+}
