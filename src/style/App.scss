@@ -1,15 +1,72 @@
+// @mixin orange
 .App {
   text-align: center;
   .home {
     img {
-      height: 20vh;
-      width: 50%;
+      height: 40vh;
+      width: 60%;
     }
     h1 {
       display: inline;
       font-size: 1rem;
       font-weight: normal;
-      color: lightskyblue;
+      color: rgb(64, 165, 251);
     }
+    span {
+      color: rgb(30, 146, 246);
+    }
+    .globe {
+      display: flex;
+      flex-direction: row-reverse;
+      background: url("../images/globe.jpg");
+      background-size: cover;
+      img {
+        width: 80%;
+      }
+      p {
+        // position: absolute;
+        // margin-right: auto;
+        color: white;
+        right: 50%;
+        width: 50%;
+      }
+    }
+    .silhouette {
+      display: flex;
+      border-top: 1rem solid rgb(253, 56, 5);
+      img {
+        width: 50%;
+      }
+      p {
+        width: 50%;
+      }
+    }
+    .social-media {
+      display: flex;
+      flex-direction: row-reverse;
+      border-bottom: 1rem solid rgb(253, 56, 5);
+      img {
+        width: 50%;
+      }
+      .content {
+        // width: 50%;
+        span {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  height: 10vh;
+  background: rgb(253, 56, 5);
+  padding: 10px;
+  a {
+    color: rgb(25, 11, 50);
+    text-decoration: none;
+    margin: auto;
+    padding: 5px;
   }
 }

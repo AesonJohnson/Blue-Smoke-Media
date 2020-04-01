@@ -3,14 +3,92 @@
 }
 
 .App .home img {
-  height: 20vh;
-  width: 50%;
+  height: 40vh;
+  width: 60%;
 }
 
 .App .home h1 {
   display: inline;
   font-size: 1rem;
   font-weight: normal;
-  color: lightskyblue;
+  color: #40a5fb;
+}
+
+.App .home span {
+  color: #1e92f6;
+}
+
+.App .home .globe {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  background: url("../images/globe.jpg");
+  background-size: cover;
+}
+
+.App .home .globe img {
+  width: 80%;
+}
+
+.App .home .globe p {
+  color: white;
+  right: 50%;
+  width: 50%;
+}
+
+.App .home .silhouette {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-top: 1rem solid #fd3805;
+}
+
+.App .home .silhouette img {
+  width: 50%;
+}
+
+.App .home .silhouette p {
+  width: 50%;
+}
+
+.App .home .social-media {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  border-bottom: 1rem solid #fd3805;
+}
+
+.App .home .social-media img {
+  width: 50%;
+}
+
+.App .home .social-media .content span {
+  text-decoration: underline;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  height: 10vh;
+  background: #fd3805;
+  padding: 10px;
+}
+
+nav a {
+  color: #190b32;
+  text-decoration: none;
+  margin: auto;
+  padding: 5px;
 }
 /*# sourceMappingURL=App.css.map */
