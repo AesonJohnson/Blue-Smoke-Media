@@ -12,15 +12,15 @@
   background: white;
 }
 
-.App .home #logo {
+.App .home #header {
   height: 65vh;
   width: 100%;
-  -webkit-box-shadow: 0px 4px #0b2673;
-          box-shadow: 0px 4px #0b2673;
+  -webkit-box-shadow: 0px 5px #0b2673;
+          box-shadow: 0px 5px #0b2673;
 }
 
 .App .home nav {
-  border-bottom: 4px solid #0b2673;
+  border-bottom: 5px solid #0b2673;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -50,7 +50,7 @@
   -webkit-box-direction: reverse;
       -ms-flex-direction: row-reverse;
           flex-direction: row-reverse;
-  background: url("../images/globe-stretch.png");
+  background: url("../images/globe-stretch-new.png");
   background-size: 100% 100%;
   background-repeat: no-repeat;
   height: 60vh;
@@ -90,6 +90,10 @@
   padding: 1.4rem;
 }
 
+.App .home .silhouette p h1 {
+  font-size: 1rem;
+}
+
 .App .home .social-media {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -105,11 +109,14 @@
 .App .home .social-media img {
   width: 50%;
   height: 40vh;
+  margin-bottom: 1.5rem;
+  -webkit-box-shadow: -6px -4.5px 4px #999999;
+          box-shadow: -6px -4.5px 4px #999999;
 }
 
 .App .home .social-media .content {
   width: 50%;
-  margin: 4% auto;
+  margin: 5% auto;
   text-align: justify;
 }
 
@@ -139,37 +146,35 @@
 }
 
 .App .home .mission .left p {
-  padding: 22% 13%;
+  padding: 22% 17%;
   line-height: 1.7rem;
 }
 
 .App .home .mission .right {
   background: url("../images/trees-background.png");
-  background-size: cover;
+  background-size: 100% 140%;
+  background-position-y: 10%;
+  background-repeat: no-repeat;
   width: 50%;
   margin-left: 0.75rem;
 }
 
 .App .home .mission .right h4 {
-  color: #ff5100;
-  text-shadow: 1px 2px grey;
+  color: #fc3906;
+  font-size: 1.4rem;
+  text-shadow: 2px 2px #1d1d1d;
   margin: 0px;
-  padding-top: 2rem;
+  padding-top: 3rem;
 }
 
 .App .home .mission .right p {
-  margin-top: 0rem;
-}
-
-.App .home .mission .right #contact {
-  width: 90%;
-  margin: 0.7rem auto 3.5rem;
+  margin-top: 0.54rem;
+  color: #0b2672;
 }
 
 .App .home .mission .right ul {
   width: 72.5%;
-  margin: 1.4rem auto;
-  margin-top: 1.5rem;
+  margin: 1.5rem auto 2rem;
   list-style: none;
   text-align: left;
   padding: 0.5rem;
@@ -179,21 +184,33 @@
 .App .home .mission .right ul li {
   text-align: left;
   line-height: 1.3rem;
+  color: #0b2672;
+  font-size: 1.1rem;
 }
 
 .App .home .mission .right ul ::before {
   content: "*";
-  color: #ff5100;
+  color: #fc3906;
+  margin-right: 0.4%;
+  text-shadow: 0.5px 0.5px #1d1d1d;
 }
 
 .App .home .mission .right h3 {
   display: inline;
-  font-size: 1.2rem;
-  color: #ff5100;
-  text-shadow: 1px 2px grey;
+  font-size: 1.5rem;
+  color: #fc3906;
+  text-shadow: 2px 2px #1d1d1d;
+}
+
+.App .home .mission .right #contact {
+  width: 85%;
+  margin: 0.7rem auto 3.5rem;
 }
 
 .App .home footer {
+  background-image: url("../images//blue-footer.png");
+  background-size: 100% 115%;
+  background-repeat: no-repeat;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -204,26 +221,65 @@
   -ms-flex-pack: distribute;
       justify-content: space-around;
   text-align: left;
+  border-top: 0.85rem solid #fd3805;
 }
 
-.App .home footer .top {
+.App .home footer img {
+  width: 92%;
+  height: 13vh;
+  margin: 5% auto 1%;
+}
+
+.App .home footer p {
+  text-align: center;
+  font-size: 3rem;
+  color: #f73604;
+  margin: 0.25rem auto 0;
+  width: 100%;
+  text-shadow: -0.5px -0.5px white;
+}
+
+.App .home footer .bottom {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin: auto;
   width: 100%;
+  margin: 2rem auto 0.5rem;
 }
 
-.App .home footer .top .contact {
-  width: 50%;
+.App .home footer .bottom p {
+  font-weight: normal;
+  color: white;
+  font-size: 1.35rem;
+  text-align: justify;
+  padding: 0 10%;
 }
 
-.App .home footer .top .email {
+.App .home footer .bottom .contact {
   width: 50%;
+  padding-left: 1rem;
+}
+
+.App .home footer .bottom .contact span {
+  color: white;
+  font-size: 1.35rem;
+  text-align: justify;
+  padding: 0 7%;
+}
+
+.App .home footer .bottom .email {
+  width: 50%;
+  line-height: 1.8rem;
+}
+
+.App .home footer .bottom .email #email {
+  font-size: 1.35rem;
+  margin-bottom: 2.26rem;
 }
 
 .App .home footer span {
+  color: white;
   font-size: 0.7rem;
-  margin: auto;
+  margin: 1.5rem auto 0.75rem;
 }
 /*# sourceMappingURL=App.css.map */

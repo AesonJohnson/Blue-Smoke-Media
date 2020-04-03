@@ -12,15 +12,15 @@ $orange: rgb(253, 56, 5);
     width: 90%;
     margin: auto;
     background: white;
-    #logo {
+    #header {
       height: 65vh;
       width: 100%;
       // margin: 0px;
       // border-bottom: 3px solid black;
-      box-shadow: 0px 4px #0b2673;
+      box-shadow: 0px 5px #0b2673;
     }
     nav {
-      border-bottom: 4px solid #0b2673;
+      border-bottom: 5px solid #0b2673;
       display: flex;
       justify-content: space-around;
       height: 10vh;
@@ -42,7 +42,7 @@ $orange: rgb(253, 56, 5);
     .globe {
       display: flex;
       flex-direction: row-reverse;
-      background: url("../images/globe-stretch.png");
+      background: url("../images/globe-stretch-new.png");
       background-size: 100% 100%;
       background-repeat: no-repeat;
       height: 60vh;
@@ -52,7 +52,6 @@ $orange: rgb(253, 56, 5);
         font-weight: normal;
         width: 35%;
         height: 35%;
-        // margin-right: auto;
         margin: auto auto auto 7%;
         color: white;
       }
@@ -75,6 +74,9 @@ $orange: rgb(253, 56, 5);
         margin: auto;
         text-align: justify;
         padding: 1.4rem;
+        h1 {
+          font-size: 1rem;
+        }
       }
     }
     .social-media {
@@ -86,13 +88,13 @@ $orange: rgb(253, 56, 5);
 
       img {
         width: 50%;
-        // margin: 2rem 0.4rem;
-        // box-shadow: 4px 4px 5px grey;
         height: 40vh;
+        margin-bottom: 1.5rem;
+        box-shadow: -6px -4.5px 4px rgb(153, 153, 153);
       }
       .content {
         width: 50%;
-        margin: 4% auto;
+        margin: 5% auto;
         text-align: justify;
         p {
           width: 80%;
@@ -107,12 +109,6 @@ $orange: rgb(253, 56, 5);
     .mission {
       display: flex;
       border-top: 1rem solid #243e75;
-      // img {
-      //   width: 100%;
-      //   height: 100%;
-      // }
-      // padding-bottom: 5rem;
-      // height: 100%;
 
       .left {
         background: url("../images/man-background.png");
@@ -122,7 +118,7 @@ $orange: rgb(253, 56, 5);
         text-align: justify;
         // margin: auto;
         p {
-          padding: 22% 13%;
+          padding: 22% 17%;
           line-height: 1.7rem;
           // margin: auto;
           // position: absolute;
@@ -131,28 +127,26 @@ $orange: rgb(253, 56, 5);
       }
       .right {
         background: url("../images/trees-background.png");
-        background-size: cover;
+        background-size: 100% 140%;
+        background-position-y: 10%;
+        background-repeat: no-repeat;
         width: 50%;
         margin-left: 0.75rem;
         h4 {
-          color: rgb(255, 81, 0);
-          text-shadow: 1px 2px grey;
+          color: rgb(252, 57, 6);
+          font-size: 1.4rem;
+          text-shadow: 2px 2px rgb(29, 29, 29);
           margin: 0px;
-          padding-top: 2rem;
+          padding-top: 3rem;
         }
         p {
-          margin-top: 0rem;
-        }
-        #contact {
-          // font-size: 1.05rem;
-          width: 90%;
-          margin: 0.7rem auto 3.5rem;
+          margin-top: 0.54rem;
+          color: rgb(11, 38, 114);
         }
 
         ul {
           width: 72.5%;
-          margin: 1.4rem auto;
-          margin-top: 1.5rem;
+          margin: 1.5rem auto 2rem;
           list-style: none;
           text-align: left;
           padding: 0.5rem;
@@ -160,39 +154,90 @@ $orange: rgb(253, 56, 5);
           li {
             text-align: left;
             line-height: 1.3rem;
+            color: rgb(11, 38, 114);
+            font-size: 1.1rem;
           }
           ::before {
             content: "*";
-            color: rgb(255, 81, 0);
+            color: rgb(252, 57, 6);
+            margin-right: 0.4%;
+            text-shadow: 0.5px 0.5px rgb(29, 29, 29);
           }
         }
         h3 {
           display: inline;
-          font-size: 1.2rem;
-          color: rgb(255, 81, 0);
-          text-shadow: 1px 2px grey;
+          font-size: 1.5rem;
+          color: rgb(252, 57, 6);
+          text-shadow: 2px 2px rgb(29, 29, 29);
+        }
+        #contact {
+          // font-size: 1.05rem;
+          width: 85%;
+          margin: 0.7rem auto 3.5rem;
         }
       }
     }
     footer {
+      background-image: url("../images//blue-footer.png");
+      background-size: 100% 115%;
+      // background-position-y: -0.5rem;
+      background-repeat: no-repeat;
       display: flex;
       flex-direction: column;
       justify-content: space-around;
       text-align: left;
-      .top {
-        display: flex;
-        margin: auto;
+      border-top: 0.85rem solid $orange;
+      img {
+        width: 92%;
+        height: 13vh;
+        margin: 5% auto 1%;
+      }
+      p {
+        //todo change font
+        text-align: center;
+        font-size: 3rem;
+        // line-height: 0.9rem;
+        color: rgb(247, 54, 4);
+        margin: 0.25rem auto 0;
         width: 100%;
+        text-shadow: -0.5px -0.5px white;
+      }
+      .bottom {
+        display: flex;
+        width: 100%;
+        margin: 2rem auto 0.5rem;
+        p {
+          font-weight: normal;
+          color: white;
+          font-size: 1.35rem;
+          text-align: justify;
+          padding: 0 10%;
+        }
+
         .contact {
           width: 50%;
+          padding-left: 1rem;
+
+          span {
+            color: white;
+            font-size: 1.35rem;
+            text-align: justify;
+            padding: 0 7%;
+          }
         }
         .email {
           width: 50%;
+          line-height: 1.8rem;
+          #email {
+            font-size: 1.35rem;
+            margin-bottom: 2.26rem;
+          }
         }
       }
       span {
+        color: white;
         font-size: 0.7rem;
-        margin: auto;
+        margin: 1.5rem auto 0.75rem;
       }
     }
   }

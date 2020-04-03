@@ -1,20 +1,17 @@
 import React from "react";
 import Navigation from "./Navigation";
 //* Images
-import logo from "../images/logo.png";
-import globe from "../images/globe-stretch.png";
+import headerLong from "../images/header.png";
 import silhouette from "./../images/silhouette.png";
 import socialMedia from "./../images/social-media.jpg";
-import manBackground from "../images/man-background.png";
-import treesBackground from "../images/trees-background.png";
+import logo from "../images/logo.png";
 
 export default function Home() {
   return (
     <div className="home">
-      <img src={logo} alt="logo" id="logo" />
+      <img src={headerLong} alt="header" id="header" />
       <Navigation />
       <section className="globe">
-        {/* <img src={globe} alt="globe" /> */}
         <p>
           <h1>Blue Smoke Digital and Printed Media</h1>
           <br /> produces media for Individual businesses, Small and Medium
@@ -63,7 +60,6 @@ export default function Home() {
         </div>
         <div className="right">
           <h4>Digital and Printed Media</h4>
-          <br />
           <p>offers a website that is designed to:</p>
           <ul>
             <li>Enhance YOUR Business Image.</li>
@@ -75,18 +71,19 @@ export default function Home() {
           </ul>
           <h3>Contact Blue Smoke Media</h3>
           <p id="contact">
-            today and request a free consultation or quote. A Friendly associate
+            today and request a free consultation or quote. A friendly associate
             will get back to you within 24 hours to discuss your project in
             detail.
           </p>
         </div>
       </section>
       <footer>
-        <div className="top">
+        <img src={logo} alt="logo" />
+        <p>Digital and Printed Media</p>
+        <div className="bottom">
           <div className="contact">
+            <span>Contact:</span>
             <p>
-              Contact:
-              <br />
               <br />
               Blue Smoke Media
               <br />
@@ -100,11 +97,12 @@ export default function Home() {
             </p>
           </div>
           <div className="email">
+            <p id="email">Email: </p>
             <p>
-              Email:
+              {/* Email: */}
+              {/* <br />
               <br />
-              <br />
-              <br />
+              <br /> */}
               info@BlueSmokeMedia.com
               <br />
               CoBe@BlueSmokeMedia.com

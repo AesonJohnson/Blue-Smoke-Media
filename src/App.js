@@ -2,7 +2,7 @@ import React from "react";
 import "./style/App.css";
 import { Switch, Route } from "react-router-dom";
 //* components
-import Navigation from "./components/Navigation";
+// import Navigation from "./components/Navigation";
 import Home from "./components/Home";
 
 function App() {
