@@ -1,10 +1,39 @@
 .App {
   text-align: center;
+  background: black;
+  font-family: poppins, sans-serif;
+  font-style: normal;
+  font-weight: bold;
 }
 
-.App .home img {
-  height: 40vh;
-  width: 60%;
+.App .home {
+  width: 90%;
+  margin: auto;
+  background: white;
+}
+
+.App .home #logo {
+  height: 65vh;
+  width: 100%;
+  -webkit-box-shadow: 0px 4px #0b2673;
+          box-shadow: 0px 4px #0b2673;
+}
+
+.App .home nav {
+  border-bottom: 4px solid #0b2673;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  height: 10vh;
+  background: #fd3805;
+}
+
+.App .home nav a {
+  color: #190b32;
+  text-decoration: none;
+  margin: auto;
 }
 
 .App .home h1 {
@@ -12,10 +41,6 @@
   font-size: 1rem;
   font-weight: normal;
   color: #40a5fb;
-}
-
-.App .home span {
-  color: #1e92f6;
 }
 
 .App .home .globe {
@@ -26,18 +51,19 @@
   -webkit-box-direction: reverse;
       -ms-flex-direction: row-reverse;
           flex-direction: row-reverse;
-  background: url("../images/globe.jpg");
-  background-size: cover;
-}
-
-.App .home .globe img {
-  width: 80%;
+  background: url("../images/globe-stretch.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 60vh;
 }
 
 .App .home .globe p {
+  font-size: 1.2rem;
+  text-align: center;
+  width: 35%;
+  height: 40%;
+  margin: auto auto auto 7%;
   color: white;
-  right: 50%;
-  width: 50%;
 }
 
 .App .home .silhouette {
@@ -45,14 +71,23 @@
   display: -ms-flexbox;
   display: flex;
   border-top: 1rem solid #fd3805;
+  padding: 4rem 1.5rem;
 }
 
 .App .home .silhouette img {
   width: 50%;
+  height: 100%;
+  margin: auto 0.4rem;
+  border: 1.25px solid black;
+  -webkit-box-shadow: 7px 5px 5px #999999;
+          box-shadow: 7px 5px 5px #999999;
 }
 
 .App .home .silhouette p {
-  width: 50%;
+  width: 44%;
+  margin: auto;
+  text-align: justify;
+  padding: 1.4rem;
 }
 
 .App .home .social-media {
@@ -63,32 +98,138 @@
   -webkit-box-direction: reverse;
       -ms-flex-direction: row-reverse;
           flex-direction: row-reverse;
-  border-bottom: 1rem solid #fd3805;
+  border-bottom: 1rem solid #fd6e42;
+  padding: 0 0.75rem;
 }
 
 .App .home .social-media img {
   width: 50%;
+  height: 40vh;
+}
+
+.App .home .social-media .content {
+  width: 50%;
+  margin: 4% auto;
+  text-align: justify;
+}
+
+.App .home .social-media .content p {
+  width: 80%;
+  margin: 0px auto 7%;
 }
 
 .App .home .social-media .content span {
   text-decoration: underline;
+  color: #1e92f6;
 }
 
-nav {
+.App .home .mission {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  height: 10vh;
-  background: #fd3805;
-  padding: 10px;
+  border-top: 1rem solid #243e75;
 }
 
-nav a {
-  color: #190b32;
-  text-decoration: none;
+.App .home .mission img {
+  width: 100%;
+  height: 40%;
+}
+
+.App .home .mission .left {
+  background: url("../images/man-background.png");
+  background-size: 105% 105%;
+  width: 50%;
+  color: white;
+  text-align: justify;
+}
+
+.App .home .mission .left p {
+  padding: 15% 13%;
+  line-height: 1.5rem;
+}
+
+.App .home .mission .right {
+  background: url("../images/trees-background.png");
+  background-size: cover;
+  width: 50%;
+  margin-left: 0.75rem;
+}
+
+.App .home .mission .right h4 {
+  color: #ff5100;
+  text-shadow: 1px 2px grey;
+  margin: 0px;
+  padding-top: 2rem;
+}
+
+.App .home .mission .right p {
+  margin-top: 0rem;
+  margin-bottom: 20px;
+}
+
+.App .home .mission .right #contact {
+  width: 90%;
+  margin: 0.7rem auto 1rem;
+}
+
+.App .home .mission .right ul {
+  width: 72.5%;
+  margin: 1.4rem auto;
+  margin-top: 1.5rem;
+  list-style: none;
+  text-align: left;
+  padding: 0.5rem;
+  padding-left: 1rem;
+}
+
+.App .home .mission .right ul li {
+  text-align: left;
+  line-height: 1.3rem;
+}
+
+.App .home .mission .right ul ::before {
+  content: "*";
+  color: #ff5100;
+}
+
+.App .home .mission .right h3 {
+  display: inline;
+  font-size: 1.2rem;
+  color: #ff5100;
+  text-shadow: 1px 2px grey;
+}
+
+.App .home footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  text-align: left;
+}
+
+.App .home footer .top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   margin: auto;
-  padding: 5px;
+  width: 100%;
+}
+
+.App .home footer .top .contact {
+  width: 50%;
+}
+
+.App .home footer .top .email {
+  width: 50%;
+}
+
+.App .home footer span {
+  font-size: 0.7rem;
+  margin: auto;
 }
 /*# sourceMappingURL=App.css.map */

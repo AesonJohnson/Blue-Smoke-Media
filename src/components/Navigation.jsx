@@ -6,23 +6,17 @@ export default function Navigation() {
     <nav>
       <NavLink to="/">Home</NavLink>
       <NavLink to="/team">
-        Meet
-        <br />
-        the
+        Meet the
         <br />
         Team
       </NavLink>
       <NavLink to="/web">
-        Web
-        <br />
-        Design
+        Web Design
         <br />
         Services
       </NavLink>
       <NavLink to="/graphic">
-        Graphic
-        <br />
-        Design
+        Graphic Design
         <br />
         Services
       </NavLink>

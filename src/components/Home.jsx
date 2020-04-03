@@ -2,22 +2,24 @@ import React from "react";
 import Navigation from "./Navigation";
 //* Images
 import logo from "../images/logo.png";
-import globe from "../images/globe.jpg";
+import globe from "../images/globe-stretch.png";
 import silhouette from "./../images/silhouette.png";
 import socialMedia from "./../images/social-media.jpg";
+import manBackground from "../images/man-background.png";
+import treesBackground from "../images/trees-background.png";
 
 export default function Home() {
   return (
     <div className="home">
-      <img src={logo} alt="logo" />
+      <img src={logo} alt="logo" id="logo" />
       <Navigation />
       <section className="globe">
         {/* <img src={globe} alt="globe" /> */}
         <p>
-          <h1>Blue Smoke Printed and Digital Media</h1>, produces media for
-          Individual businesses, Small and Medium sized businesses - Websites
-          that are fast loading, Organically Search Engine Optimized, visually
-          appealing, and easy to navigate.
+          <h1>Blue Smoke Digital and Printed Media</h1>
+          <br /> produces media for Individual businesses, Small and Medium
+          sized businesses - Websites that are fast loading, Organically Search
+          Engine Optimized, visually appealing, and easy to navigate.
         </p>
       </section>
       <section className="silhouette">
@@ -49,6 +51,75 @@ export default function Home() {
           </p>
         </div>
       </section>
+      <section className="mission">
+        <div className="left">
+          <p>
+            We will always remember that we are a service company. Each and
+            every customer is valued as a part of who we are today and who we
+            will be tomorrow. We will work to earn our customers’ trust. And
+            more than simply responding to customer needs, we will work to
+            anticipate-With unquestionable honesty, fairness and respect.
+          </p>
+        </div>
+        <div className="right">
+          <h4>Digital and Printed Media</h4>
+          <br />
+          <p>offers a website that is designed to:</p>
+          <ul>
+            <li>Enhance YOUR Business Image.</li>
+            <li>Increase YOUR Visitor Traffic.</li>
+            <li>Encourage Sales.</li>
+            <li>Represent YOUR Marketing Objectives.</li>
+            <li>Custom Tailored to YOUR Companies Objectives and Budget.</li>
+            <li>Focus on Results.</li>
+          </ul>
+          <h3>Contact Blue Smoke Media</h3>
+          <p id="contact">
+            today and request a free consultation or quote. A Friendly associate
+            will get back to you within 24 hours to discuss your project in
+            detail.
+          </p>
+        </div>
+      </section>
+      <footer>
+        <div className="top">
+          <div className="contact">
+            <p>
+              Contact:
+              <br />
+              <br />
+              Blue Smoke Media
+              <br />
+              P.O. BOX /// <br />
+              Erwin, TN 37650
+              <br />
+              <br />
+              865.274.1371
+              <br />
+              801.690.1189
+            </p>
+          </div>
+          <div className="email">
+            <p>
+              Email:
+              <br />
+              <br />
+              <br />
+              info@BlueSmokeMedia.com
+              <br />
+              CoBe@BlueSmokeMedia.com
+              <br />
+              Braden@BlueSmokeMedia.com
+              <br />
+              Aeson@BlueSmokeMedia.com
+            </p>
+          </div>
+        </div>
+        <span>
+          2019 - 2020 Copyright. Blue Smoke Digital and Printed Media / All
+          Rights Reserved
+        </span>
+      </footer>
     </div>
   );
 }
