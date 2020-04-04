@@ -1,12 +1,16 @@
 // @mixin orange($orange);
-$orange: rgb(253, 56, 5);
-
+$orange: rgb(246, 74, 30);
+@mixin GOT() {
+  font-family: "GameOfThrones";
+  font-weight: 700;
+}
+//todo globe and socialMedia text on Laptop extreme sizes
 .App {
   text-align: center;
   background: rgb(0, 0, 0);
   font-family: poppins, sans-serif;
   font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
 
   .home {
     width: 90%;
@@ -17,10 +21,10 @@ $orange: rgb(253, 56, 5);
       width: 100%;
       // margin: 0px;
       // border-bottom: 3px solid black;
-      box-shadow: 0px 5px #0b2673;
+      box-shadow: 0px 5px rgb(250, 231, 252);
     }
     nav {
-      border-bottom: 5px solid #0b2673;
+      border-bottom: 5px solid darkslategrey;
       display: flex;
       justify-content: space-around;
       height: 10vh;
@@ -31,6 +35,14 @@ $orange: rgb(253, 56, 5);
         color: rgb(25, 11, 50);
         text-decoration: none;
         margin: auto;
+        @include GOT();
+        font-size: 1.085rem;
+        &:hover {
+          color: rgb(245, 214, 210);
+          transform: scale(1.3);
+          transition: 0.57s;
+          text-shadow: 1.5px 1.5px black;
+        }
       }
     }
     h1 {
@@ -46,20 +58,22 @@ $orange: rgb(253, 56, 5);
       background-size: 100% 100%;
       background-repeat: no-repeat;
       height: 60vh;
+      // box-shadow: 2px 5px red;
       p {
         font-size: 1.125rem;
-        text-align: center;
+        text-align: justify;
         font-weight: normal;
-        width: 35%;
+        width: 40%;
         height: 35%;
-        margin: auto auto auto 7%;
+        margin: auto;
+        margin-right: 55%;
         color: white;
       }
     }
     .silhouette {
       display: flex;
       border-top: 1rem solid $orange;
-      padding: 4rem 1.5rem;
+      padding: 3.9rem 1.5rem;
       img {
         width: 50%;
         height: 100%;
@@ -83,7 +97,7 @@ $orange: rgb(253, 56, 5);
       //todo add shadow to other pic
       display: flex;
       flex-direction: row-reverse;
-      border-bottom: 1rem solid rgb(253, 110, 66);
+      border-bottom: 1rem solid $orange;
       padding: 0 0.75rem;
 
       img {
@@ -111,18 +125,17 @@ $orange: rgb(253, 56, 5);
       border-top: 1rem solid #243e75;
 
       .left {
+        display: flex;
         background: url("../images/man-background.png");
         background-size: 105% 105%;
         width: 50%;
+        height: 85vh;
         color: white;
-        text-align: justify;
-        // margin: auto;
         p {
           padding: 22% 17%;
           line-height: 1.7rem;
-          // margin: auto;
-          // position: absolute;
-          // right: 50%;
+          text-align: justify;
+          margin: auto 3%;
         }
       }
       .right {
@@ -132,12 +145,16 @@ $orange: rgb(253, 56, 5);
         background-repeat: no-repeat;
         width: 50%;
         margin-left: 0.75rem;
+        display: flex;
+        flex-direction: column;
         h4 {
-          color: rgb(252, 57, 6);
-          font-size: 1.4rem;
+          // color: rgb(252, 57, 6);
+          @include GOT();
+          font-size: 1.75rem;
+          color: $orange;
           text-shadow: 2px 2px rgb(29, 29, 29);
           margin: 0px;
-          padding-top: 3rem;
+          margin-top: 3.5rem;
         }
         p {
           margin-top: 0.54rem;
@@ -146,41 +163,43 @@ $orange: rgb(253, 56, 5);
 
         ul {
           width: 72.5%;
-          margin: 1.5rem auto 2rem;
+          margin: 2rem auto;
           list-style: none;
           text-align: left;
           padding: 0.5rem;
           padding-left: 1rem;
           li {
             text-align: left;
-            line-height: 1.3rem;
+            line-height: 1.5rem;
             color: rgb(11, 38, 114);
             font-size: 1.1rem;
           }
           ::before {
             content: "*";
-            color: rgb(252, 57, 6);
+            // color: rgb(252, 57, 6);
+            color: $orange;
             margin-right: 0.4%;
             text-shadow: 0.5px 0.5px rgb(29, 29, 29);
           }
         }
         h3 {
-          display: inline;
-          font-size: 1.5rem;
-          color: rgb(252, 57, 6);
+          // display: inline;
+          @include GOT();
+          font-size: 1.85rem;
+          // color: rgb(252, 57, 6);
+          color: $orange;
           text-shadow: 2px 2px rgb(29, 29, 29);
+          margin: 0.85rem auto;
         }
         #contact {
-          // font-size: 1.05rem;
           width: 85%;
-          margin: 0.7rem auto 3.5rem;
+          margin: 0 auto 3.5rem;
         }
       }
     }
     footer {
       background-image: url("../images//blue-footer.png");
-      background-size: 100% 115%;
-      // background-position-y: -0.5rem;
+      background-size: cover;
       background-repeat: no-repeat;
       display: flex;
       flex-direction: column;
@@ -189,15 +208,17 @@ $orange: rgb(253, 56, 5);
       border-top: 0.85rem solid $orange;
       img {
         width: 92%;
-        height: 13vh;
+        height: 20vh;
         margin: 5% auto 1%;
       }
       p {
         //todo change font
+        @include GOT;
         text-align: center;
         font-size: 3rem;
         // line-height: 0.9rem;
         color: rgb(247, 54, 4);
+        // color: $orange;
         margin: 0.25rem auto 0;
         width: 100%;
         text-shadow: -0.5px -0.5px white;
@@ -206,6 +227,7 @@ $orange: rgb(253, 56, 5);
         display: flex;
         width: 100%;
         margin: 2rem auto 0.5rem;
+        // justify-content: ;
         p {
           font-weight: normal;
           color: white;
@@ -215,8 +237,9 @@ $orange: rgb(253, 56, 5);
         }
 
         .contact {
-          width: 50%;
-          padding-left: 1rem;
+          width: 23%;
+          margin-left: 8rem;
+          padding-left: 1.367rem;
 
           span {
             color: white;
@@ -226,11 +249,12 @@ $orange: rgb(253, 56, 5);
           }
         }
         .email {
-          width: 50%;
-          line-height: 1.8rem;
+          width: 25%;
+          margin-left: 2.35rem;
           #email {
+            width: auto;
             font-size: 1.35rem;
-            margin-bottom: 2.26rem;
+            margin-bottom: 1.15rem;
           }
         }
       }

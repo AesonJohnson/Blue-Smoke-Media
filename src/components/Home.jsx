@@ -81,21 +81,7 @@ export default function Home() {
         <img src={logo} alt="logo" />
         <p>Digital and Printed Media</p>
         <div className="bottom">
-          <div className="contact">
-            <span>Contact:</span>
-            <p>
-              <br />
-              Blue Smoke Media
-              <br />
-              P.O. BOX /// <br />
-              Erwin, TN 37650
-              <br />
-              <br />
-              865.274.1371
-              <br />
-              801.690.1189
-            </p>
-          </div>
+     
           <div className="email">
             <p id="email">Email: </p>
             <p>
@@ -110,6 +96,21 @@ export default function Home() {
               Braden@BlueSmokeMedia.com
               <br />
               Aeson@BlueSmokeMedia.com
+            </p>
+          </div>
+               <div className="contact">
+            <span>Contact:</span>
+            <p>
+              <br />
+              Blue Smoke Media
+              <br />
+              P.O. BOX /// <br />
+              Erwin, TN 37650
+              <br />
+              <br />
+              865.274.1371
+              <br />
+              801.690.1189
             </p>
           </div>
         </div>
