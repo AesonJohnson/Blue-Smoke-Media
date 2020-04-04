@@ -13,7 +13,7 @@ export default function Home() {
       <Navigation />
       <section className="globe">
         <p>
-          <h1>Blue Smoke Digital and Printed Media</h1>
+          <h1>Blue Smoke printed and digital Media</h1>
           <br /> produces media for Individual businesses, Small and Medium
           sized businesses - Websites that are fast loading, Organically Search
           Engine Optimized, visually appealing, and easy to navigate.
@@ -59,7 +59,7 @@ export default function Home() {
           </p>
         </div>
         <div className="right">
-          <h4>Digital and Printed Media</h4>
+          <h4>Printed and Digital Media</h4>
           <p>offers a website that is designed to:</p>
           <ul>
             <li>Enhance YOUR Business Image.</li>
@@ -79,9 +79,8 @@ export default function Home() {
       </section>
       <footer>
         <img src={logo} alt="logo" />
-        <p>Digital and Printed Media</p>
+        <p>Printed and Digital Media</p>
         <div className="bottom">
-     
           <div className="email">
             <p id="email">Email: </p>
             <p>
@@ -98,7 +97,7 @@ export default function Home() {
               Aeson@BlueSmokeMedia.com
             </p>
           </div>
-               <div className="contact">
+          <div className="contact">
             <span>Contact:</span>
             <p>
               <br />
@@ -115,7 +114,7 @@ export default function Home() {
           </div>
         </div>
         <span>
-          2019 - 2020 Copyright. Blue Smoke Digital and Printed Media / All
+          2019 - 2020 Copyright. Blue Smoke printed and digital Media / All
           Rights Reserved
         </span>
       </footer>

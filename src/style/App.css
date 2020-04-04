@@ -37,6 +37,8 @@
   font-family: "GameOfThrones";
   font-weight: 700;
   font-size: 1.085rem;
+  -webkit-transition: 0.47s;
+  transition: 0.47s;
 }
 
 .App .home nav a:hover {
@@ -63,14 +65,14 @@
       -ms-flex-direction: row-reverse;
           flex-direction: row-reverse;
   background: url("../images/globe-stretch-new.png");
-  background-size: 100% 100%;
+  background-size: 101% 101%;
   background-repeat: no-repeat;
   height: 60vh;
 }
 
 .App .home .globe p {
   font-size: 1.125rem;
-  text-align: justify;
+  text-align: center;
   font-weight: normal;
   width: 40%;
   height: 35%;
@@ -209,6 +211,9 @@
 }
 
 .App .home .mission .right ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   text-align: left;
   line-height: 1.5rem;
   color: #0b2672;
@@ -218,7 +223,9 @@
 .App .home .mission .right ul ::before {
   content: "*";
   color: #f64a1e;
-  margin-right: 0.4%;
+  margin-right: 0.8%;
+  -ms-flex-line-pack: center;
+      align-content: center;
   text-shadow: 0.5px 0.5px #1d1d1d;
 }
 
@@ -262,11 +269,10 @@
 .App .home footer p {
   font-family: "GameOfThrones";
   font-weight: 700;
-  text-align: center;
   font-size: 3rem;
+  letter-spacing: 5px;
   color: #f73604;
-  margin: 0.25rem auto 0;
-  width: 100%;
+  margin: 0.25rem auto;
   text-shadow: -0.5px -0.5px white;
 }
 
@@ -279,9 +285,11 @@
 }
 
 .App .home footer .bottom p {
-  font-weight: normal;
   color: white;
+  font-family: poppins, sans-serif;
+  font-weight: normal;
   font-size: 1.35rem;
+  letter-spacing: 1px;
   text-align: justify;
   padding: 0 10%;
 }
@@ -302,6 +310,7 @@
 .App .home footer .bottom .email {
   width: 25%;
   margin-left: 2.35rem;
+  font-weight: 700;
 }
 
 .App .home footer .bottom .email #email {
@@ -313,6 +322,7 @@
 .App .home footer span {
   color: white;
   font-size: 0.7rem;
+  font-weight: 700;
   margin: 1.5rem auto 0.75rem;
 }
 /*# sourceMappingURL=App.css.map */
