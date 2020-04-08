@@ -1,10 +1,11 @@
 import React from "react";
+//* Components
 import Navigation from "./Navigation";
+import Footer from "./Footer";
 //* Images
 import headerLong from "../images/header.png";
 import silhouette from "./../images/silhouette.png";
 import socialMedia from "./../images/social-media.jpg";
-import logo from "../images/logo.png";
 
 export default function Home() {
   return (
@@ -13,7 +14,7 @@ export default function Home() {
       <Navigation />
       <section className="globe">
         <p>
-          <h1>Blue Smoke printed and digital Media</h1>
+          <h1>Blue Smoke Digital and Printed Media</h1>
           <br /> produces media for Individual businesses, Small and Medium
           sized businesses - Websites that are fast loading, Organically Search
           Engine Optimized, visually appealing, and easy to navigate.
@@ -25,7 +26,7 @@ export default function Home() {
           The first impression your business makes on every one, from thousands
           of perspective clients to your competitors, is an image you create.
           Your website delivers that critical first impression. At{" "}
-          <h1>Blue Smoke Printed and Digital Media</h1>, we take into
+          <h1>Blue Smoke Digital and Printed Media</h1>, we take into
           consideration the major success factors like Usability, Logical Order,
           Flow, and Organic Search Engine Optimization. The{" "}
           <h1>Bue Smoke Media team</h1>, designs websites that pay for
@@ -59,7 +60,7 @@ export default function Home() {
           </p>
         </div>
         <div className="right">
-          <h4>Printed and Digital Media</h4>
+          <h4>Digital and Printed Media</h4>
           <p>offers a website that is designed to:</p>
           <ul>
             <li>Enhance YOUR Business Image.</li>
@@ -77,47 +78,7 @@ export default function Home() {
           </p>
         </div>
       </section>
-      <footer>
-        <img src={logo} alt="logo" />
-        <p>Printed and Digital Media</p>
-        <div className="bottom">
-          <div className="email">
-            <p id="email">Email: </p>
-            <p>
-              {/* Email: */}
-              {/* <br />
-              <br />
-              <br /> */}
-              info@BlueSmokeMedia.com
-              <br />
-              CoBe@BlueSmokeMedia.com
-              <br />
-              Braden@BlueSmokeMedia.com
-              <br />
-              Aeson@BlueSmokeMedia.com
-            </p>
-          </div>
-          <div className="contact">
-            <span>Contact:</span>
-            <p>
-              <br />
-              Blue Smoke Media
-              <br />
-              P.O. BOX /// <br />
-              Erwin, TN 37650
-              <br />
-              <br />
-              865.274.1371
-              <br />
-              801.690.1189
-            </p>
-          </div>
-        </div>
-        <span>
-          2019 - 2020 Copyright. Blue Smoke printed and digital Media / All
-          Rights Reserved
-        </span>
-      </footer>
+      <Footer />
     </div>
   );
 }

@@ -1,25 +1,66 @@
+html {
+  background: black;
+}
+
 .App {
   text-align: center;
-  background: black;
+  background: white;
+  width: 90%;
+  margin: auto;
   font-family: poppins, sans-serif;
   font-style: normal;
   font-weight: 700;
 }
 
-.App .home {
-  width: 90%;
-  margin: auto;
-  background: white;
+.App header {
+  background-image: url("../images/blue-background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
-.App .home #header {
-  height: 65vh;
-  width: 100%;
-  -webkit-box-shadow: 0px 5px #fae7fc;
-          box-shadow: 0px 5px #fae7fc;
+.App header img {
+  width: 92%;
+  height: 20vh;
+  margin: 5% auto 1%;
 }
 
-.App .home nav {
+.App header p {
+  font-family: "GameOfThrones";
+  font-weight: 700;
+  font-size: 4rem;
+  letter-spacing: 5px;
+  color: #f73604;
+  margin: 0.25rem auto;
+  text-shadow: -0.5px -0.5px white;
+}
+
+.App header .sub-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: white;
+  font-size: 1.5rem;
+  text-align: right;
+  letter-spacing: 0.12rem;
+  margin-top: 3rem;
+  padding-bottom: 3rem;
+  line-height: 1.5rem;
+  text-shadow: 1.5px 1.5px black;
+}
+
+.App header .sub-text span:first-child {
+  padding-right: 23%;
+}
+
+.App header .sub-text span:nth-child(2) {
+  padding-right: 12%;
+}
+
+.App nav {
   border-bottom: 5px solid darkslategrey;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -30,7 +71,7 @@
   background: #f64a1e;
 }
 
-.App .home nav a {
+.App nav a {
   color: #190b32;
   text-decoration: none;
   margin: auto;
@@ -41,13 +82,20 @@
   transition: 0.47s;
 }
 
-.App .home nav a:hover {
+.App nav a:hover {
   color: #f5d6d2;
   -webkit-transform: scale(1.3);
           transform: scale(1.3);
   -webkit-transition: 0.57s;
   transition: 0.57s;
   text-shadow: 1.5px 1.5px black;
+}
+
+.App .home #header {
+  height: 65vh;
+  width: 100%;
+  -webkit-box-shadow: 0px 5px #fae7fc;
+          box-shadow: 0px 5px #fae7fc;
 }
 
 .App .home h1 {
@@ -243,8 +291,15 @@
   margin: 0 auto 3.5rem;
 }
 
-.App .home footer {
-  background-image: url("../images//blue-footer.png");
+.App .info #info-text {
+  color: black;
+  height: 60vh;
+  width: 90%;
+  margin: 2rem auto;
+}
+
+.App footer {
+  background-image: url("../images/blue-background.png");
   background-size: cover;
   background-repeat: no-repeat;
   display: -webkit-box;
@@ -260,13 +315,13 @@
   border-top: 0.85rem solid #f64a1e;
 }
 
-.App .home footer img {
+.App footer img {
   width: 92%;
   height: 20vh;
   margin: 5% auto 1%;
 }
 
-.App .home footer p {
+.App footer p {
   font-family: "GameOfThrones";
   font-weight: 700;
   font-size: 3rem;
@@ -276,7 +331,7 @@
   text-shadow: -0.5px -0.5px white;
 }
 
-.App .home footer .bottom {
+.App footer .bottom {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -284,7 +339,7 @@
   margin: 2rem auto 0.5rem;
 }
 
-.App .home footer .bottom p {
+.App footer .bottom p {
   color: white;
   font-family: poppins, sans-serif;
   font-weight: normal;
@@ -294,32 +349,32 @@
   padding: 0 10%;
 }
 
-.App .home footer .bottom .contact {
+.App footer .bottom .contact {
   width: 23%;
   margin-left: 8rem;
   padding-left: 1.367rem;
 }
 
-.App .home footer .bottom .contact span {
+.App footer .bottom .contact span {
   color: white;
   font-size: 1.35rem;
   text-align: justify;
   padding: 0 7%;
 }
 
-.App .home footer .bottom .email {
+.App footer .bottom .email {
   width: 25%;
   margin-left: 2.35rem;
   font-weight: 700;
 }
 
-.App .home footer .bottom .email #email {
+.App footer .bottom .email #email {
   width: auto;
   font-size: 1.35rem;
   margin-bottom: 1.15rem;
 }
 
-.App .home footer span {
+.App footer span {
   color: white;
   font-size: 0.7rem;
   font-weight: 700;

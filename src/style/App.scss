@@ -4,18 +4,87 @@ $orange: rgb(246, 74, 30);
   font-family: "GameOfThrones";
   font-weight: 700;
 }
+html {
+  background: black;
+}
 //todo globe and socialMedia text on Laptop extreme sizes
 .App {
   text-align: center;
-  background: rgb(0, 0, 0);
+  background: white;
+  width: 90%;
+  margin: auto;
   font-family: poppins, sans-serif;
   font-style: normal;
   font-weight: 700;
 
+  header {
+    background-image: url("../images/blue-background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    img {
+      width: 92%;
+      height: 20vh;
+      margin: 5% auto 1%;
+    }
+    p {
+      @include GOT;
+      font-size: 4rem;
+      letter-spacing: 5px;
+      color: rgb(247, 54, 4);
+      margin: 0.25rem auto;
+      text-shadow: -0.5px -0.5px white;
+    }
+
+    .sub-text {
+      display: flex;
+      flex-direction: column;
+      color: white;
+      font-size: 1.5rem;
+      text-align: right;
+      letter-spacing: 0.12rem;
+      // word-spacing: 0.2rem;
+      margin-top: 3rem;
+      padding-bottom: 3rem;
+      line-height: 1.5rem;
+      text-shadow: 1.5px 1.5px black;
+      span:first-child {
+        padding-right: 23%;
+      }
+      span:nth-child(2) {
+        padding-right: 12%;
+      }
+    }
+  }
+
+  //! NAVBAR COMPONENT
+  nav {
+    border-bottom: 5px solid darkslategrey;
+    display: flex;
+    justify-content: space-around;
+    height: 10vh;
+    background: $orange;
+    // padding: 7px;
+    // margin: 0px;
+    a {
+      color: rgb(25, 11, 50);
+      text-decoration: none;
+      margin: auto;
+      @include GOT();
+      //? todo increase size here??
+      font-size: 1.085rem;
+      transition: 0.47s;
+      &:hover {
+        color: rgb(245, 214, 210);
+        transform: scale(1.3);
+        transition: 0.57s;
+        text-shadow: 1.5px 1.5px black;
+      }
+    }
+  }
+
+  //! HOME COMPONENT
   .home {
-    width: 90%;
-    margin: auto;
-    background: white;
     #header {
       height: 65vh;
       width: 100%;
@@ -23,29 +92,7 @@ $orange: rgb(246, 74, 30);
       // border-bottom: 3px solid black;
       box-shadow: 0px 5px rgb(250, 231, 252);
     }
-    nav {
-      border-bottom: 5px solid darkslategrey;
-      display: flex;
-      justify-content: space-around;
-      height: 10vh;
-      background: $orange;
-      // padding: 7px;
-      // margin: 0px;
-      a {
-        color: rgb(25, 11, 50);
-        text-decoration: none;
-        margin: auto;
-        @include GOT();
-        font-size: 1.085rem;
-        transition: 0.47s;
-        &:hover {
-          color: rgb(245, 214, 210);
-          transform: scale(1.3);
-          transition: 0.57s;
-          text-shadow: 1.5px 1.5px black;
-        }
-      }
-    }
+
     h1 {
       display: inline;
       font-size: 1.2rem;
@@ -200,74 +247,83 @@ $orange: rgb(246, 74, 30);
         }
       }
     }
-    footer {
-      background-image: url("../images//blue-footer.png");
-      background-size: cover;
-      background-repeat: no-repeat;
+  }
+  //! INFO COMPONENT
+  .info {
+    #info-text {
+      color: black;
+      height: 60vh;
+      width: 90%;
+      margin: 2rem auto;
+    }
+  }
+
+  //! FOOTER COMPONENT
+  footer {
+    background-image: url("../images/blue-background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: left;
+    border-top: 0.85rem solid $orange;
+    img {
+      width: 92%;
+      height: 20vh;
+      margin: 5% auto 1%;
+    }
+    p {
+      //todo change font
+      @include GOT;
+      font-size: 3rem;
+      letter-spacing: 5px;
+      color: rgb(247, 54, 4);
+      margin: 0.25rem auto;
+      text-shadow: -0.5px -0.5px white;
+    }
+    .bottom {
       display: flex;
-      flex-direction: column;
-      justify-content: space-around;
-      text-align: left;
-      border-top: 0.85rem solid $orange;
-      img {
-        width: 92%;
-        height: 20vh;
-        margin: 5% auto 1%;
-      }
+      width: 100%;
+      margin: 2rem auto 0.5rem;
       p {
-        //todo change font
-        @include GOT;
-        font-size: 3rem;
-        letter-spacing: 5px;
-        color: rgb(247, 54, 4);
-        margin: 0.25rem auto;
-        // width: 100%;
-        text-shadow: -0.5px -0.5px white;
-      }
-      .bottom {
-        display: flex;
-        width: 100%;
-        margin: 2rem auto 0.5rem;
-        // justify-content: ;
-        p {
-          color: white;
-          font-family: poppins, sans-serif;
-          font-weight: normal;
-          font-size: 1.35rem;
-          letter-spacing: 1px;
-          text-align: justify;
-          padding: 0 10%;
-        }
-
-        .contact {
-          width: 23%;
-          margin-left: 8rem;
-          padding-left: 1.367rem;
-
-          span {
-            color: white;
-            font-size: 1.35rem;
-            text-align: justify;
-            padding: 0 7%;
-          }
-        }
-        .email {
-          width: 25%;
-          margin-left: 2.35rem;
-          font-weight: 700;
-          #email {
-            width: auto;
-            font-size: 1.35rem;
-            margin-bottom: 1.15rem;
-          }
-        }
-      }
-      span {
         color: white;
-        font-size: 0.7rem;
-        font-weight: 700;
-        margin: 1.5rem auto 0.75rem;
+        font-family: poppins, sans-serif;
+        font-weight: normal;
+        font-size: 1.35rem;
+        letter-spacing: 1px;
+        text-align: justify;
+        padding: 0 10%;
       }
+
+      .contact {
+        width: 23%;
+        margin-left: 8rem;
+        padding-left: 1.367rem;
+
+        span {
+          color: white;
+          font-size: 1.35rem;
+          text-align: justify;
+          padding: 0 7%;
+        }
+      }
+      .email {
+        width: 25%;
+        margin-left: 2.35rem;
+        font-weight: 700;
+        #email {
+          width: auto;
+          font-size: 1.35rem;
+          margin-bottom: 1.15rem;
+        }
+      }
+    }
+    span {
+      color: white;
+      font-size: 0.7rem;
+      font-weight: 700;
+      margin: 1.5rem auto 0.75rem;
     }
   }
 }
