@@ -6,13 +6,13 @@ import Footer from "./Footer";
 //* Images
 import placeholder from "../images/globe-stretch.png";
 
-export default function Info() {
+export default function Web() {
   return (
-    <div className="info">
+    <div className="web">
       <Header />
       <Navigation />
       <img src={placeholder} alt="imageHere" />
-      <p id="info-text">
+      <p id="web-text">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis
         laboriosam deserunt id debitis commodi rem reprehenderit laborum aut
         iure ut, ullam, ipsum aperiam! Eligendi tempora eius unde esse, ea ex.

@@ -291,7 +291,7 @@ html {
   margin: 0 auto 3.5rem;
 }
 
-.App .info #info-text {
+.App .web #web-text {
   color: black;
   height: 60vh;
   width: 90%;
