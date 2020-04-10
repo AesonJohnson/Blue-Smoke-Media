@@ -1,16 +1,20 @@
 import React from "react";
 //* Components
 import Navigation from "./Navigation";
+import Header from "./Header";
 import Footer from "./Footer";
 //* Images
 import headerLong from "../images/header.png";
 import silhouette from "./../images/silhouette.png";
 import socialMedia from "./../images/social-media.jpg";
+import blueSmoke from "./../images/blue-smoke.png";
 
 export default function Home() {
   return (
     <div className="home">
-      <img src={headerLong} alt="header" id="header" />
+      {/* <img src={headerLong} alt="header" id="header" />
+       */}
+      <Header />
       <Navigation />
       <section className="globe">
         <p>
@@ -60,6 +64,7 @@ export default function Home() {
           </p>
         </div>
         <div className="right">
+          <img src={blueSmoke} alt="blue-smoke" />
           <h4>Digital and Printed Media</h4>
           <p>offers a website that is designed to:</p>
           <ul>

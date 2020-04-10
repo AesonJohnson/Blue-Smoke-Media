@@ -5,7 +5,7 @@ export default function Footer() {
   return (
     <footer>
       <img src={blueSmoke} alt="blue-smoke" />
-      <p>Digital and Printed Media</p>
+      <p id="sub-header">Digital and Printed Media</p>
       <div className="bottom">
         <div className="email">
           <p id="email">Email: </p>

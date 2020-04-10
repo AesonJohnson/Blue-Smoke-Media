@@ -10,7 +10,7 @@ html {
 //todo globe and socialMedia text on Laptop extreme sizes
 .App {
   text-align: center;
-  background: white;
+  background: rgb(245, 245, 245);
   width: 90%;
   margin: auto;
   font-family: poppins, sans-serif;
@@ -24,42 +24,43 @@ html {
 
     img {
       width: 92%;
-      height: 20vh;
-      margin: 5% auto 1%;
+      height: 17vh;
+      margin: 4.5% auto 0.978%;
     }
     p {
       @include GOT;
-      font-size: 4rem;
-      letter-spacing: 5px;
-      color: rgb(247, 54, 4);
+      font-size: 3.765rem;
+      letter-spacing: 4.87px;
+      line-height: 1.2;
+      color: rgb(253, 56, 5);
       margin: 0.25rem auto;
-      text-shadow: -0.5px -0.5px white;
+      -webkit-text-stroke: 0.85px rgb(0, 8, 44);
     }
+  }
 
-    .sub-text {
-      display: flex;
-      flex-direction: column;
-      color: white;
-      font-size: 1.5rem;
-      text-align: right;
-      letter-spacing: 0.12rem;
-      // word-spacing: 0.2rem;
-      margin-top: 3rem;
-      padding-bottom: 3rem;
-      line-height: 1.5rem;
-      text-shadow: 1.5px 1.5px black;
-      span:first-child {
-        padding-right: 23%;
-      }
-      span:nth-child(2) {
-        padding-right: 12%;
-      }
+  .sub-text {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 1.45rem;
+    text-align: right;
+    letter-spacing: 0.12rem;
+    // word-spacing: 0.2rem;
+    margin-top: 2.4rem;
+    padding-bottom: 2rem;
+    line-height: 1.45rem;
+    text-shadow: 1.45px 1.45px black;
+    span:first-child {
+      padding-right: 17.5%;
+    }
+    span:nth-child(2) {
+      padding-right: 8%;
     }
   }
 
   //! NAVBAR COMPONENT
   nav {
-    border-bottom: 5px solid darkslategrey;
+    // border-bottom: 5px solid darkslategrey;
     display: flex;
     justify-content: space-around;
     height: 10vh;
@@ -70,9 +71,8 @@ html {
       color: rgb(25, 11, 50);
       text-decoration: none;
       margin: auto;
-      @include GOT();
-      //? todo increase size here??
-      font-size: 1.085rem;
+      // @include GOT();
+      font-size: 1.2rem;
       transition: 0.47s;
       &:hover {
         color: rgb(245, 214, 210);
@@ -85,14 +85,6 @@ html {
 
   //! HOME COMPONENT
   .home {
-    #header {
-      height: 65vh;
-      width: 100%;
-      // margin: 0px;
-      // border-bottom: 3px solid black;
-      box-shadow: 0px 5px rgb(250, 231, 252);
-    }
-
     h1 {
       display: inline;
       font-size: 1.2rem;
@@ -120,16 +112,14 @@ html {
     }
     .silhouette {
       display: flex;
-      border-top: 1rem solid $orange;
+      // border-top: 1rem solid $orange;
       padding: 3.9rem 1.5rem;
       img {
         width: 50%;
         height: 100%;
-        // margin: 1.5rem 0.4rem;
         margin: auto 0.4rem;
-        border: 1.25px solid black;
-        box-shadow: 7px 5px 5px rgb(153, 153, 153);
-        // border-radius: 20%;
+        // box-shadow: 7px 5px 5px rgb(153, 153, 153);
+        border-radius: 5%;
       }
       p {
         width: 44%;
@@ -142,17 +132,17 @@ html {
       }
     }
     .social-media {
-      //todo add shadow to other pic
       display: flex;
       flex-direction: row-reverse;
-      border-bottom: 1rem solid $orange;
-      padding: 0 0.75rem;
+      padding: 0 1.5rem;
+      margin-bottom: 2.7rem;
 
       img {
         width: 50%;
         height: 40vh;
         margin-bottom: 1.5rem;
-        box-shadow: -6px -4.5px 4px rgb(153, 153, 153);
+        // box-shadow: -6px -4.5px 4px rgb(153, 153, 153);
+        border-radius: 20%;
       }
       .content {
         width: 50%;
@@ -170,18 +160,22 @@ html {
     }
     .mission {
       display: flex;
-      border-top: 1rem solid #243e75;
+      // border-top: 1rem solid #243e75;
+      height: 90vh;
+      padding: 0 1.5rem;
+      margin-bottom: 5%;
 
       .left {
         display: flex;
         background: url("../images/man-background.png");
         background-size: 105% 105%;
         width: 50%;
-        height: 85vh;
         color: white;
+        border-radius: 5%;
         p {
           padding: 22% 17%;
-          line-height: 1.7rem;
+          line-height: 2rem;
+          font-size: 1.2rem;
           text-align: justify;
           margin: auto 3%;
         }
@@ -195,17 +189,22 @@ html {
         margin-left: 0.75rem;
         display: flex;
         flex-direction: column;
+        border-radius: 5%;
+        img {
+          width: 70%;
+          height: 10%;
+          margin: 3rem auto 0.125rem;
+        }
         h4 {
-          // color: rgb(252, 57, 6);
           @include GOT();
-          font-size: 1.75rem;
+          font-size: 2rem;
           color: $orange;
-          text-shadow: 2px 2px rgb(29, 29, 29);
-          margin: 0px;
-          margin-top: 3.5rem;
+          text-shadow: 1.5px 1.5px rgb(29, 29, 29);
+          margin: 0.7rem auto 0px;
         }
         p {
-          margin-top: 0.54rem;
+          font-size: 1.25rem;
+          margin-top: 0.15rem;
           color: rgb(11, 38, 114);
         }
 
@@ -219,9 +218,10 @@ html {
           li {
             display: flex;
             text-align: left;
-            line-height: 1.5rem;
+            line-height: 1.45rem;
             color: rgb(11, 38, 114);
-            font-size: 1.1rem;
+            font-size: 1.35rem;
+            margin-bottom: 0.78rem;
           }
           ::before {
             content: "*";
@@ -235,13 +235,14 @@ html {
         h3 {
           // display: inline;
           @include GOT();
-          font-size: 1.85rem;
+          font-size: 2rem;
           // color: rgb(252, 57, 6);
           color: $orange;
-          text-shadow: 2px 2px rgb(29, 29, 29);
-          margin: 0.85rem auto;
+          text-shadow: 1.5px 1.5px rgb(29, 29, 29);
+          margin: 0.85rem auto 0.25rem;
         }
         #contact {
+          // font-size: 1rem;
           width: 85%;
           margin: 0 auto 3.5rem;
         }
@@ -267,21 +268,26 @@ html {
     flex-direction: column;
     justify-content: space-around;
     text-align: left;
-    border-top: 0.85rem solid $orange;
+    border-top: 0.65rem solid $orange;
+
     img {
       width: 92%;
       height: 20vh;
       margin: 5% auto 1%;
+    }
+    #sub-header {
+      -webkit-text-stroke: 0.85px rgb(0, 8, 44);
     }
     p {
       //todo change font
       @include GOT;
       font-size: 3rem;
       letter-spacing: 5px;
-      color: rgb(247, 54, 4);
+      color: rgb(253, 56, 5);
       margin: 0.25rem auto;
-      text-shadow: -0.5px -0.5px white;
+      // text-shadow: -0.5px -0.5px white;
     }
+
     .bottom {
       display: flex;
       width: 100%;
