@@ -142,7 +142,8 @@ html {
         height: 40vh;
         margin-bottom: 1.5rem;
         // box-shadow: -6px -4.5px 4px rgb(153, 153, 153);
-        border-radius: 20%;
+        border-radius: 5%;
+        // todo fix rounded corners
       }
       .content {
         width: 50%;
@@ -161,7 +162,7 @@ html {
     .mission {
       display: flex;
       // border-top: 1rem solid #243e75;
-      height: 90vh;
+      height: 105vh;
       padding: 0 1.5rem;
       margin-bottom: 5%;
 
@@ -186,7 +187,7 @@ html {
         background-position-y: 10%;
         background-repeat: no-repeat;
         width: 50%;
-        margin-left: 0.75rem;
+        margin-left: 2.65rem;
         display: flex;
         flex-direction: column;
         border-radius: 5%;
@@ -245,6 +246,32 @@ html {
           // font-size: 1rem;
           width: 85%;
           margin: 0 auto 3.5rem;
+        }
+      }
+    }
+  }
+  //! TEAM COMPONENT
+  .team {
+    text-align: justify;
+    margin: 1rem;
+    .team-top {
+      h1 {
+        font-size: 3rem;
+      }
+    }
+    .team-middle {
+      margin-left: 8%;
+    }
+    .team-bottom {
+      .member {
+        display: flex;
+        img {
+          width: 3rem;
+          height: 3rem;
+          border-radius: 50%;
+        }
+        span {
+          font-size: 1.1rem;
         }
       }
     }

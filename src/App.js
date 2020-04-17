@@ -6,6 +6,7 @@ import { Switch, Route } from "react-router-dom";
 import Home from "./components/Home";
 import Team from "./components/Team";
 import Web from "./components/Web";
+import Seo from "./components/Seo";
 import Graphic from "./components/Graphic";
 import Portfolio from "./components/Portfolio";
 import Blog from "./components/Blog";
@@ -18,6 +19,7 @@ function App() {
         <Route exact path="/" component={Home} />
         <Route path="/team" component={Team} />
         <Route path="/web" component={Web} />
+        <Route path="/seo" component={Seo} />
         <Route path="/graphic" component={Graphic} />
         <Route path="/portfolio" component={Portfolio} />
         <Route path="/blog" component={Blog} />

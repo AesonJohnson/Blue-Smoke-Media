@@ -161,7 +161,7 @@ html {
   width: 50%;
   height: 40vh;
   margin-bottom: 1.5rem;
-  border-radius: 20%;
+  border-radius: 5%;
 }
 
 .App .home .social-media .content {
@@ -184,7 +184,7 @@ html {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: 90vh;
+  height: 105vh;
   padding: 0 1.5rem;
   margin-bottom: 5%;
 }
@@ -214,7 +214,7 @@ html {
   background-position-y: 10%;
   background-repeat: no-repeat;
   width: 50%;
-  margin-left: 0.75rem;
+  margin-left: 2.65rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -287,6 +287,35 @@ html {
 .App .home .mission .right #contact {
   width: 85%;
   margin: 0 auto 3.5rem;
+}
+
+.App .team {
+  text-align: justify;
+  margin: 1rem;
+}
+
+.App .team .team-top h1 {
+  font-size: 3rem;
+}
+
+.App .team .team-middle {
+  margin-left: 8%;
+}
+
+.App .team .team-bottom .member {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.App .team .team-bottom .member img {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+}
+
+.App .team .team-bottom .member span {
+  font-size: 1.1rem;
 }
 
 .App .web #web-text {
