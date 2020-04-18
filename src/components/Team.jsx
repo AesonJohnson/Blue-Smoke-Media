@@ -4,7 +4,7 @@ import Header from "./Header";
 import Navigation from "./Navigation";
 import Footer from "./Footer";
 //* Data
-import { middleInfo, team } from "../data/team";
+import team from "../data/team";
 
 export default function Team() {
   return (
@@ -22,16 +22,38 @@ export default function Team() {
             team member is a graduate of LambdaSchool.com
           </p>
         </section>
-        <section className="team-middle">{mapper(middleInfo)}</section>
+        <section className="team-middle">
+          <p>
+            The Blue Smoke design staff consists of graphic designers, web
+            designers, logo designers, and usability experts versed in the
+            latest up to date design standards.
+          </p>
+          <p>
+            The Blue Smoke Front-End and Full-Stack developers write the
+            following languages:HTML,CSS,SASS, Javascript, React, Redux, NodeJS,
+            Express, SQL, GIT, and testing.
+          </p>
+          <p>
+            "The Blue Smoke marketing staff consists of search engine
+            optimization (SEO) specialists, copywriters, corporate branding
+            specialists, publicists, and marketing experts.",
+          </p>
+          <p>
+            Blue Smoke Digital and Printed Media, enjoys a growing roster of
+            local, regional and national clients ranging from one - person
+            companies, small and medium sized business to non - profit
+            organizations.
+          </p>
+        </section>
         <section className="team-bottom">
           <p>
-            “At Blue Smoke Digital and Printed Media, our product is built on
+            At Blue Smoke Digital and Printed Media, our product is built on
             appealing, solid websites and graphic design, that represents the
             client while appealing to their customers. We will always remember
             that we are a service company. Each and every customer is valued as
             We will work to earn our customers’ trust and loyalty. And more than
             simply responding to customer needs, we will work to anticipate them
-            - With unquestionable honesty, fairness and respect.”
+            - With unquestionable honesty, fairness and respect.
           </p>
           {teamMembers(team)}
         </section>
@@ -52,8 +74,4 @@ function teamMembers(team) {
       </p>
     </div>
   ));
-}
-
-function mapper(data) {
-  return data.map((e) => <p>{e}</p>);
 }
