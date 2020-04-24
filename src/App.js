@@ -20,7 +20,7 @@ function App() {
         <Route exact path="/" component={Home} />
         <Route path="/team" component={Team} />
         <Route path="/web" component={Web} />
-        <Route path="/seo" component={SeoFriendly} />
+        <Route path="/seo" component={OrganicSeo} />
         <Route path="/graphic" component={Graphic} />
         <Route path="/portfolio" component={Portfolio} />
         <Route path="/blog" component={Blog} />

@@ -3,6 +3,7 @@ import React from "react";
 import Header from "./Header";
 import Navigation from "./Navigation";
 import Footer from "./Footer";
+//* Images
 import seoPuzzle from "../images/seo-puzzle.png";
 
 export default function OrganicSeo() {
