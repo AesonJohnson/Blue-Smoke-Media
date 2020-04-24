@@ -1,0 +1,74 @@
+@import "../Mixins.scss";
+
+footer {
+  background-image: url("../../images/blue-background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: left;
+  border-top: 0.65rem solid $orange;
+
+  img {
+    width: 92%;
+    height: 20vh;
+    margin: 5% auto 1%;
+  }
+  #sub-header {
+    -webkit-text-stroke: 0.85px rgb(0, 8, 44);
+  }
+  p {
+    //todo change font
+    @include GOT;
+    font-size: 3rem;
+    letter-spacing: 5px;
+    color: rgb(253, 56, 5);
+    margin: 0.25rem auto;
+    // text-shadow: -0.5px -0.5px white;
+  }
+
+  .bottom {
+    display: flex;
+    width: 100%;
+    margin: 2rem auto 0.5rem;
+    p {
+      color: white;
+      font-family: poppins, sans-serif;
+      font-weight: normal;
+      font-size: 1.35rem;
+      letter-spacing: 1px;
+      text-align: justify;
+      padding: 0 10%;
+    }
+
+    .contact {
+      width: 23%;
+      margin-left: 8rem;
+      padding-left: 1.367rem;
+
+      span {
+        color: white;
+        font-size: 1.35rem;
+        text-align: justify;
+        padding: 0 7%;
+      }
+    }
+    .email {
+      width: 25%;
+      margin-left: 2.35rem;
+      font-weight: 700;
+      #email {
+        width: auto;
+        font-size: 1.35rem;
+        margin-bottom: 1.15rem;
+      }
+    }
+  }
+  span {
+    color: white;
+    font-size: 0.7rem;
+    font-weight: 700;
+    margin: 1.5rem auto 0.75rem;
+  }
+}

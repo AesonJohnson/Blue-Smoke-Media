@@ -1,0 +1,86 @@
+footer {
+  background-image: url("../../images/blue-background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  text-align: left;
+  border-top: 0.65rem solid #f64a1e;
+}
+
+footer img {
+  width: 92%;
+  height: 20vh;
+  margin: 5% auto 1%;
+}
+
+footer #sub-header {
+  -webkit-text-stroke: 0.85px #00082c;
+}
+
+footer p {
+  font-family: "GameOfThrones";
+  font-weight: 700;
+  font-size: 3rem;
+  letter-spacing: 5px;
+  color: #fd3805;
+  margin: 0.25rem auto;
+}
+
+footer .bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  margin: 2rem auto 0.5rem;
+}
+
+footer .bottom p {
+  color: white;
+  font-family: poppins, sans-serif;
+  font-weight: normal;
+  font-size: 1.35rem;
+  letter-spacing: 1px;
+  text-align: justify;
+  padding: 0 10%;
+}
+
+footer .bottom .contact {
+  width: 23%;
+  margin-left: 8rem;
+  padding-left: 1.367rem;
+}
+
+footer .bottom .contact span {
+  color: white;
+  font-size: 1.35rem;
+  text-align: justify;
+  padding: 0 7%;
+}
+
+footer .bottom .email {
+  width: 25%;
+  margin-left: 2.35rem;
+  font-weight: 700;
+}
+
+footer .bottom .email #email {
+  width: auto;
+  font-size: 1.35rem;
+  margin-bottom: 1.15rem;
+}
+
+footer span {
+  color: white;
+  font-size: 0.7rem;
+  font-weight: 700;
+  margin: 1.5rem auto 0.75rem;
+}
+/*# sourceMappingURL=Footer.css.map */

@@ -15,9 +15,7 @@ export default function Navigation() {
         <br />
         Services
       </NavLink>
-      <NavLink to="/seo">
-        SEO
-      </NavLink>
+      <NavLink to="/seoOrganic">SEO</NavLink>
       <NavLink to="/graphic">
         Graphic Design
         <br />
@@ -30,6 +28,7 @@ export default function Navigation() {
         <br />
         Us
       </NavLink>
+      <NavLink to="/logo">Logo</NavLink>
     </nav>
   );
 }

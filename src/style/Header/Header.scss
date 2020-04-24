@@ -1,0 +1,24 @@
+@mixin GOT() {
+  font-family: "GameOfThrones";
+  font-weight: 700;
+}
+header {
+  background-image: url("../../images/blue-background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  img {
+    width: 92%;
+    height: 17vh;
+    margin: 4.5% auto 0.978%;
+  }
+  p {
+    @include GOT;
+    font-size: 3.765rem;
+    letter-spacing: 4.87px;
+    line-height: 1.2;
+    color: rgb(253, 56, 5);
+    margin: 0.25rem auto;
+    -webkit-text-stroke: 0.85px rgb(0, 8, 44);
+  }
+}
