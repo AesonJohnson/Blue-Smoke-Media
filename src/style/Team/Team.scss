@@ -1,24 +1,59 @@
+@import "../Mixins.scss";
+
 .team {
   text-align: justify;
-  margin: 1rem;
+  margin: 3rem 3rem;
+  span {
+    color: $lightBlue;
+  }
+
+  // font-family: poppins, sans-serif;
   .team-top {
     h1 {
-      font-size: 3rem;
+      font-size: 3em;
+      text-align: center;
+      margin-bottom: 3rem;
+      //todo change color
+      text-shadow: lawngreen 1px 4px;
     }
   }
   .team-middle {
-    margin-left: 8%;
+    margin-top: 4rem;
+    div {
+      display: flex;
+      margin-bottom: 2.5rem;
+      img {
+        width: 20%;
+        margin-right: 2.4rem;
+      }
+      p {
+        margin: auto;
+      }
+    }
   }
   .team-bottom {
+    margin-top: 4rem;
+    padding-bottom: 1.75rem;
+    p {
+      margin-bottom: 5rem;
+    }
     .member {
       display: flex;
+      margin: 3rem auto;
       img {
-        width: 3rem;
-        height: 3rem;
+        width: 15rem;
+        height: 15rem;
         border-radius: 50%;
+        margin: auto 0rem;
       }
-      span {
-        font-size: 1.1rem;
+      p {
+        margin: auto;
+        margin-left: 2.4rem;
+        font-size: 1.1em;
+        span {
+          font-size: 1.45em;
+          color: black;
+        }
       }
     }
   }

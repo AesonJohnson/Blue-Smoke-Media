@@ -15,7 +15,7 @@ export default function Home() {
       <Navigation />
       <section className="globe">
         <p>
-          <h1>Blue Smoke Digital and Printed Media</h1>
+          <span>Blue Smoke Digital and Printed Media</span>
           <br /> produces media for Individual businesses, Small and Medium
           sized businesses - Websites that are fast loading, Organically Search
           Engine Optimized, visually appealing, and easy to navigate.
@@ -27,10 +27,10 @@ export default function Home() {
           The first impression your business makes on every one, from thousands
           of perspective clients to your competitors, is an image you create.
           Your website delivers that critical first impression. At{" "}
-          <h1>Blue Smoke Digital and Printed Media</h1>, we take into
+          <span>Blue Smoke Digital and Printed Media</span>, we take into
           consideration the major success factors like Usability, Logical Order,
           Flow, and Organic Search Engine Optimization. The{" "}
-          <h1>Bue Smoke Media team</h1>, designs websites that pay for
+          <span>Blue Smoke Media team</span>, designs websites that pay for
           themselves by generating leads, closing sales, and reducing customer
           service costs.
         </p>
@@ -57,7 +57,7 @@ export default function Home() {
             every customer is valued as a part of who we are today and who we
             will be tomorrow. We will work to earn our customers’ trust. And
             more than simply responding to customer needs, we will work to
-            anticipate-With unquestionable honesty, fairness and respect.
+            anticipate - With unquestionable honesty, fairness and respect.
           </p>
         </div>
         <div className="right">
@@ -70,7 +70,7 @@ export default function Home() {
             <li>Encourage Sales.</li>
             <li>Represent YOUR Marketing Objectives.</li>
             <li>Custom Tailored to YOUR Companies Objectives and Budget.</li>
-            <li>Focus on Results.</li>
+            <li>Focus on Your Results.</li>
           </ul>
           <h3>Contact Blue Smoke Media</h3>
           <p id="contact">

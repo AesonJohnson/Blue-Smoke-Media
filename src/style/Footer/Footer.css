@@ -28,7 +28,7 @@ footer #sub-header {
 footer p {
   font-family: "GameOfThrones";
   font-weight: 700;
-  font-size: 3rem;
+  font-size: 3em;
   letter-spacing: 5px;
   color: #fd3805;
   margin: 0.25rem auto;
@@ -46,7 +46,7 @@ footer .bottom p {
   color: white;
   font-family: poppins, sans-serif;
   font-weight: normal;
-  font-size: 1.35rem;
+  font-size: 1em;
   letter-spacing: 1px;
   text-align: justify;
   padding: 0 10%;
@@ -60,9 +60,13 @@ footer .bottom .contact {
 
 footer .bottom .contact span {
   color: white;
-  font-size: 1.35rem;
+  font-size: 1.35em;
   text-align: justify;
   padding: 0 7%;
+}
+
+footer .bottom .contact p {
+  margin-top: 1rem;
 }
 
 footer .bottom .email {
@@ -72,14 +76,18 @@ footer .bottom .email {
 }
 
 footer .bottom .email #email {
+  padding: 0 7%;
   width: auto;
-  font-size: 1.35rem;
-  margin-bottom: 1.15rem;
+  font-size: 1.35em;
+}
+
+footer .bottom .email p {
+  margin-top: 1rem;
 }
 
 footer span {
   color: white;
-  font-size: 0.7rem;
+  font-size: 0.8rem;
   font-weight: 700;
   margin: 1.5rem auto 0.75rem;
 }

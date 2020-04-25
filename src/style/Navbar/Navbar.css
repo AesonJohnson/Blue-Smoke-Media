@@ -12,7 +12,7 @@ nav a {
   color: #190b32;
   text-decoration: none;
   margin: auto;
-  font-size: 1.2rem;
+  font-size: 0.98em;
   -webkit-transition: 0.47s;
   transition: 0.47s;
 }
@@ -23,6 +23,6 @@ nav a:hover {
           transform: scale(1.3);
   -webkit-transition: 0.57s;
   transition: 0.57s;
-  text-shadow: 1.5px 1.5px black;
+  text-shadow: 1.4px 1.65px black;
 }
 /*# sourceMappingURL=Navbar.css.map */

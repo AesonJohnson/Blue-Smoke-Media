@@ -2,19 +2,23 @@ import placeholder from "../images/man-background.png";
 
 export default [
   {
-    name: "Constance BeeBe (Cobe)",
+    name: "Constance Beebe (CoBe)",
     img: placeholder,
-    description: "SEO",
+    description: "Cat Lady and UX Master",
   },
   {
     name: "Braden Bell",
     img: placeholder,
-    description: "Developer",
+    description: "The Master of Fullstack Web Development",
   },
   {
     name: "AJ",
     img: placeholder,
-    description: "Designer",
+    description: "CoBe's Apprentice",
   },
-  { name: "AR", img: placeholder, description: "Developer" },
+  {
+    name: "AR",
+    img: placeholder,
+    description: "Braden's Apprentice",
+  },
 ];

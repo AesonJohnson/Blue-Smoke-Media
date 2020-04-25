@@ -1,29 +1,70 @@
 .team {
   text-align: justify;
-  margin: 1rem;
+  margin: 3rem 3rem;
+}
+
+.team span {
+  color: #40a5fb;
 }
 
 .team .team-top h1 {
-  font-size: 3rem;
+  font-size: 3em;
+  text-align: center;
+  margin-bottom: 3rem;
+  text-shadow: lawngreen 1px 4px;
 }
 
 .team .team-middle {
-  margin-left: 8%;
+  margin-top: 4rem;
+}
+
+.team .team-middle div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 2.5rem;
+}
+
+.team .team-middle div img {
+  width: 20%;
+  margin-right: 2.4rem;
+}
+
+.team .team-middle div p {
+  margin: auto;
+}
+
+.team .team-bottom {
+  margin-top: 4rem;
+  padding-bottom: 1.75rem;
+}
+
+.team .team-bottom p {
+  margin-bottom: 5rem;
 }
 
 .team .team-bottom .member {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin: 3rem auto;
 }
 
 .team .team-bottom .member img {
-  width: 3rem;
-  height: 3rem;
+  width: 15rem;
+  height: 15rem;
   border-radius: 50%;
+  margin: auto 0rem;
 }
 
-.team .team-bottom .member span {
-  font-size: 1.1rem;
+.team .team-bottom .member p {
+  margin: auto;
+  margin-left: 2.4rem;
+  font-size: 1.1em;
+}
+
+.team .team-bottom .member p span {
+  font-size: 1.45em;
+  color: black;
 }
 /*# sourceMappingURL=Team.css.map */

@@ -8,7 +8,7 @@ export default function Footer() {
       <p id="sub-header">Digital and Printed Media</p>
       <div className="bottom">
         <div className="email">
-          <p id="email">Email: </p>
+          <span id="email">Email: </span>
           <p>
             info@BlueSmokeMedia.com
             <br />
@@ -17,12 +17,13 @@ export default function Footer() {
             Braden@BlueSmokeMedia.com
             <br />
             Aeson@BlueSmokeMedia.com
+            <br />
+            AR@BlueSmokeMedia.com
           </p>
         </div>
         <div className="contact">
           <span>Contact:</span>
           <p>
-            <br />
             Blue Smoke Media
             <br />
             P.O. BOX /// <br />

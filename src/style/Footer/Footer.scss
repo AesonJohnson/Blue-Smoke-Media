@@ -21,7 +21,7 @@ footer {
   p {
     //todo change font
     @include GOT;
-    font-size: 3rem;
+    font-size: 3em;
     letter-spacing: 5px;
     color: rgb(253, 56, 5);
     margin: 0.25rem auto;
@@ -36,7 +36,7 @@ footer {
       color: white;
       font-family: poppins, sans-serif;
       font-weight: normal;
-      font-size: 1.35rem;
+      font-size: 1em;
       letter-spacing: 1px;
       text-align: justify;
       padding: 0 10%;
@@ -49,9 +49,12 @@ footer {
 
       span {
         color: white;
-        font-size: 1.35rem;
+        font-size: 1.35em;
         text-align: justify;
         padding: 0 7%;
+      }
+      p {
+        margin-top: 1rem;
       }
     }
     .email {
@@ -59,15 +62,18 @@ footer {
       margin-left: 2.35rem;
       font-weight: 700;
       #email {
+        padding: 0 7%;
         width: auto;
-        font-size: 1.35rem;
-        margin-bottom: 1.15rem;
+        font-size: 1.35em;
+      }
+      p {
+        margin-top: 1rem;
       }
     }
   }
   span {
     color: white;
-    font-size: 0.7rem;
+    font-size: 0.8rem;
     font-weight: 700;
     margin: 1.5rem auto 0.75rem;
   }

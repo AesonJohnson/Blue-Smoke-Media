@@ -1,9 +1,3 @@
-.home h1 {
-  display: inline;
-  font-size: 1.2rem;
-  color: #40a5fb;
-}
-
 .home .globe {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -19,14 +13,20 @@
 }
 
 .home .globe p {
-  font-size: 1.125rem;
   text-align: center;
   font-weight: normal;
+  padding-top: 1rem;
   width: 40%;
   height: 35%;
   margin: auto;
   margin-right: 55%;
   color: white;
+}
+
+.home .globe p span {
+  font-size: 1.4em;
+  font-weight: bold;
+  color: #40a5fb;
 }
 
 .home .silhouette {
@@ -50,8 +50,9 @@
   padding: 1.4rem;
 }
 
-.home .silhouette p h1 {
-  font-size: 1rem;
+.home .silhouette p span {
+  font-size: 1.125em;
+  color: #40a5fb;
 }
 
 .home .social-media {
@@ -84,6 +85,10 @@
   margin: 0px auto 7%;
 }
 
+.home .social-media .content p :first-child {
+  color: #f64a1e;
+}
+
 .home .social-media .content span {
   text-decoration: underline;
   color: #1e92f6;
@@ -111,8 +116,8 @@
 
 .home .mission .left p {
   padding: 22% 17%;
-  line-height: 2rem;
-  font-size: 1.2rem;
+  line-height: 1.7em;
+  font-size: 1.2em;
   text-align: justify;
   margin: auto 3%;
 }
@@ -137,20 +142,20 @@
 .home .mission .right img {
   width: 70%;
   height: 10%;
-  margin: 3rem auto 0.125rem;
+  margin: 3em auto 0.125rem;
 }
 
 .home .mission .right h4 {
   font-family: "GameOfThrones";
   font-weight: 700;
-  font-size: 2rem;
+  font-size: 2em;
   color: #f64a1e;
-  text-shadow: 1.5px 1.5px #1d1d1d;
-  margin: 0.7rem auto 0px;
+  text-shadow: 2px 2px #1d1d1d;
+  margin: 0.7em auto 0px;
 }
 
 .home .mission .right p {
-  font-size: 1.25rem;
+  font-size: 1.25em;
   margin-top: 0.15rem;
   color: #0b2672;
 }
@@ -169,9 +174,9 @@
   display: -ms-flexbox;
   display: flex;
   text-align: left;
-  line-height: 1.45rem;
+  line-height: 1.3em;
   color: #0b2672;
-  font-size: 1.35rem;
+  font-size: 1.2em;
   margin-bottom: 0.78rem;
 }
 
@@ -181,15 +186,15 @@
   margin-right: 0.8%;
   -ms-flex-line-pack: center;
       align-content: center;
-  text-shadow: 0.5px 0.5px #1d1d1d;
+  text-shadow: 0.75px 0.75px #1d1d1d;
 }
 
 .home .mission .right h3 {
   font-family: "GameOfThrones";
   font-weight: 700;
-  font-size: 2rem;
+  font-size: 2em;
   color: #f64a1e;
-  text-shadow: 1.5px 1.5px #1d1d1d;
+  text-shadow: 2px 2px #1d1d1d;
   margin: 0.85rem auto 0.25rem;
 }
 
