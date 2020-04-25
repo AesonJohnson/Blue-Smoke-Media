@@ -1,0 +1,33 @@
+.dropdown {
+  position: relative;
+}
+
+.dropdown .drop-content {
+  display: none;
+  position: absolute;
+  -webkit-transition: all 3s;
+  transition: all 3s;
+}
+
+.dropdown:hover .drop-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 90%;
+  background: #f64a1e;
+  right: 1.5%;
+  padding: 0.25rem 0;
+  -webkit-box-shadow: black 4px 6px 9px;
+          box-shadow: black 4px 6px 9px;
+}
+
+.dropdown:hover .drop-content a {
+  width: 80%;
+  margin: 0.25rem auto;
+  font-size: 0.9em;
+}
+/*# sourceMappingURL=DropDown.css.map */

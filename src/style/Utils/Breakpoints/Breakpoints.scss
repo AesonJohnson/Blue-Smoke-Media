@@ -1,0 +1,30 @@
+// todo add in retina screens for laptop
+
+@mixin for-mobile {
+  @media (min-width: 320px) and (max-width: 480px) {
+    @content;
+  }
+}
+
+@mixin for-tablet {
+  @media (min-width: 450px) and (max-width: 799px) {
+    @content;
+  }
+}
+
+@mixin for-desktop-sm {
+  @media (max-width: 800px) {
+    @content;
+  }
+}
+
+@mixin for-desktop-lg {
+  @media (min-width: 1440px) {
+    @content;
+  }
+}
+@mixin for-desktop-xlg {
+  @media (min-width: 2250px) {
+    @content;
+  }
+}

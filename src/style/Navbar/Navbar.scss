@@ -1,25 +1,24 @@
-@import "../Mixins.scss";
+@import "../Utils/Mixins/Mixins.scss";
 
 nav {
-  // border-bottom: 5px solid darkslategrey;
   display: flex;
-  justify-content: space-around;
   height: 10vh;
   background: $orange;
-  // padding: 7px;
-  // margin: 0px;
-  a {
-    color: rgb(25, 11, 50);
-    text-decoration: none;
+  div {
     margin: auto;
-    // @include GOT();
-    font-size: 0.98em;
-    transition: 0.47s;
-    &:hover {
-      color: rgb(245, 214, 210);
-      transform: scale(1.3);
-      transition: 0.57s;
-      text-shadow: 1.4px 1.65px black;
+    padding: 0 3%;
+    a {
+      color: rgb(25, 11, 50);
+      text-decoration: none;
+      margin: auto;
+      font-size: 0.98em;
+      transition: 0.47s;
+      &:hover {
+        color: rgb(245, 214, 210);
+        transform: scale(1.3);
+        transition: 0.57s;
+        text-shadow: 1.4px 1.65px black;
+      }
     }
   }
 }

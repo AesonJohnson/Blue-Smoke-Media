@@ -1,9 +1,10 @@
-@import "./App.css";
-@import "./Footer/Footer.css";
+@import "./App/App.css";
 @import "./Header/Header.css";
-@import "./Home/Home.css";
 @import "./Navbar/Navbar.css";
-@import "./SEO/FriendlySeo.css";
-@import "./SEO/OrganicSeo.css";
+@import "./Footer/Footer.css";
+@import "./Home/Home.css";
+@import "./SEO/Friendly/FriendlySeo.css";
+@import "./SEO/Organic/OrganicSeo.css";
 @import "./Team/Team.css";
 @import "./Web/Web.css";
+@import "./DropDown/DropDown.css";

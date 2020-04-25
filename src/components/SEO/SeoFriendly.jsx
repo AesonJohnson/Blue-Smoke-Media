@@ -1,10 +1,10 @@
 import React from "react";
 //* Components
-import Header from "./Header";
-import Navigation from "./Navigation";
-import Footer from "./Footer";
+import Header from "../Header";
+import Navigation from "../Navigation";
+import Footer from "../Footer";
 //* Images
-import seoPuzzle from "../images/seo-puzzle.png";
+import seoPuzzle from "../../images/seo-puzzle.png";
 
 export default function OrganicSeo() {
   return (

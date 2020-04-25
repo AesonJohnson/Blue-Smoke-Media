@@ -1,0 +1,24 @@
+@import "../Utils/Mixins/Mixins.scss";
+
+.dropdown {
+  position: relative;
+  .drop-content {
+    display: none;
+    position: absolute;
+    transition: all 3s;
+  }
+  &:hover .drop-content {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    background: $orange;
+    right: 1.5%;
+    padding: 0.25rem 0;
+    box-shadow: black 4px 6px 9px;
+    a {
+      width: 80%;
+      margin: 0.25rem auto;
+      font-size: 0.9em;
+    }
+  }
+}

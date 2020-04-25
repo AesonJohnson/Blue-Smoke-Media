@@ -1,9 +1,9 @@
 import React from "react";
 //* Components
-import Header from "./Header";
-import Navigation from "./Navigation";
-import Footer from "./Footer";
-import seoBanner from "../images/seo-banner.png";
+import Header from "../Header";
+import Navigation from "../Navigation";
+import Footer from "../Footer";
+import seoBanner from "../../images/seo-banner.png";
 
 export default function OrganicSeo() {
   return (
