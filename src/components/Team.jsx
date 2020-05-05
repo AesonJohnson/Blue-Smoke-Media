@@ -20,9 +20,9 @@ export default function Team() {
             <span>Blue Smoke Digital and Printed Media,</span> a company founded
             in 2019, was formed by a cooperative interaction of talented
             individuals from a variety of disciplines, all with over 35 years of
-            marketing, design, search engine optimization and sales experience.
-            Each <span>Blue Smoke Media</span> team member is a graduate of{" "}
-            <a href="https://lambdaschool.com/">LambdaSchool.com</a>
+            programming, graphic design, search engine optimization, and sales
+            experience. Each <span>Blue Smoke Media</span> team member is a
+            graduate of <a href="https://lambdaschool.com/">LambdaSchool.com</a>
           </p>
         </section>
         <section className="team-middle">

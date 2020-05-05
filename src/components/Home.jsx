@@ -5,7 +5,7 @@ import Header from "./Header";
 import Footer from "./Footer";
 //* Images
 import silhouette from "./../images/silhouette.png";
-import socialMedia from "./../images/social-media.jpg";
+import socialMediaPhone from "./../images/social-media-phone.jpg";
 import blueSmoke from "./../images/blue-smoke.png";
 
 export default function Home() {
@@ -36,7 +36,7 @@ export default function Home() {
         </p>
       </section>
       <section className="social-media">
-        <img src={socialMedia} alt="social media" />
+        <img src={socialMediaPhone} alt="social media" />
         <div className="content">
           <p>
             Web Design is the process of creating a user experience and is made

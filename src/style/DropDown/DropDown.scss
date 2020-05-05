@@ -7,18 +7,23 @@
     position: absolute;
     transition: all 3s;
   }
+  //todo fix dropdown later
   &:hover .drop-content {
     display: flex;
     flex-direction: column;
-    width: 90%;
+    width: 11em;
     background: $orange;
-    right: 1.5%;
-    padding: 0.25rem 0;
-    box-shadow: black 4px 6px 9px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 0.5em 0;
+    box-shadow: black 4px 6px;
     a {
       width: 80%;
-      margin: 0.25rem auto;
-      font-size: 0.9em;
+      margin: 0.4em auto;
+      font-size: 0.875em;
     }
+    // section {
+    //   width: 50%;
+    // }
   }
 }

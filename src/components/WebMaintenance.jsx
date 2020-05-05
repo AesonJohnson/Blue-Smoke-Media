@@ -1,0 +1,58 @@
+import React from "react";
+//* Components
+import Header from "./Header";
+import Navigation from "./Navigation";
+import Footer from "./Footer";
+//* Images
+import websiteMaintenance from "../images/website-maintenance.jpg";
+
+export default function WebMaintenance() {
+  return (
+    <>
+      <Header />
+      <Navigation />
+      <div className="web-maintenance">
+        <img src={websiteMaintenance} alt="bug fixes, updates" />
+        <div>
+          <h2>Website Maintenance Agreements</h2>
+          <p>
+            <span>Blue Smoke Digital and Printed Media,</span> provides
+            maintenance agreements to fit your specific maintenance needs,
+            offering comprehensive website maintenance solutions to maintain
+            your website. Whether your site requires an occasional update or
+            ongoing weekly maintenance, we have a solution to keep your site
+            fresh, up-to-date, and accurate. Our cost-effective and convenient
+            website maintenance plans are designed to fit your updating needs
+            and budget.With a Website Maintenance agreement, updates are
+            normally completed within 24 hours of the request. This ensures that
+            visitors and potential clients will receive accurate information.
+            From an occasional update, to weekly and daily updates, we would be
+            honored to provide our services.
+          </p>
+          <p>
+            <span>Option One:</span>
+            <br />
+            Pay Per Incident
+            <br />
+            Pay for web site maintenance as it is needed. The Client pays an “as
+            needed” hourly rate based on current hourly rates to be agreed upon
+            at the onset of the contract.
+          </p>
+          <p>
+            <span>Option Two:</span>
+            <br />
+            {/* //todo change wording to once per month, not beginning  */}
+            Your website is checked regularly for correct functionality. At the
+            start of each month we perform a web site maintenance check to
+            ensure that pages and links are working correctly and that forms
+            within the site are functioning as required. Any identified
+            malfunctions are fixed. Any updates required will be made within 48
+            hours of the request. The amount of estimated services will
+            determine the cost per month.
+          </p>
+        </div>
+      </div>
+      <Footer />
+    </>
+  );
+}
