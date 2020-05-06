@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AACE,kBADgB,CAChB,GAAG,CAAC;EACF,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,IAAI;CACb;;AAJH,AAKE,kBALgB,CAKhB,QAAQ,CAAC;EACP,MAAM,EAAE,QAAQ;CAIjB;;AAVH,AAOI,kBAPc,CAKhB,QAAQ,CAEN,EAAE,CAAC;EACD,UAAU,EAAE,IAAI;CACjB",
+    "sources": [
+        "WebsiteUsability.scss"
+    ],
+    "names": [],
+    "file": "WebsiteUsability.css"
+}

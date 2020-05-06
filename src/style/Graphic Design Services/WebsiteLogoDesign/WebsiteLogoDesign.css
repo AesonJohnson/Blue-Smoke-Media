@@ -1,0 +1,17 @@
+.website-logo-design img {
+  width: 100%;
+  height: 60vh;
+}
+
+.website-logo-design .content {
+  margin: auto 2em;
+}
+
+.website-logo-design .content h1 {
+  margin: 1em auto 0.8em;
+}
+
+.website-logo-design .content p {
+  text-align: left;
+}
+/*# sourceMappingURL=WebsiteLogoDesign.css.map */

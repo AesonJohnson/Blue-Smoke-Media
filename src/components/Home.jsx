@@ -1,8 +1,8 @@
 import React from "react";
 //* Components
-import Navigation from "./Navigation";
-import Header from "./Header";
-import Footer from "./Footer";
+import Navigation from "./Utils/Navigation";
+import Header from "./Utils/Header";
+import Footer from "./Utils/Footer";
 //* Images
 import silhouette from "./../images/silhouette.png";
 import socialMediaPhone from "./../images/social-media-phone.jpg";

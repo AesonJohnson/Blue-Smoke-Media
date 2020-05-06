@@ -11,7 +11,7 @@
   &:hover .drop-content {
     display: flex;
     flex-direction: column;
-    width: 11.5em;
+    width: 12em;
     background: $orange;
     left: 50%;
     transform: translateX(-50%);
@@ -22,8 +22,5 @@
       margin: 0.4em auto;
       font-size: 0.875em;
     }
-    // section {
-    //   width: 50%;
-    // }
   }
 }

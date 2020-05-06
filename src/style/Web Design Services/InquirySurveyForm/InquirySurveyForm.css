@@ -1,0 +1,17 @@
+.inquiry-survey-form img {
+  width: 100%;
+  height: 60vh;
+}
+
+.inquiry-survey-form .content {
+  margin: auto 2em;
+}
+
+.inquiry-survey-form .content h1 {
+  margin: 1em auto 0.8em;
+}
+
+.inquiry-survey-form .content p {
+  text-align: left;
+}
+/*# sourceMappingURL=InquirySurveyForm.css.map */

@@ -1,8 +1,8 @@
 import React from "react";
 //* Components
-import Header from "./Header";
-import Navigation from "./Navigation";
-import Footer from "./Footer";
+import Header from "./Utils/Header";
+import Navigation from "./Utils/Navigation";
+import Footer from "./Utils/Footer";
 //* Images
 import placeholder from "../images/globe-stretch.png";
 
@@ -13,9 +13,9 @@ export default function Template() {
       <Navigation />
       <div className="Template">
         <img src={placeholder} alt="this is the SEO" />
-        <div>
-          <h2>Title</h2>
-          <p>lorem ipsum</p>
+        <div className="content">
+          <h1>Title</h1>
+          <p>lorem</p>
         </div>
       </div>
       <Footer />

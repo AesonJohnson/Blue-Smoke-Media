@@ -1,5 +1,5 @@
 import React from "react";
-import blueSmoke from "../images/blue-smoke.png";
+import blueSmoke from "../../images/blue-smoke.png";
 
 export default function Footer() {
   return (

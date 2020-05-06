@@ -1,14 +1,14 @@
 import React from "react";
 //* Components
-import Header from "./Header";
-import Navigation from "./Navigation";
-import Footer from "./Footer";
+import Header from "../Utils/Header";
+import Navigation from "../Utils/Navigation";
+import Footer from "../Utils/Footer";
 //* Images
-import fingersCrossed from "../images/fingers-crossed.png";
-import light from "../images/recognition-rememberance-image.png";
-import respect from "../images/respect-image.png";
-import eagle from "../images/eagle.png";
-import coffeeShelf from "../images/coffee-shelf.png";
+import fingersCrossed from "../../images/fingers-crossed.png";
+import light from "../../images/recognition-rememberance-image.png";
+import respect from "../../images/respect-image.png";
+import eagle from "../../images/eagle.png";
+import coffeeShelf from "../../images/coffee-shelf.png";
 
 export default function Graphic() {
   return (

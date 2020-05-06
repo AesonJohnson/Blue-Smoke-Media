@@ -1,8 +1,8 @@
 import React from "react";
 //* Components
-import Header from "../Header";
-import Navigation from "../Navigation";
-import Footer from "../Footer";
+import Header from "../Utils/Header";
+import Navigation from "../Utils/Navigation";
+import Footer from "../Utils/Footer";
 //* Images
 import seoPuzzle from "../../images/seo-puzzle.png";
 

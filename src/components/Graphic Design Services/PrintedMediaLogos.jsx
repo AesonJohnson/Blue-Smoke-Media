@@ -1,10 +1,10 @@
 import React from "react";
 //* Components
-import Header from "./Header";
-import Navigation from "./Navigation";
-import Footer from "./Footer";
+import Header from "../Utils/Header";
+import Navigation from "../Utils/Navigation";
+import Footer from "../Utils/Footer";
 //* Images
-import printedMedia from "../images/printed-media.png";
+import printedMedia from "../../images/printed-media.png";
 
 export default function PrintedMediaLogos() {
   return (

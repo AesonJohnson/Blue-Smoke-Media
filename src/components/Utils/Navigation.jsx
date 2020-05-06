@@ -25,23 +25,26 @@ export default function Navigation() {
         </NavLink>
         <div className="drop-content">
           <NavLink to="/customWebsiteDesign">Custom Website Design</NavLink>
-          <NavLink to="/#2">Re-Design & Updates</NavLink>
-          <NavLink to="/#3">E-Commerce Website Development</NavLink>
-          <NavLink to="/#4">Creating Your Website-Useability</NavLink>
-          <NavLink to="/#5">Website Ad-Copy Writing</NavLink>
+          <NavLink to="/reDesignAndUpdates">Re-Design & Updates</NavLink>
+          <NavLink to="/E-CommerceWebsiteDevelopment">
+            E-Commerce Website Development
+          </NavLink>
+          <NavLink to="/websiteUsability">
+            Creating Your Website-Useability
+          </NavLink>
+          <NavLink to="/ad-CopyWriting">Website Ad-Copy Writing</NavLink>
           <NavLink to="/webMaintenance">Website Maintenance</NavLink>
-          <NavLink to="/#7">Inquiry/Survey Form</NavLink>
+          <NavLink to="/inquirySurveyForm">Inquiry/Survey Form</NavLink>
         </div>
       </div>
 
-      <div className="dropdown" id="nav-seo">
+      <div className="dropdown">
         <NavLink to="#">
           Search Engine <br />
           Optimization
         </NavLink>
         <div className="drop-content">
           <NavLink to="/seoFriendly">SEO - Search Engine Optimization</NavLink>
-          {/* seo friendly */}
           <NavLink to="/seoOrganic">Organic Search Engine Optimization</NavLink>
         </div>
       </div>
@@ -55,7 +58,9 @@ export default function Navigation() {
         <div className="drop-content">
           <NavLink to="/websiteLogoDesign">Website Logo Design</NavLink>
           <NavLink to="/printedMediaLogos">Print Logo Design</NavLink>
-          <NavLink to="/#13">Print & Graphic Design Services</NavLink>
+          <NavLink to="/printAndGraphicServices">
+            Print & Graphic Design Services
+          </NavLink>
         </div>
       </div>
 

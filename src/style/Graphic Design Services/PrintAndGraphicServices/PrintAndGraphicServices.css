@@ -1,0 +1,17 @@
+.print-and-graphic-services img {
+  width: 100%;
+  height: 60vh;
+}
+
+.print-and-graphic-services .content {
+  margin: auto 2em;
+}
+
+.print-and-graphic-services .content h1 {
+  margin: 1em auto 0.8em;
+}
+
+.print-and-graphic-services .content p {
+  text-align: left;
+}
+/*# sourceMappingURL=PrintAndGraphicServices.css.map */
