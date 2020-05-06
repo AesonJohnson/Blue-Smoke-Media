@@ -2,7 +2,7 @@ nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: 10vh;
+  height: 11.5vh;
   background: #f64a1e;
 }
 
@@ -17,6 +17,7 @@ nav div a {
   font-size: 0.98em;
   -webkit-transition: 0.47s;
   transition: 0.47s;
+  font-weight: 500;
 }
 
 nav div a:hover {

@@ -2,7 +2,7 @@
 
 nav {
   display: flex;
-  height: 10vh;
+  height: 11.5vh;
   background: $orange;
   div {
     margin: auto;
@@ -15,6 +15,7 @@ nav {
       margin: auto;
       font-size: 0.98em;
       transition: 0.47s;
+      font-weight: 500;
 
       &:hover {
         color: rgb(245, 214, 210);

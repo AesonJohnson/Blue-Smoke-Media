@@ -10,11 +10,11 @@ import OrganicSeo from "./components/SEO/OrganicSeo";
 import Blog from "./components/Blog";
 import Contact from "./components/Contact";
 import Graphic from "./components/Graphic";
-import LogoDesign from "./components/LogoDesign";
+import WebsiteLogoDesign from "./components/WebsiteLogoDesign";
 import Portfolio from "./components/Portfolio";
 import PrintedMediaLogos from "./components/PrintedMediaLogos";
 import Team from "./components/Team";
-import Web from "./components/Web";
+import CustomWebsiteDesign from "./components/CustomWebsiteDesign";
 import WebMaintenance from "./components/WebMaintenance";
 
 function App() {
@@ -27,11 +27,11 @@ function App() {
         <Route path="/blog" component={Blog} />
         <Route path="/contact" component={Contact} />
         <Route path="/graphic" component={Graphic} />
-        <Route path="/logo" component={LogoDesign} />
+        <Route path="/websiteLogoDesign" component={WebsiteLogoDesign} />
         <Route path="/portfolio" component={Portfolio} />
-        <Route path="/printedLogos" component={PrintedMediaLogos} />
+        <Route path="/printedMediaLogos" component={PrintedMediaLogos} />
         <Route path="/team" component={Team} />
-        <Route path="/web" component={Web} />
+        <Route path="/customWebsiteDesign" component={CustomWebsiteDesign} />
         <Route path="/webMaintenance" component={WebMaintenance} />
       </Switch>
     </div>

@@ -13,8 +13,8 @@ export default function WebMaintenance() {
       <Navigation />
       <div className="web-maintenance">
         <img src={websiteMaintenance} alt="bug fixes, updates" />
-        <div>
-          <h2>Website Maintenance Agreements</h2>
+        <div className="content">
+          <h1>Website Maintenance Agreements</h1>
           <p>
             <span>Blue Smoke Digital and Printed Media,</span> provides
             maintenance agreements to fit your specific maintenance needs,
@@ -29,26 +29,22 @@ export default function WebMaintenance() {
             From an occasional update, to weekly and daily updates, we would be
             honored to provide our services.
           </p>
+          <h3>Option One:</h3>
           <p>
-            <span>Option One:</span>
-            <br />
             Pay Per Incident
             <br />
             Pay for web site maintenance as it is needed. The Client pays an “as
             needed” hourly rate based on current hourly rates to be agreed upon
             at the onset of the contract.
           </p>
+          <h3>Option Two:</h3>
           <p>
-            <span>Option Two:</span>
-            <br />
-            {/* //todo change wording to once per month, not beginning  */}
-            Your website is checked regularly for correct functionality. At the
-            start of each month we perform a web site maintenance check to
-            ensure that pages and links are working correctly and that forms
-            within the site are functioning as required. Any identified
-            malfunctions are fixed. Any updates required will be made within 48
-            hours of the request. The amount of estimated services will
-            determine the cost per month.
+            Your website is checked regularly for correct functionality. Every
+            month we will perform a web site maintenance check to ensure that
+            pages and links are working correctly and that forms within the site
+            are functioning as required. Any identified malfunctions are fixed.
+            Any updates required will be made within 48 hours of the request.
+            The amount of estimated services will determine the cost per month.
           </p>
         </div>
       </div>

@@ -24,7 +24,7 @@ export default function Navigation() {
           Services
         </NavLink>
         <div className="drop-content">
-          <NavLink to="/#1">Custom Website Design</NavLink>
+          <NavLink to="/customWebsiteDesign">Custom Website Design</NavLink>
           <NavLink to="/#2">Re-Design & Updates</NavLink>
           <NavLink to="/#3">E-Commerce Website Development</NavLink>
           <NavLink to="/#4">Creating Your Website-Useability</NavLink>
@@ -53,8 +53,8 @@ export default function Navigation() {
           Services
         </NavLink>
         <div className="drop-content">
-          <NavLink to="/#11">Website Logo Design</NavLink>
-          <NavLink to="/printedLogos">Print Logo Design</NavLink>
+          <NavLink to="/websiteLogoDesign">Website Logo Design</NavLink>
+          <NavLink to="/printedMediaLogos">Print Logo Design</NavLink>
           <NavLink to="/#13">Print & Graphic Design Services</NavLink>
         </div>
       </div>

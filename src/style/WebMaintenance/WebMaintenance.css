@@ -1,14 +1,29 @@
+.web-maintenance {
+  text-align: left;
+}
+
 .web-maintenance img {
   width: 100%;
   height: 60vh;
 }
 
-.web-maintenance p {
-  margin: 1em 2em;
-  text-align: left;
+.web-maintenance .content {
+  margin: 2em;
 }
 
-.web-maintenance p span {
+.web-maintenance .content h1 {
+  text-align: center;
+}
+
+.web-maintenance .content h3 {
+  margin: 1em auto auto;
+}
+
+.web-maintenance .content p {
+  margin: 0;
+}
+
+.web-maintenance .content p span {
   font-size: 1.1em;
 }
 /*# sourceMappingURL=WebMaintenance.css.map */

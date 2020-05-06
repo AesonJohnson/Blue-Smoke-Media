@@ -6,7 +6,7 @@ import Footer from "./Footer";
 //* Images
 import logoDesign from "../images/Website-logo-design-servies.png";
 
-export default function Graphic() {
+export default function WebsiteLogoDesign() {
   return (
     <>
       <Header />

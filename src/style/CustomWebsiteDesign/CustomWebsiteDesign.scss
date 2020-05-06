@@ -1,0 +1,29 @@
+@import "../Utils/Mixins/Mixins.scss";
+
+.custom-website-design {
+  img {
+    height: 40vh;
+    width: 100%;
+    border-top: 2px solid #0b2673;
+    border-bottom: 2px solid #0b2673;
+  }
+  .content {
+    margin: auto 2em 2em;
+    text-align: left;
+    h1 {
+      text-align: center;
+      margin-bottom: 1em;
+    }
+    ol {
+      margin: 2em auto;
+      margin-left: 1.75em;
+      li {
+        color: $orange;
+        line-height: 1.35em;
+      }
+    }
+    span {
+      font-weight: 600;
+    }
+  }
+}
