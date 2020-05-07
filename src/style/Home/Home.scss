@@ -1,6 +1,10 @@
 @import "../Utils/Mixins/Mixins.scss";
 
 .home {
+  video {
+    width: 100%;
+    height: 100%;
+  }
   .globe {
     display: flex;
     flex-direction: row-reverse;
