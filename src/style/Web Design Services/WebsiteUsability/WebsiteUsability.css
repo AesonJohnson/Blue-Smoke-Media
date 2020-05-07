@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .website-usability img {
   width: 100%;
   height: 60vh;
@@ -5,9 +6,17 @@
 
 .website-usability .content {
   margin: auto 2em;
+  text-align: left;
 }
 
-.website-usability .content h1 {
-  text-align: left;
+.website-usability .content ul {
+  list-style: none;
+}
+
+.website-usability .content ul li::before {
+  content: "•";
+  color: #f64a1e;
+  font-size: 1.2em;
+  margin-right: 0.5em;
 }
 /*# sourceMappingURL=WebsiteUsability.css.map */

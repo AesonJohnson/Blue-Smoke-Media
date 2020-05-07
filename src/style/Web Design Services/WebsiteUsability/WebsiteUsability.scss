@@ -1,3 +1,5 @@
+@import "../../Utils/Mixins/Mixins.scss";
+
 .website-usability {
   img {
     width: 100%;
@@ -5,8 +7,15 @@
   }
   .content {
     margin: auto 2em;
-    h1 {
-      text-align: left;
+    text-align: left;
+    ul {
+      list-style: none;
+      li::before {
+        content: "•";
+        color: $orange;
+        font-size: 1.2em;
+        margin-right: 0.5em;
+      }
     }
   }
 }
