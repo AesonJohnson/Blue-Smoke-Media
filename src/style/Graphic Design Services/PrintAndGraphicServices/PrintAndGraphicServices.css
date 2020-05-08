@@ -3,6 +3,15 @@
   height: 40vh;
 }
 
+.print-and-graphic-design-services h1 {
+  margin: 1em auto 0.6em;
+}
+
+.print-and-graphic-design-services .content p {
+  margin-bottom: 3em;
+  margin: 2em 2em;
+}
+
 .print-and-graphic-design-services .content section {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -19,13 +28,13 @@
 }
 
 .print-and-graphic-design-services .content section #coffeeShelf {
+  padding-top: 0.5em;
   height: 14em;
-  width: 12em;
 }
 
 .print-and-graphic-design-services .content section p {
-  margin: 2em 1em;
   text-align: left;
+  line-height: 1.27em;
 }
 
 .print-and-graphic-design-services .content section p span {
