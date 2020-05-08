@@ -1,17 +1,34 @@
-@import "../Utils/Mixins/Mixins.scss";
+@import "../../Utils/Mixins/Mixins.scss";
 
-.print-and-graphic-services {
+.print-and-graphic-design-services {
   img {
-    width: 100%;
-    height: 60vh;
+    width: 100.1%;
+    height: 40vh;
+  }
+  h1 {
   }
   .content {
-    margin: auto 2em;
-    h1 {
-      margin: 1em auto 0.8em;
-    }
     p {
-      text-align: left;
+    }
+    section {
+      display: flex;
+      margin: 2rem;
+      align-items: center;
+      img {
+        height: 11em;
+        width: 12.5em;
+      }
+      #coffeeShelf {
+        height: 14em;
+        width: 12em;
+      }
+      p {
+        margin: 2em 1em;
+        text-align: left;
+        span {
+          font-weight: 600;
+        }
+      }
     }
   }
 }

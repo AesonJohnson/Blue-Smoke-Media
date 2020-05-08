@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 //* Components
 import Navigation from "./Utils/Navigation";
 import Header from "./Utils/Header";
@@ -10,20 +10,34 @@ import blueSmoke from "./../images/blue-smoke.png";
 import landingVideo from "../images/LandingPageVideo.mp4";
 
 export default function Home() {
-  // todo do we need a loading screen for the video?
-  const [isLoading, setIsLoading] = useState(true);
-  const [isPlaying, setIsPlaying] = useState(true);
+  // const [isLoading, setIsLoading] = useState(true);
+  const [isPlaying, setIsPlaying] = useState(false);
+
+  // useEffect(() => {
+  //   // todo fix unmute for video
+  //   // todo fix video whitespace
+  //   console.log(document.querySelector("video").muted);
+
+  //   document.addEventListener("click", () => {
+  //     // any click will unmute video
+  //     setTimeout(() => {
+  //       document.querySelector("video").muted = false;
+  //     }, 200);
+  //   });
+  // }, []);
+
   return (
     <div className="home">
       {isPlaying === true ? (
         <video
           // loop
-          // muted
+          muted={true}
           autoPlay
           src={landingVideo}
           preload={"auto"}
+          onPlay={() => document.querySelector("video").click()}
+          // onPlay={() => (document.querySelector("video").muted = false)}
           type={"video/mp4"}
-          onLoadEnd={() => this.setState({ isLoading: false })}
           onEnded={() => setIsPlaying(false)}
         ></video>
       ) : (
@@ -102,7 +116,7 @@ export default function Home() {
           </section>
           <Footer />
         </>
-      )}
+      )}{" "}
     </div>
   );
 }

@@ -1,5 +1,6 @@
 // @mixin orange($orange);
-$orange: rgb(246, 74, 30);
+@import "../Utils/Mixins/Mixins.scss";
+// $orange: rgb(246, 74, 30);
 @mixin GOT() {
   font-family: "GameOfThrones";
   font-weight: 700;
@@ -18,7 +19,7 @@ html {
   font-style: normal;
   font-weight: 400;
   font-size: 1.5rem;
-  color: #0b2673;
+  color: $darkblue;
 
   .sub-text {
     display: flex;

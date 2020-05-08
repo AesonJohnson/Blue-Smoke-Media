@@ -3,6 +3,7 @@ nav {
   display: -ms-flexbox;
   display: flex;
   height: 11.5vh;
+  min-height: 3em;
   background: #f64a1e;
 }
 
