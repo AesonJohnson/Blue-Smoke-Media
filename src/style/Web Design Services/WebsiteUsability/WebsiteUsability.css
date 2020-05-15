@@ -1,22 +1,36 @@
 @charset "UTF-8";
 .website-usability img {
   width: 100%;
-  height: 60vh;
+  height: 57vh;
 }
 
 .website-usability .content {
-  margin: auto 2em;
+  margin: auto 2em 2em;
   text-align: left;
+}
+
+.website-usability .content h1 {
+  text-align: center;
+  margin: 1.45em auto;
+}
+
+.website-usability .content p span {
+  font-weight: 600;
 }
 
 .website-usability .content ul {
   list-style: none;
+  margin: 2em auto 3.5em;
+}
+
+.website-usability .content ul li {
+  margin-top: 1em;
 }
 
 .website-usability .content ul li::before {
   content: "•";
   color: #f64a1e;
-  font-size: 1.2em;
-  margin-right: 0.5em;
+  font-size: 1.5em;
+  margin-right: 0.45em;
 }
 /*# sourceMappingURL=WebsiteUsability.css.map */

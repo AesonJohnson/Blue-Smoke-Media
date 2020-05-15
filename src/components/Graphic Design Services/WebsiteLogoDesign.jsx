@@ -14,7 +14,7 @@ export default function WebsiteLogoDesign() {
       <div className="website-logo-design">
         <img src={logoDesign} alt="Logos" />
         <div className="content">
-          <h3>Website Logos</h3>
+          <h1>Website Logos</h1>
           <p>
             Websites without a logo look incomplete — and miss on an important
             “branding” opportunity — while logos that do not look professional
@@ -38,9 +38,10 @@ export default function WebsiteLogoDesign() {
             possible while retaining the quality of the image.
           </p>
           <p>
-            If Blue Smoke Digital and Printed Media is designing your website,
-            we can design it around the look and feel of your logo, arriving at
-            a cohesive balance and color scheme that just “looks right”.
+            If <span>Blue Smoke Digital and Printed Media</span> is designing
+            your website, we can design it around the look and feel of your
+            logo, arriving at a cohesive balance and color scheme that just
+            “looks right”.
           </p>
         </div>
       </div>

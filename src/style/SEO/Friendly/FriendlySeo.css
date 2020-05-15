@@ -35,12 +35,16 @@
   margin-left: 48%;
 }
 
-.seo-friendly .wrapper p span {
-  font-size: 1.1rem;
+.seo-friendly .wrapper p a {
+  text-decoration: none;
+}
+
+.seo-friendly .wrapper p a span {
+  font-weight: 600;
 }
 
 .seo-friendly .wrapper h4 {
-  font-size: 1.25rem;
+  font-size: 1.25em;
 }
 
 .seo-friendly .wrapper #contact {

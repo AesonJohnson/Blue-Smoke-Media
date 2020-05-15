@@ -4,14 +4,26 @@
 }
 
 .team span {
-  color: #40a5fb;
+  font-weight: 600;
 }
 
 .team .team-top h1 {
   font-size: 3em;
   text-align: center;
   margin-bottom: 3rem;
-  text-shadow: lawngreen 1px 4px;
+  text-shadow: #40a5fb 2px -2.5px;
+}
+
+.team .team-top p a {
+  text-decoration: none;
+}
+
+.team .team-top p a:visited {
+  color: #40a5fb;
+}
+
+.team .team-top p a:hover {
+  color: #f64a1e;
 }
 
 .team .team-middle {

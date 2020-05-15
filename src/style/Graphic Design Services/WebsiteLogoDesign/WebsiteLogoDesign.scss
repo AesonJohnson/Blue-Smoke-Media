@@ -3,15 +3,21 @@
 .website-logo-design {
   img {
     width: 100%;
-    height: 60vh;
+    height: 50vh;
   }
   .content {
-    margin: auto 2em;
+    margin: 2em 4em 4em;
     h1 {
-      margin: 1em auto 0.8em;
+      font-size: 2em;
+      margin: 1.2em auto;
     }
     p {
       text-align: left;
+      font-size: 1.05em;
+      margin-top: 1.5em;
+      span {
+        font-weight: 600;
+      }
     }
   }
 }

@@ -15,12 +15,13 @@ footer {
     height: 20vh;
     margin: 5% auto 1%;
   }
+
   #sub-header {
     -webkit-text-stroke: 0.85px rgb(0, 8, 44);
   }
+
   p {
-    //todo change font
-    @include GOT;
+    font-weight: 600;
     font-size: 3em;
     letter-spacing: 5px;
     color: rgb(253, 56, 5);
@@ -32,6 +33,7 @@ footer {
     display: flex;
     width: 100%;
     margin: 2rem auto 0.5rem;
+
     p {
       color: white;
       font-family: poppins, sans-serif;
@@ -53,24 +55,29 @@ footer {
         text-align: justify;
         padding: 0 7%;
       }
+
       p {
         margin-top: 1rem;
       }
     }
+
     .email {
       width: 25%;
       margin-left: 2.35rem;
       font-weight: 700;
+
       #email {
         padding: 0 7%;
         width: auto;
         font-size: 1.35em;
       }
+
       p {
         margin-top: 1rem;
       }
     }
   }
+
   span {
     color: white;
     font-size: 0.8rem;

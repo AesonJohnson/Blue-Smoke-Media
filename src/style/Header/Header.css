@@ -11,13 +11,16 @@ header img {
 }
 
 header p {
-  font-family: "GameOfThrones";
   font-weight: 700;
   font-size: 3.765rem;
   letter-spacing: 4.87px;
   line-height: 1.2;
   color: #fd3805;
-  margin: 0.25rem auto;
+  margin: 0.6em auto .35em;
   -webkit-text-stroke: 0.85px #00082c;
+}
+
+header span {
+  margin-top: .6em;
 }
 /*# sourceMappingURL=Header.css.map */

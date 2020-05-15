@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 //* Components
 import Header from "../Utils/Header";
 import Navigation from "../Utils/Navigation";
@@ -60,8 +61,11 @@ export default function OrganicSeo() {
           </p>
           <p>
             Get traffic and potential clients with a search engine friendly
-            website.
-            <span id="contact">Contact us</span> today.
+            website.{" "}
+            <Link to="/contact">
+              <span id="contact">Contact us</span>{" "}
+            </Link>
+            today.
           </p>
         </div>
       </div>

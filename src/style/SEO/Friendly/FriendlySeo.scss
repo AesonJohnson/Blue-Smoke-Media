@@ -26,12 +26,15 @@
       }
     }
     p {
-      span {
-        font-size: 1.1rem;
+      a {
+        text-decoration: none;
+        span {
+          font-weight: 600;
+        }
       }
     }
     h4 {
-      font-size: 1.25rem;
+      font-size: 1.25em;
     }
     #contact {
       color: $orange;

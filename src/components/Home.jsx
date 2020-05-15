@@ -11,36 +11,61 @@ import landingVideo from "../images/LandingPageVideo.mp4";
 
 export default function Home() {
   // const [isLoading, setIsLoading] = useState(true);
-  const [isPlaying, setIsPlaying] = useState(false);
+  const [isPlaying, setIsPlaying] = useState(true);
 
-  // useEffect(() => {
-  //   // todo fix unmute for video
-  //   // todo fix video whitespace
-  //   console.log(document.querySelector("video").muted);
-
-  //   document.addEventListener("click", () => {
-  //     // any click will unmute video
-  //     setTimeout(() => {
-  //       document.querySelector("video").muted = false;
-  //     }, 200);
-  //   });
-  // }, []);
+  useEffect(() => {
+    // todo fix unmute for video
+    // todo fix video whitespace
+    // console.log(document.querySelector("video").muted); //undefined
+    // var promise = document.querySelector("video").play();
+    // const promise = document.querySelector("video").play();
+    // any click will unmute video
+    // setTimeout(() => {
+    //   document.querySelector("video").muted = false;
+    // }, 200);
+    // document.addEventListener("click", () => {
+    // console.log("click");
+    // document.querySelector("video").play();
+    // });
+    // if (promise !== undefined) {
+    //   promise
+    //     .then((_) => {
+    //       // Autoplay started!
+    //       console.log("autoplay");
+    //     })
+    //     .catch((error) => {
+    //       console.log("click");
+    //       console.log("prevented");
+    //       // Autoplay was prevented.
+    //       // Show a "Play" button so that user can start playback.
+    //     });
+    // }
+  }, []);
 
   return (
     <div className="home">
       {isPlaying === true ? (
         <video
-          // loop
-          muted={true}
-          autoPlay
+          type={"video/mp4"}
           src={landingVideo}
           preload={"auto"}
-          onPlay={() => document.querySelector("video").click()}
-          // onPlay={() => (document.querySelector("video").muted = false)}
-          type={"video/mp4"}
+          muted={true}
+          autoPlay
+          // loop
+          // onLoadedData=
+          // onPlay=
           onEnded={() => setIsPlaying(false)}
         ></video>
       ) : (
+        // onPlay={() => document.querySelector("video").click()}
+        // onPlay={() => (document.querySelector("video").muted = false)}
+        //  onLoadedData={() => {
+        //     setTimeout(() => {
+        //       document.querySelector("video").click();
+        //       document.querySelector("video").play();
+        //       console.log("play");
+        //     }, 1000);
+        //   }}
         <>
           <Header />
           <Navigation />
@@ -116,7 +141,7 @@ export default function Home() {
           </section>
           <Footer />
         </>
-      )}{" "}
+      )}
     </div>
   );
 }
