@@ -1,10 +1,12 @@
 // @mixin orange($orange);
 @import "../Utils/Mixins/Mixins.scss";
+
 // $orange: rgb(246, 74, 30);
 @mixin GOT() {
   font-family: "GameOfThrones";
   font-weight: 700;
 }
+
 html {
   background: black;
 }
@@ -19,7 +21,7 @@ html {
   font-style: normal;
   font-weight: 400;
   font-size: 1.5rem;
-  color: $darkblue;
+  color: $darkBlue;
 
   .sub-text {
     display: flex;
@@ -33,9 +35,11 @@ html {
     padding-bottom: 2rem;
     line-height: 1.45rem;
     text-shadow: 1.45px 1.45px black;
+
     span:first-child {
       padding-right: 17.5%;
     }
+
     span:nth-child(2) {
       padding-right: 8%;
     }

@@ -1,12 +1,14 @@
-@import "../Utils/Mixins/Mixins.scss";
+@import "../../Utils/Mixins/Mixins.scss";
 
 .dropdown {
   position: relative;
+
   .drop-content {
     display: none;
     position: absolute;
     transition: all 3s;
   }
+
   //todo fix dropdown later
   &:hover .drop-content {
     display: flex;
@@ -17,6 +19,7 @@
     transform: translateX(-50%);
     padding: 0.5em 0;
     box-shadow: black 4px 6px;
+
     a {
       width: 80%;
       margin: 0.4em auto;

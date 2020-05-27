@@ -4,7 +4,7 @@ import Header from "../Utils/Header";
 import Navigation from "../Utils/Navigation";
 import Footer from "../Utils/Footer";
 //* Images
-import customDesign from "../../images/custom-design.png";
+import customDesign from "../../images/watercolor-papers.jpg";
 
 export default function CustomWebsiteDesign() {
   return (
