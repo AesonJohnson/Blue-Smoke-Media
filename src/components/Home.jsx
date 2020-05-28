@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 //* Components
 import Navigation from "./Utils/Navigation";
 import Header from "./Utils/Header";
@@ -10,41 +10,11 @@ import blueSmoke from "./../images/blue-smoke.png";
 import landingVideo from "../images/LandingPageVideo.mp4";
 
 export default function Home() {
-  // const [isLoading, setIsLoading] = useState(true);
   const [isPlaying, setIsPlaying] = useState(true);
-
-  useEffect(() => {
-    // todo fix unmute for video
-    // todo fix video whitespace
-    // console.log(document.querySelector("video").muted); //undefined
-    // var promise = document.querySelector("video").play();
-    // const promise = document.querySelector("video").play();
-    // any click will unmute video
-    // setTimeout(() => {
-    //   document.querySelector("video").muted = false;
-    // }, 200);
-    // document.addEventListener("click", () => {
-    // console.log("click");
-    // document.querySelector("video").play();
-    // });
-    // if (promise !== undefined) {
-    //   promise
-    //     .then((_) => {
-    //       // Autoplay started!
-    //       console.log("autoplay");
-    //     })
-    //     .catch((error) => {
-    //       console.log("click");
-    //       console.log("prevented");
-    //       // Autoplay was prevented.
-    //       // Show a "Play" button so that user can start playback.
-    //     });
-    // }
-  }, []);
 
   return (
     <div className="home">
-      {isPlaying === true ? (
+      {JSON.parse(localStorage.getItem("videoPlayed")) === false ? (
         <video
           type={"video/mp4"}
           src={landingVideo}
@@ -54,18 +24,12 @@ export default function Home() {
           // loop
           // onLoadedData=
           // onPlay=
-          onEnded={() => setIsPlaying(false)}
+          onEnded={() => {
+            setIsPlaying(false);
+            localStorage.setItem("videoPlayed", true);
+          }}
         ></video>
       ) : (
-        // onPlay={() => document.querySelector("video").click()}
-        // onPlay={() => (document.querySelector("video").muted = false)}
-        //  onLoadedData={() => {
-        //     setTimeout(() => {
-        //       document.querySelector("video").click();
-        //       document.querySelector("video").play();
-        //       console.log("play");
-        //     }, 1000);
-        //   }}
         <>
           <Header />
           <Navigation />

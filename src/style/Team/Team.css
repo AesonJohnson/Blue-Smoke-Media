@@ -42,6 +42,12 @@
   margin-right: 2.4rem;
 }
 
+.team .team-middle div video {
+  width: 20%;
+  height: 20%;
+  margin-right: 2.4rem;
+}
+
 .team .team-middle div p {
   margin: auto;
 }

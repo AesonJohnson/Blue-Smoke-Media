@@ -27,37 +27,47 @@ import Contact from "./components/Contact";
 //todo learn E-Commerce
 //todo add SEO to website w/ CoBe
 function App() {
+  //! enable video here
+  // localStorage.setItem("videoPlayed", false);
   return (
     <div className="App">
       <Switch>
-        <Route exact path="/" component={Home} />
-        <Route path="/team" component={Team} />
-        {/* //! Web Design Services */}
-        <Route path="/Ad-CopyWriting" component={AdCopyWriting} />
-        <Route path="/customWebsiteDesign" component={CustomWebsiteDesign} />
+        <Route exact path="/" component={Home} />{" "}
+        <Route path="/team" component={Team} /> {/* //! Web Design Services */}{" "}
+        <Route path="/Ad-CopyWriting" component={AdCopyWriting} />{" "}
+        <Route path="/customWebsiteDesign" component={CustomWebsiteDesign} />{" "}
         <Route
           path="/E-CommerceWebsiteDevelopment"
           component={ECommerceWebsiteDevelopment}
-        />
-        <Route path="/inquirySurveyForm" component={InquirySurveyForm} />
-        <Route path="/reDesignAndUpdates" component={ReDesignAndUpdates} />
-        <Route path="/webMaintenance" component={WebMaintenance} />
-        <Route path="/websiteUsability" component={WebsiteUsability} />
-        {/* //! SEO */}
-        <Route path="/seoOrganic" component={OrganicSeo} />
-        <Route path="/seoFriendly" component={SeoFriendly} />
-        {/* //! Graphic Design Services */}
+        />{" "}
+        <Route path="/inquirySurveyForm" component={InquirySurveyForm} />{" "}
+        <Route path="/reDesignAndUpdates" component={ReDesignAndUpdates} />{" "}
+        <Route path="/webMaintenance" component={WebMaintenance} />{" "}
+        <Route path="/websiteUsability" component={WebsiteUsability} />{" "}
+        {/* //! SEO */} <Route path="/seoOrganic" component={OrganicSeo} />{" "}
+        <Route path="/seoFriendly" component={SeoFriendly} />{" "}
+        {/* //! Graphic Design Services */}{" "}
         <Route
           path="/printAndGraphicServices"
           component={PrintAndGraphicServices}
-        />
-        <Route path="/printedMediaLogos" component={PrintedMediaLogos} />
+        />{" "}
+        <Route path="/printedMediaLogos" component={PrintedMediaLogos} />{" "}
         <Route path="/websiteLogoDesign" component={WebsiteLogoDesign} />
+        <Route path="/portfolio" component={Portfolio} />{" "}
+        <Route path="/blog" component={Blog} />{" "}
+        <Route path="/contact" component={Contact} />{" "}
+        <Route component={NoMatch} />{" "}
+      </Switch>{" "}
+    </div>
+  );
+}
 
-        <Route path="/portfolio" component={Portfolio} />
-        <Route path="/blog" component={Blog} />
-        <Route path="/contact" component={Contact} />
-      </Switch>
+function NoMatch({ location }) {
+  return (
+    <div className="error 404">
+      <h3>
+        404 No match for <code> {location.pathname} </code>{" "}
+      </h3>{" "}
     </div>
   );
 }

@@ -7,6 +7,9 @@ import Footer from "./Utils/Footer";
 import team from "../data/team";
 //* Images
 import globe from "../images/globe.jpg";
+import languages from "../images/Coding-Web Development.jpg";
+import seoVid from "../images/SEO-search-engine-optimization-MTT.mp4";
+import womanStudio from "../images/graphic-design-video-MTT.mov";
 
 export default function Team() {
   return (
@@ -27,7 +30,15 @@ export default function Team() {
         </section>
         <section className="team-middle">
           <div>
-            <img src={globe} alt="alternation" />
+            {/* <img src={globe} alt="alternation" /> */}
+            <video
+              // type="video/mp4"
+              src={womanStudio}
+              // preload="auto"
+              // autoPlay
+              // muted="true"
+              // loop
+            ></video>
             <p>
               The <span>Blue Smoke Media</span> design staff consists of graphic
               designers, web designers, logo designers, and usability experts
@@ -35,7 +46,7 @@ export default function Team() {
             </p>
           </div>
           <div>
-            <img src={globe} alt="alternation" />
+            <img src={languages} alt="alternation" />
             {/* //todo fix this paragraph ADD COMPUTER SCIENCE SOMEWHERE} */}
             <p>
               The <span>Blue Smoke Media</span> Full-Stack developers are
@@ -46,7 +57,16 @@ export default function Team() {
             </p>
           </div>
           <div>
-            <img src={globe} alt="alternation" />
+            {/* <img src={globe} alt="alternation" /> */}
+            {/* //todo fix this video rendering */}
+            <video
+              // type="video/mp4"
+              src={seoVid}
+              // preload="auto"
+              // autoPlay
+              // muted="true"
+              // loop
+            ></video>
             <p>
               "The <span>Blue Smoke Media</span> marketing staff consists of
               search engine optimization (SEO) specialists, copywriters,
