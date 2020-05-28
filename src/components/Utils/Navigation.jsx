@@ -25,7 +25,6 @@ export default function Navigation() {
         </NavLink>
         <div className="drop-content">
           <NavLink to="/customWebsiteDesign">Custom Website Design</NavLink>
-          <NavLink to="/reDesignAndUpdates">Re-Design & Updates</NavLink>
           <NavLink to="/E-CommerceWebsiteDevelopment">
             E-Commerce Website Development
           </NavLink>

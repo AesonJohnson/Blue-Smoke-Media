@@ -10,7 +10,6 @@ import AdCopyWriting from "./components/Web Design Services/Ad-CopyWriting";
 import CustomWebsiteDesign from "./components/Web Design Services/CustomWebsiteDesign";
 import ECommerceWebsiteDevelopment from "./components/Web Design Services/E-CommerceWebsiteDevelopment";
 import InquirySurveyForm from "./components/Web Design Services/InquirySurveyForm";
-import ReDesignAndUpdates from "./components/Web Design Services/Re-DesignAndUpdates";
 import WebMaintenance from "./components/Web Design Services/WebMaintenance";
 import WebsiteUsability from "./components/Web Design Services/WebsiteUsability";
 // * SEO
@@ -33,7 +32,7 @@ function App() {
     <div className="App">
       <Switch>
         <Route exact path="/" component={Home} />{" "}
-        <Route path="/team" component={Team} /> {/* //! Web Design Services */}{" "}
+        <Route path="/team" component={Team} />
         <Route path="/Ad-CopyWriting" component={AdCopyWriting} />{" "}
         <Route path="/customWebsiteDesign" component={CustomWebsiteDesign} />{" "}
         <Route
@@ -41,7 +40,6 @@ function App() {
           component={ECommerceWebsiteDevelopment}
         />{" "}
         <Route path="/inquirySurveyForm" component={InquirySurveyForm} />{" "}
-        <Route path="/reDesignAndUpdates" component={ReDesignAndUpdates} />{" "}
         <Route path="/webMaintenance" component={WebMaintenance} />{" "}
         <Route path="/websiteUsability" component={WebsiteUsability} />{" "}
         {/* //! SEO */} <Route path="/seoOrganic" component={OrganicSeo} />{" "}
@@ -51,8 +49,9 @@ function App() {
           path="/printAndGraphicServices"
           component={PrintAndGraphicServices}
         />{" "}
+        {/* //! Web Design Services */}
         <Route path="/printedMediaLogos" component={PrintedMediaLogos} />{" "}
-        <Route path="/websiteLogoDesign" component={WebsiteLogoDesign} />
+        <Route path="/websiteLogoDesign" component={WebsiteLogoDesign} />{" "}
         <Route path="/portfolio" component={Portfolio} />{" "}
         <Route path="/blog" component={Blog} />{" "}
         <Route path="/contact" component={Contact} />{" "}
