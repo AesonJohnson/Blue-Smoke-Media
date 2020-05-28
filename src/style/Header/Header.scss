@@ -12,25 +12,47 @@ header {
 
   img {
     width: 92%;
-    height: 17vh;
+    height: 20vh;
     margin: 4.5% auto 0.978%;
   }
 
   p {
     @include GOT;
-    font-size: 3.765rem;
-    letter-spacing: 4.87px;
+    // font-size: 3.765rem;
+    font-size: 3em;
+    letter-spacing: 5px;
     line-height: 1.2;
-    color: rgb(253, 56, 5);
-    margin: 0.6em auto .35em;
-    -webkit-text-stroke: 0.85px rgb(0, 8, 44);
+    color: $orange;
+    margin: 0.175em auto .35em;
+    -webkit-text-stroke: 0.85px $darkBlue;
+    text-shadow: 5px 5px $darkBlue;
   }
 
   span {
-    margin-top: .6em;
+    margin-top: .9em;
+    font-weight: 700;
+    -webkit-text-stroke: .5px $darkBlue;
+    font-size: 1.05em;
   }
 
-  // .sub-text {
-  //   margin-top: 5em;
-  // }
+  .sub-text {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 1.45rem;
+    text-align: right;
+    letter-spacing: 0.12rem;
+    margin-top: 2.4rem;
+    padding-bottom: 2rem;
+    line-height: 1.45rem;
+    text-shadow: 1.45px 1.45px black;
+
+    span:first-child {
+      padding-right: 14.5%;
+    }
+
+    span:nth-child(2) {
+      padding-right: 5%;
+    }
+  }
 }

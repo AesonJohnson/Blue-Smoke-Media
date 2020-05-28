@@ -22,15 +22,16 @@ footer img {
 }
 
 footer #sub-header {
-  -webkit-text-stroke: 0.85px #00082c;
+  -webkit-text-stroke: 0.85px #0b2673;
+  text-shadow: 5px 5px #0b2673;
 }
 
 footer p {
   font-weight: 600;
   font-size: 3em;
   letter-spacing: 5px;
-  color: #fd3805;
-  margin: 0.25rem auto;
+  color: #f64a1e;
+  margin: 0.175em auto;
 }
 
 footer .bottom {
@@ -68,6 +69,11 @@ footer .bottom .email span {
 
 footer .bottom .email p {
   margin-top: 1rem;
+}
+
+footer .bottom .email p a {
+  color: white;
+  text-decoration: none;
 }
 
 footer .bottom .email .smBtns {

@@ -1,17 +1,73 @@
-.inquiry-survey-form img {
-  width: 100%;
-  height: 60vh;
+.inquiryForm {
+  height: 100%;
 }
 
-.inquiry-survey-form .content {
-  margin: auto 2em;
+.inquiryForm h2 {
+  padding-top: 2em;
+  color: blue;
 }
 
-.inquiry-survey-form .content h1 {
-  margin: 1em auto 0.8em;
+.inquiryForm p {
+  font-style: italic;
+  margin: 1em auto 3em;
 }
 
-.inquiry-survey-form .content p {
+.inquiryForm form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.inquiryForm form label {
+  font-size: 1.2em;
+  margin: .25em auto;
+}
+
+.inquiryForm form label input {
+  margin: auto 0.2em;
+  font-size: .9em;
+}
+
+.inquiryForm form label input[type='radio'] {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.inquiryForm form p {
+  margin: 2em auto 0;
+}
+
+.inquiryForm form .interests {
+  width: 50%;
+  margin: 1em auto .25em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   text-align: left;
+}
+
+.inquiryForm form .interests label {
+  width: 45%;
+}
+
+.inquiryForm form .actions {
+  width: 15%;
+  margin: 1em auto 2em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.inquiryForm form .actions input {
+  font-size: 1.1em;
+  margin: auto;
 }
 /*# sourceMappingURL=InquirySurveyForm.css.map */

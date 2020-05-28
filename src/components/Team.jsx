@@ -6,10 +6,10 @@ import Footer from "./Utils/Footer";
 //* Data
 import team from "../data/team";
 //* Images
-import globe from "../images/globe.jpg";
 import languages from "../images/Coding-Web Development.jpg";
-import seoVid from "../images/SEO-search-engine-optimization-MTT.mp4";
-import womanStudio from "../images/graphic-design-video-MTT.mov";
+import seoVid from "../videos/SEO-search-engine-optimization-MTT.mp4";
+import womanStudio from "../videos/graphic-design-video-MTT.mp4";
+import globeVid from "../videos/local-regional-nationalClients-MTT-globe.mp4";
 
 export default function Team() {
   return (
@@ -25,19 +25,19 @@ export default function Team() {
             individuals from a variety of disciplines, all with over 35 years of
             programming, graphic design, search engine optimization, and sales
             experience. Each <span>Blue Smoke Media</span> team member is a
-            graduate of <a href="https://lambdaschool.com/">LambdaSchool.com</a>
+            graduate of <a href="https://lambdaschool.com/">Lambda School.</a>
           </p>
         </section>
         <section className="team-middle">
           <div>
             {/* <img src={globe} alt="alternation" /> */}
             <video
-              // type="video/mp4"
+              type="video/mp4"
               src={womanStudio}
-              // preload="auto"
-              // autoPlay
+              preload="auto"
+              autoPlay
               // muted="true"
-              // loop
+              loop
             ></video>
             <p>
               The <span>Blue Smoke Media</span> design staff consists of graphic
@@ -50,22 +50,21 @@ export default function Team() {
             {/* //todo fix this paragraph ADD COMPUTER SCIENCE SOMEWHERE} */}
             <p>
               The <span>Blue Smoke Media</span> Full-Stack developers are
-              proficient in the following languages: HTML5 • CSS3 • SASS •
-              Tailwind • Bootstrap • JSON • Javascript • React • Redux • NodeJS
-              • Express • REST • SQL • SQLite • Postgres • UI/UX • Github •
-              Testing (Jest • Cypress)
+              proficient in the following languages, but not limited to: HTML5 •
+              CSS3 • SASS • Tailwind • Bootstrap • JSON • Javascript • Python •
+              React • Redux • NodeJS • Express • REST • SQL • SQLite • Postgres
+              • UI/UX • Github • Testing (Jest • Cypress)
             </p>
           </div>
           <div>
             {/* <img src={globe} alt="alternation" /> */}
-            {/* //todo fix this video rendering */}
             <video
-              // type="video/mp4"
+              type="video/mp4"
               src={seoVid}
-              // preload="auto"
-              // autoPlay
+              preload="auto"
+              autoPlay
               // muted="true"
-              // loop
+              loop
             ></video>
             <p>
               "The <span>Blue Smoke Media</span> marketing staff consists of
@@ -75,7 +74,15 @@ export default function Team() {
             </p>
           </div>
           <div>
-            <img src={globe} alt="alternation" />
+            {/* <img src={globe} alt="alternation" /> */}
+            <video
+              type="video/mp4"
+              src={globeVid}
+              preload="auto"
+              autoPlay
+              // muted="true"
+              loop
+            ></video>
             <p>
               <span> Blue Smoke Digital and Printed Media,</span> enjoys a
               growing roster of local, regional and national clients ranging

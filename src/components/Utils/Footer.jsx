@@ -15,15 +15,25 @@ export default function Footer() {
         <div className="email">
           <span>Email: </span>
           <p>
-            info@BlueSmokeDigitalMedia.com
+            <a href="mailto: info@BlueSmokeDigitalAndPrintedMedia.com">
+              info@BlueSmokeDigitalAndPrintedMedia.com
+            </a>
             <br />
-            CoBe@BlueSmokeDigitalMedia.com
+            <a href="mailto: CoBe@BlueSmokeDigitalAndPrintedMedia.com">
+              CoBe@BlueSmokeDigitalAndPrintedMedia.com
+            </a>
             <br />
-            Braden@BlueSmokeDigitalMedia.com
+            <a href="mailto: Braden@BlueSmokeDigitalAndPrintedMedia.com">
+              Braden@BlueSmokeDigitalAndPrintedMedia.com
+            </a>
             <br />
-            Aeson@BlueSmokeDigitalMedia.com
+            <a href="mailto: Aeson@BlueSmokeDigitalAndPrintedMedia.com">
+              Aeson@BlueSmokeDigitalAndPrintedMedia.com
+            </a>
             <br />
-            AR@BlueSmokeDigitalMedia.com
+            <a href="mailto: AR@BlueSmokeDigitalAndPrintedMedia.com">
+              AR@BlueSmokeDigitalAndPrintedMedia.com
+            </a>
           </p>
           <div className="smBtns">
             <a href="#">
@@ -59,8 +69,8 @@ export default function Footer() {
         </div>
       </div>
       <span>
-        2019 - 2020 Copyright. Blue Smoke Digital and Printed Media / All Rights
-        Reserved
+        2019 - 2020 ©Copyright. Blue Smoke Digital and Printed Media / All
+        Rights Reserved / Tennessee, Utah, Florida, Washington, Idaho
       </span>
     </footer>
   );

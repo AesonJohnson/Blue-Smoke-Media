@@ -7,7 +7,7 @@ import Footer from "./Utils/Footer";
 import silhouette from "./../images/silhouette.png";
 import socialMediaPhone from "./../images/social-media-phone.jpg";
 import blueSmoke from "./../images/blue-smoke.png";
-import landingVideo from "../images/LandingPageVideo.mp4";
+import landingVideo from "../videos/LandingPageVideo.mp4";
 
 export default function Home() {
   const [isPlaying, setIsPlaying] = useState(true);

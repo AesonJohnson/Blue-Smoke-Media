@@ -17,15 +17,16 @@ footer {
   }
 
   #sub-header {
-    -webkit-text-stroke: 0.85px rgb(0, 8, 44);
+    -webkit-text-stroke: 0.85px $darkBlue;
+    text-shadow: 5px 5px $darkBlue;
   }
 
   p {
     font-weight: 600;
     font-size: 3em;
     letter-spacing: 5px;
-    color: rgb(253, 56, 5);
-    margin: 0.25rem auto;
+    color: $orange;
+    margin: 0.175em auto;
     // text-shadow: -0.5px -0.5px white;
   }
 
@@ -58,6 +59,11 @@ footer {
 
       p {
         margin-top: 1rem;
+
+        a {
+          color: white;
+          text-decoration: none;
+        }
       }
 
       .smBtns {

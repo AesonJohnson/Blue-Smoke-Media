@@ -6,21 +6,51 @@ header {
 
 header img {
   width: 92%;
-  height: 17vh;
+  height: 20vh;
   margin: 4.5% auto 0.978%;
 }
 
 header p {
   font-weight: 700;
-  font-size: 3.765rem;
-  letter-spacing: 4.87px;
+  font-size: 3em;
+  letter-spacing: 5px;
   line-height: 1.2;
-  color: #fd3805;
-  margin: 0.6em auto .35em;
-  -webkit-text-stroke: 0.85px #00082c;
+  color: #f64a1e;
+  margin: 0.175em auto .35em;
+  -webkit-text-stroke: 0.85px #0b2673;
+  text-shadow: 5px 5px #0b2673;
 }
 
 header span {
-  margin-top: .6em;
+  margin-top: .9em;
+  font-weight: 700;
+  -webkit-text-stroke: 0.5px #0b2673;
+  font-size: 1.05em;
+}
+
+header .sub-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: white;
+  font-size: 1.45rem;
+  text-align: right;
+  letter-spacing: 0.12rem;
+  margin-top: 2.4rem;
+  padding-bottom: 2rem;
+  line-height: 1.45rem;
+  text-shadow: 1.45px 1.45px black;
+}
+
+header .sub-text span:first-child {
+  padding-right: 14.5%;
+}
+
+header .sub-text span:nth-child(2) {
+  padding-right: 5%;
 }
 /*# sourceMappingURL=Header.css.map */

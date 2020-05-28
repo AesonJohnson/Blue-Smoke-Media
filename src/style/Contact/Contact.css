@@ -1,1 +1,14 @@
-/* No CSS *//*# sourceMappingURL=Contact.css.map */
+.contact {
+  height: 100%;
+}
+
+.contact h2 {
+  padding-top: 2em;
+  color: blue;
+}
+
+.contact p {
+  font-style: italic;
+  margin: 1em auto 3em;
+}
+/*# sourceMappingURL=Contact.css.map */
