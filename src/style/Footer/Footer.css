@@ -37,6 +37,9 @@ footer .bottom {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   width: 100%;
   margin: 2rem auto 0.5rem;
 }
@@ -51,10 +54,41 @@ footer .bottom p {
   padding: 0 10%;
 }
 
+footer .bottom .email {
+  width: 25%;
+  margin-left: 4%;
+  font-weight: 700;
+}
+
+footer .bottom .email span {
+  padding: 0 7%;
+  width: auto;
+  font-size: 1.35em;
+}
+
+footer .bottom .email p {
+  margin-top: 1rem;
+}
+
+footer .bottom .email .smBtns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 1em 8% .25em;
+  width: 120%;
+}
+
+footer .bottom .email .smBtns img {
+  height: 3em;
+  width: 3em;
+}
+
 footer .bottom .contact {
   width: 23%;
-  margin-left: 8rem;
-  padding-left: 1.367rem;
+  margin-right: 14%;
 }
 
 footer .bottom .contact span {
@@ -65,22 +99,6 @@ footer .bottom .contact span {
 }
 
 footer .bottom .contact p {
-  margin-top: 1rem;
-}
-
-footer .bottom .email {
-  width: 25%;
-  margin-left: 2.35rem;
-  font-weight: 700;
-}
-
-footer .bottom .email #email {
-  padding: 0 7%;
-  width: auto;
-  font-size: 1.35em;
-}
-
-footer .bottom .email p {
   margin-top: 1rem;
 }
 

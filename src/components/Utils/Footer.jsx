@@ -13,17 +13,17 @@ export default function Footer() {
       <p id="sub-header">Digital and Printed Media</p>
       <div className="bottom">
         <div className="email">
-          <span id="email">Email: </span>
+          <span>Email: </span>
           <p>
-            info@BlueSmokeMedia.com
+            info@BlueSmokeDigitalMedia.com
             <br />
-            CoBe@BlueSmokeMedia.com
+            CoBe@BlueSmokeDigitalMedia.com
             <br />
-            Braden@BlueSmokeMedia.com
+            Braden@BlueSmokeDigitalMedia.com
             <br />
-            Aeson@BlueSmokeMedia.com
+            Aeson@BlueSmokeDigitalMedia.com
             <br />
-            AR@BlueSmokeMedia.com
+            AR@BlueSmokeDigitalMedia.com
           </p>
           <div className="smBtns">
             <a href="#">
