@@ -15,40 +15,55 @@ export default function Footer() {
         <div className="email">
           <span>Email: </span>
           <p>
-            <a href="mailto: info@BlueSmokeDigitalAndPrintedMedia.com">
+            <a
+              href="mailto: info@BlueSmokeDigitalAndPrintedMedia.com"
+              rel="nofollow noopener noreferrer"
+            >
               info@BlueSmokeDigitalAndPrintedMedia.com
             </a>
             <br />
-            <a href="mailto: CoBe@BlueSmokeDigitalAndPrintedMedia.com">
+            <a
+              href="mailto: CoBe@BlueSmokeDigitalAndPrintedMedia.com"
+              rel="nofollow noopener noreferrer"
+            >
               CoBe@BlueSmokeDigitalAndPrintedMedia.com
             </a>
             <br />
-            <a href="mailto: Braden@BlueSmokeDigitalAndPrintedMedia.com">
+            <a
+              href="mailto: Braden@BlueSmokeDigitalAndPrintedMedia.com"
+              rel="nofollow noopener noreferrer"
+            >
               Braden@BlueSmokeDigitalAndPrintedMedia.com
             </a>
             <br />
-            <a href="mailto: Aeson@BlueSmokeDigitalAndPrintedMedia.com">
+            <a
+              href="mailto: Aeson@BlueSmokeDigitalAndPrintedMedia.com"
+              rel="nofollow noopener noreferrer"
+            >
               Aeson@BlueSmokeDigitalAndPrintedMedia.com
             </a>
             <br />
-            <a href="mailto: AR@BlueSmokeDigitalAndPrintedMedia.com">
+            <a
+              href="mailto: AR@BlueSmokeDigitalAndPrintedMedia.com"
+              rel="nofollow noopener noreferrer"
+            >
               AR@BlueSmokeDigitalAndPrintedMedia.com
             </a>
           </p>
           <div className="smBtns">
-            <a href="#">
+            <a href="#" rel="nofollow noopener noreferrer">
               <img src={youtube} alt="youtube" />
             </a>
-            <a href="#">
+            <a href="#" rel="nofollow noopener noreferrer">
               <img src={twitter} alt="twitter" />
             </a>
-            <a href="#">
+            <a href="#" rel="nofollow noopener noreferrer">
               <img src={linkedIn} alt="linkedIn" />
             </a>
-            <a href="#">
+            <a href="#" rel="nofollow noopener noreferrer">
               <img src={behance} alt="behance" />
             </a>
-            <a href="#">
+            <a href="#" rel="nofollow noopener noreferrer">
               <img src={facebook} alt="facebook" />
             </a>
           </div>

@@ -9,6 +9,10 @@ import socialMediaPhone from "./../images/social-media-phone.jpg";
 import blueSmoke from "./../images/blue-smoke.png";
 import landingVideo from "../videos/LandingPageVideo.mp4";
 
+//todo SEO FOR REACTJS!!!!
+//todo set up google analytics
+//analytics.google.com/analytics/web/provision/#/a168002604p234303565/admin/streams/promo
+//todo implement react helmet
 export default function Home() {
   const [isPlaying, setIsPlaying] = useState(true);
 
