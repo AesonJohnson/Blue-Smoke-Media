@@ -85,8 +85,8 @@ export default function Contact() {
 
   return (
     <>
-      <Header />
-      <Navigation />
+      {/* <Header /> */}
+      {/* <Navigation /> */}{" "}
       <div className="contact">
         <h2>Contact</h2>
         <p>
@@ -96,7 +96,7 @@ export default function Contact() {
           Dicta?
         </p>
       </div>
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 }

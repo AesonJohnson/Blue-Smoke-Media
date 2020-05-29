@@ -9,8 +9,8 @@ import websiteUsability from "../../images/website_design_useability.png";
 export default function WebsiteUsability() {
   return (
     <>
-      <Header />
-      <Navigation />
+      {/* <Header /> */}
+      {/* <Navigation /> */}{" "}
       <div className="website-usability">
         <img src={websiteUsability} alt="this is the SEO" />
         <div className="content">
@@ -63,7 +63,7 @@ export default function WebsiteUsability() {
           </ul>
         </div>
       </div>
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 }

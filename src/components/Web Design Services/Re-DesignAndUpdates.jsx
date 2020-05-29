@@ -9,8 +9,8 @@ import placeholder from "../../images/globe-stretch.png";
 export default function ReDesignAndUpdates() {
   return (
     <>
-      <Header />
-      <Navigation />
+      {/* <Header /> */}
+      {/* <Navigation /> */}{" "}
       <div className="re-design-and-updates">
         <img src={placeholder} alt="this is the SEO" />
         <div className="content">
@@ -18,7 +18,7 @@ export default function ReDesignAndUpdates() {
           <p>lorem</p>
         </div>
       </div>
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 }

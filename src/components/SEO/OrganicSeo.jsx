@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 //* Components
 import Header from "../Utils/Header";
 import Navigation from "../Utils/Navigation";
@@ -8,8 +9,15 @@ import seoBanner from "../../images/seo-banner.png";
 export default function OrganicSeo() {
   return (
     <>
-      <Header />
-      <Navigation />
+      <Helmet>
+        <title>Home</title>
+        <meta
+          name="description"
+          content="This is what you want to show as the page content in the Google SERP Listing"
+        />
+      </Helmet>
+      {/* <Header /> */}
+      {/* <Navigation /> */}{" "}
       <div className="organic-seo">
         <img src={seoBanner} alt="seo" />
         <h2>Organic Search Engine Optimization</h2>
@@ -48,7 +56,7 @@ export default function OrganicSeo() {
           at info@BlueSmokeDigitalMedia.
         </p>
       </div>
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 }

@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 //* Components
 import Header from "../Utils/Header";
 import Navigation from "../Utils/Navigation";
@@ -13,8 +14,15 @@ import coffeeShelf from "../../images/coffee-shelf.png";
 export default function PrintAndDesignGraphicServices() {
   return (
     <>
-      <Header />
-      <Navigation />
+      <Helmet>
+        <title>Print and Graphic design services</title>
+        <meta
+          name="description"
+          content="This is what you want to show as the page content in the Google SERP Listing"
+        />
+      </Helmet>
+      {/*{/* <Header /> */} */}
+      {/* <Navigation /> */}
       <div className="print-and-graphic-design-services">
         <img src={fingersCrossed} alt="Experts" />
         <h1>Print and Graphic Design Services</h1>
@@ -92,7 +100,7 @@ export default function PrintAndDesignGraphicServices() {
           </div>
         </div>
       </div>
-      <Footer />
+      {/*  {/* <Footer /> */}
     </>
   );
 }

@@ -9,8 +9,8 @@ import customDesign from "../../images/watercolor-papers.jpg";
 export default function CustomWebsiteDesign() {
   return (
     <>
-      <Header />
-      <Navigation />
+      {/* <Header /> */}
+      {/* <Navigation /> */}{" "}
       <div className="custom-website-design">
         <img src={customDesign} alt="imageHere" />
         <div className="content">
@@ -58,7 +58,7 @@ export default function CustomWebsiteDesign() {
           </p>
         </div>
       </div>
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 }

@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Helmet } from "react-helmet";
 //* Components
 import Navigation from "./Utils/Navigation";
 import Header from "./Utils/Header";
@@ -13,11 +14,19 @@ import landingVideo from "../videos/LandingPageVideo.mp4";
 //todo set up google analytics
 //analytics.google.com/analytics/web/provision/#/a168002604p234303565/admin/streams/promo
 //todo implement react helmet
+//todo check margins on replaced footer and header components
 export default function Home() {
   const [isPlaying, setIsPlaying] = useState(true);
-
+  //todo set all titles and meta description tags
   return (
     <div className="home">
+      <Helmet>
+        <title>Home</title>
+        <meta
+          name="description"
+          content="This is what you want to show as the page content in the Google SERP Listing"
+        />
+      </Helmet>
       {JSON.parse(localStorage.getItem("videoPlayed")) === false ? (
         <video
           type={"video/mp4"}
@@ -35,8 +44,8 @@ export default function Home() {
         ></video>
       ) : (
         <>
-          <Header />
-          <Navigation />
+          {/* <Header /> */}
+          {/* <Navigation /> */}{" "}
           <section className="globe">
             <p>
               <span>Blue Smoke Digital and Printed Media</span>
@@ -107,7 +116,7 @@ export default function Home() {
               </p>
             </div>
           </section>
-          <Footer />
+          {/* <Footer /> */}
         </>
       )}
     </div>

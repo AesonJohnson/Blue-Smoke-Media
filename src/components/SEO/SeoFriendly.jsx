@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet";
 //* Components
 import Header from "../Utils/Header";
 import Navigation from "../Utils/Navigation";
@@ -10,8 +11,15 @@ import seoPuzzle from "../../images/seo-puzzle.png";
 export default function OrganicSeo() {
   return (
     <>
-      <Header />
-      <Navigation />
+      <Helmet>
+        <title>Home</title>
+        <meta
+          name="description"
+          content="This is what you want to show as the page content in the Google SERP Listing"
+        />
+      </Helmet>
+      {/* <Header /> */}
+      {/* <Navigation /> */}{" "}
       <div className="seo-friendly">
         <img src={seoPuzzle} alt="seo" />
         <div className="wrapper">
@@ -69,7 +77,7 @@ export default function OrganicSeo() {
           </p>
         </div>
       </div>
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 }

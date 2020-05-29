@@ -7,10 +7,9 @@ import Footer from "./Utils/Footer";
 export default function Blog() {
   return (
     <>
-      <Header />
-      <Navigation />
-      <h1>Blog</h1>
-      <Footer />
+      {/* <Header /> */}
+      {/* <Navigation /> */} <h1>Blog</h1>
+      {/* <Footer /> */}
     </>
   );
 }

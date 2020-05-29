@@ -9,8 +9,8 @@ import placeholder from "../../images/globe-stretch.png";
 export default function ECommerceWebsiteDevelopment() {
   return (
     <>
-      <Header />
-      <Navigation />
+      {/* <Header /> */}
+      {/* <Navigation /> */}{" "}
       <div className="e-commerce-website-development">
         <img src={placeholder} alt="this is the SEO" />
         <div className="content">
@@ -18,7 +18,7 @@ export default function ECommerceWebsiteDevelopment() {
           <p>lorem</p>
         </div>
       </div>
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 }

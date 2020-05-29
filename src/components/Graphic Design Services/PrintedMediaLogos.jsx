@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 //* Components
 import Header from "../Utils/Header";
 import Navigation from "../Utils/Navigation";
@@ -9,8 +10,15 @@ import printedMedia from "../../images/printed-media.png";
 export default function PrintedMediaLogos() {
   return (
     <>
-      <Header />
-      <Navigation />
+      <Helmet>
+        <title>Home</title>
+        <meta
+          name="description"
+          content="This is what you want to show as the page content in the Google SERP Listing"
+        />
+      </Helmet>
+      {/*{/* <Header /> */}
+      <Navigation /> */}
       <div className="printed-logos">
         <img src={printedMedia} alt="this is the SEO" />
         <div>
@@ -42,7 +50,7 @@ export default function PrintedMediaLogos() {
           </p>
         </div>
       </div>
-      <Footer />
+      {/*  {/* <Footer /> */}
     </>
   );
 }

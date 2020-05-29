@@ -9,8 +9,8 @@ import websiteMaintenance from "../../images/website-maintenance.jpg";
 export default function WebMaintenance() {
   return (
     <>
-      <Header />
-      <Navigation />
+      {/* <Header /> */}
+      {/* <Navigation /> */}{" "}
       <div className="web-maintenance">
         <img src={websiteMaintenance} alt="bug fixes, updates" />
         <div className="content">
@@ -48,7 +48,7 @@ export default function WebMaintenance() {
           </p>
         </div>
       </div>
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 }

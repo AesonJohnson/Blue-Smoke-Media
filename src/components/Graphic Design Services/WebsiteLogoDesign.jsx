@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 //* Components
 import Header from "../Utils/Header";
 import Navigation from "../Utils/Navigation";
@@ -9,8 +10,15 @@ import logoDesign from "../../images/Website-logo-design-services.png";
 export default function WebsiteLogoDesign() {
   return (
     <>
-      <Header />
-      <Navigation />
+      <Helmet>
+        <title>Home</title>
+        <meta
+          name="description"
+          content="This is what you want to show as the page content in the Google SERP Listing"
+        />
+      </Helmet>
+      {/*{/* <Header /> */} */}
+      {/* <Navigation /> */}{" "}
       <div className="website-logo-design">
         <img src={logoDesign} alt="Logos" />
         <div className="content">
@@ -45,7 +53,7 @@ export default function WebsiteLogoDesign() {
           </p>
         </div>
       </div>
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 }

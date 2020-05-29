@@ -9,8 +9,8 @@ import AdCopyWritingImg from "../../images/ad-copy-writing-image.png";
 export default function AdCopyWriting() {
   return (
     <>
-      <Header />
-      <Navigation />
+      {/* <Header /> */}
+      {/* <Navigation /> */}{" "}
       <div className="ad-copy-writing">
         <img src={AdCopyWritingImg} alt="this is the SEO" />
         <div className="content">
@@ -62,7 +62,7 @@ export default function AdCopyWriting() {
           </p>
         </div>
       </div>
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 }
