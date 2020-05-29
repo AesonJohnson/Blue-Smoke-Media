@@ -16,9 +16,9 @@ export default function Contact() {
     time: "",
     customWebDesign: false,
     reDesignUpdate: false,
-    eCommerce: false,
+    eCommerce: true,
     adCopy: false,
-    webMaintenance: false,
+    webMaintenance: "checked",
     seo: false,
     printLogo: false,
     webLogo: false,
@@ -88,7 +88,7 @@ export default function Contact() {
       <Header />
       <Navigation />
       <div className="inquiryForm">
-        <h2>Inquiry Form</h2>
+        <h1>Inquiry Form</h1>
         <p>
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae
           et neque quae voluptatibus aut, voluptatem ducimus omnis repellat,
@@ -96,101 +96,106 @@ export default function Contact() {
           Dicta?
         </p>
         <form onSubmit={onSubmitHandler}>
-          <label for="company">
-            Company:
-            <input
-              type="text"
-              name="company"
-              id="company"
-              value={data.company}
-              onChange={onChangeHandler}
-            />
-          </label>
-          <label for="fName">
-            First Name:
-            <input
-              type="text"
-              name="fName"
-              id="fName"
-              value={data.fName}
-              onChange={onChangeHandler}
-            />
-          </label>
-          <label for="lName">
-            Last Name:
-            <input
-              type="text"
-              name="lName"
-              id="lName"
-              value={data.lName}
-              onChange={onChangeHandler}
-            />
-          </label>
-          <label for="email">
-            Email:
-            <input
-              name="email"
-              id="email"
-              value={data.email}
-              onChange={onChangeHandler}
-            />
-          </label>
-          <label for="phone">
-            Contact Number:
-            <input
-              name="phone"
-              id="phone"
-              value={data.phone}
-              onChange={onChangeHandler}
-            />
-          </label>
-          <label for="website">
-            Website URL:
-            <input
-              name="website"
-              id="website"
-              value={data.website}
-              onChange={onChangeHandler}
-            />
-          </label>
-          <label for="time">
-            Best Time to be Reached:{" "}
-            <input
-              type="radio"
-              name="time"
-              className="radio"
-              value="morning"
-              onChange={onChangeHandler}
-            />
-            Morning
-            <input
-              type="radio"
-              name="time"
-              className="radio"
-              value="afternoon"
-              onChange={onChangeHandler}
-            />
-            Afternoon
-            <input
-              type="radio"
-              name="time"
-              className="radio"
-              value="evening"
-              onChange={onChangeHandler}
-            />
-            Evening
-          </label>
-
-          <p>Interested in:</p>
-          <div className="interests">
+          <div className="left">
+            <label for="company">
+              Company:
+              <input
+                type="text"
+                name="company"
+                id="company"
+                value={data.company}
+                onChange={onChangeHandler}
+              />
+            </label>
+            <label for="fName">
+              First Name:
+              <input
+                type="text"
+                name="fName"
+                id="fName"
+                value={data.fName}
+                onChange={onChangeHandler}
+              />
+            </label>
+            <label for="lName">
+              Last Name:
+              <input
+                type="text"
+                name="lName"
+                id="lName"
+                value={data.lName}
+                onChange={onChangeHandler}
+              />
+            </label>
+            <label for="email">
+              Email:
+              <input
+                type="text"
+                name="email"
+                id="email"
+                value={data.email}
+                onChange={onChangeHandler}
+              />
+            </label>
+            <label for="phone">
+              Contact Number:
+              <input
+                type="text"
+                name="phone"
+                id="phone"
+                value={data.phone}
+                onChange={onChangeHandler}
+              />
+            </label>
+            <label for="website">
+              Website URL:
+              <input
+                type="text"
+                name="website"
+                id="website"
+                value={data.website}
+                onChange={onChangeHandler}
+              />
+            </label>
+            <label for="time">
+              Best Time to be Reached:{" "}
+              <input
+                type="radio"
+                name="time"
+                className="radio"
+                value="morning"
+                onChange={onChangeHandler}
+              />
+              Morning
+              <input
+                type="radio"
+                name="time"
+                className="radio"
+                value="afternoon"
+                onChange={onChangeHandler}
+              />
+              Afternoon
+              <input
+                type="radio"
+                name="time"
+                className="radio"
+                value="evening"
+                onChange={onChangeHandler}
+              />
+              Evening
+            </label>
+          </div>
+          <h3>Interested in:</h3>
+          <div className="right">
             <label for="customWebDesign">
               <input
                 name="customWebDesign"
                 type="checkbox"
                 checked={data.customWebDesign}
                 onChange={onChangeHandler}
-              />
-              Custom Web Design
+              />{" "}
+              <span class="check-mark"></span>
+              {"  "} Custom Website Design
             </label>
             <label for="reDesignUpdate">
               <input
@@ -199,7 +204,7 @@ export default function Contact() {
                 checked={data.reDesignUpdate}
                 onChange={onChangeHandler}
               />
-              Re-Design And Update
+              {"  "}Re-Design And Update
             </label>
             <label for="eCommerce">
               <input
@@ -208,7 +213,7 @@ export default function Contact() {
                 checked={data.eCommerce}
                 onChange={onChangeHandler}
               />
-              E-Commerce
+              {"  "} E-Commerce
             </label>
             <label for="adCopy">
               <input
@@ -217,7 +222,7 @@ export default function Contact() {
                 checked={data.adCopy}
                 onChange={onChangeHandler}
               />
-              Ad-Copy Writing
+              {"  "} Ad-Copy Writing
             </label>
             <label for="webMaintenance">
               <input
@@ -226,7 +231,7 @@ export default function Contact() {
                 checked={data.webMaintenance}
                 onChange={onChangeHandler}
               />
-              Website Maintenance
+              {"  "} Website Maintenance
             </label>
             <label for="seo">
               <input
@@ -235,7 +240,7 @@ export default function Contact() {
                 checked={data.seo}
                 onChange={onChangeHandler}
               />
-              Seo{" "}
+              {"  "} SEO{" "}
             </label>
             <label for="printLogo">
               <input
@@ -244,7 +249,7 @@ export default function Contact() {
                 checked={data.printLogo}
                 onChange={onChangeHandler}
               />
-              Print Logo{" "}
+              {"  "} Print Logo{" "}
             </label>
             <label for="webLogo">
               <input
@@ -253,7 +258,7 @@ export default function Contact() {
                 checked={data.webLogo}
                 onChange={onChangeHandler}
               />
-              Web Logo
+              {"  "} Website Logo
             </label>
             <label for="blog">
               <input
@@ -262,7 +267,7 @@ export default function Contact() {
                 checked={data.blog}
                 onChange={onChangeHandler}
               />
-              Blog{" "}
+              {"  "} Blog{" "}
             </label>
             <label for="printedMedia">
               <input
@@ -271,7 +276,7 @@ export default function Contact() {
                 checked={data.printedMedia}
                 onChange={onChangeHandler}
               />
-              Printed Media{" "}
+              {"  "} Printed Media{" "}
             </label>
           </div>
           <div className="actions">
