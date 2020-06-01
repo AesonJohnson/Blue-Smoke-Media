@@ -1,0 +1,29 @@
+.website-programming-coding img {
+  width: 100%;
+  height: 60vh;
+  border-top: 2px solid #0b2673;
+  border-bottom: 2px solid #0b2673;
+}
+
+.website-programming-coding .content {
+  margin: auto 2em 2em;
+  text-align: justify;
+}
+
+.website-programming-coding .content .bold {
+  font-weight: bold;
+}
+
+.website-programming-coding .content h2 {
+  padding-left: 1em;
+}
+
+.website-programming-coding .content ul {
+  list-style: none;
+  padding-left: 1.25em;
+}
+
+.website-programming-coding .content ul li {
+  margin: none;
+}
+/*# sourceMappingURL=WebsiteProgrammingCoding.css.map */

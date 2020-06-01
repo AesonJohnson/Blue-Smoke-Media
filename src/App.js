@@ -13,6 +13,7 @@ import CustomWebsiteDesign from "./components/Web Design Services/CustomWebsiteD
 import ECommerceWebsiteDevelopment from "./components/Web Design Services/E-CommerceWebsiteDevelopment";
 import InquirySurveyForm from "./components/Web Design Services/InquirySurveyForm";
 import WebMaintenance from "./components/Web Design Services/WebMaintenance";
+import WebsiteProgrammingCoding from "./components/Web Design Services/WebsiteProgrammingCoding";
 import WebsiteUsability from "./components/Web Design Services/WebsiteUsability";
 // * SEO
 import OrganicSeo from "./components/SEO/OrganicSeo";
@@ -44,16 +45,13 @@ function App() {
           preload={"auto"}
           muted={true}
           autoPlay
-          // loop
-          // onLoadedData=
-          // onPlay=
           onEnded={() => {
             setIsPlaying(false);
             localStorage.setItem(
               "landingVideo",
               JSON.stringify({
                 value: true,
-                expiration: new Date().getTime() + 86400, //24hrs
+                expiration: new Date().getTime() + 86400000, //24hrs
               })
             );
           }}
@@ -76,6 +74,7 @@ function App() {
             />{" "}
             <Route path="/inquirySurveyForm" component={InquirySurveyForm} />{" "}
             <Route path="/webMaintenance" component={WebMaintenance} />{" "}
+            <Route path="/coding" component={WebsiteProgrammingCoding} />{" "}
             <Route path="/websiteUsability" component={WebsiteUsability} />{" "}
             {/* //! SEO */} <Route path="/seoOrganic" component={OrganicSeo} />{" "}
             <Route path="/seoFriendly" component={SeoFriendly} />{" "}
@@ -111,11 +110,11 @@ function NoMatch({ location }) {
 
 function getStorage() {
   const item = JSON.parse(localStorage.getItem("landingVideo"));
+  // console.log(item.expiration, new Date().getTime());
   if (!item || item.expiration < new Date().getTime()) {
     return true;
-  } else {
-    return false;
   }
+  return false;
 }
 
 export default App;

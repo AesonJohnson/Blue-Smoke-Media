@@ -18,6 +18,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "ngrok": "/Users/Braden/Documents/Programming/utils/ngrok http 3000",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {

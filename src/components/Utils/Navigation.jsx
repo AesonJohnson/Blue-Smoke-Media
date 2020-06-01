@@ -28,6 +28,7 @@ export default function Navigation() {
           <NavLink to="/E-CommerceWebsiteDevelopment">
             E-Commerce Website Development
           </NavLink>
+          <NavLink to="/coding">Coding and Programming</NavLink>
           <NavLink to="/websiteUsability">
             Creating Your Website-Useability
           </NavLink>
