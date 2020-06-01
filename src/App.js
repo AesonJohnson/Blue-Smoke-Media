@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 // import "./style/App.css";
 import "./style/_Main.css";
 import { Switch, Route } from "react-router-dom";
@@ -26,43 +26,76 @@ import Portfolio from "./components/Portfolio";
 import Blog from "./components/Blog";
 import Contact from "./components/Contact";
 
+import landingVideo from "./videos/LandingPageVideo.mp4";
 //todo learn E-Commerce
 //todo add SEO to website w/ CoBe
 function App() {
   //! enable video here
+  const [isPlaying, setIsPlaying] = useState(false);
   // localStorage.setItem("videoPlayed", false);
+  useEffect(() => {
+    setIsPlaying(getStorage());
+  }, []);
   return (
     <div className="App">
-      <Header />
-      <Navigation />
-      <Switch>
-        <Route exact path="/" component={Home} />{" "}
-        <Route path="/team" component={Team} />{" "}
-        <Route path="/Ad-CopyWriting" component={AdCopyWriting} />{" "}
-        <Route path="/customWebsiteDesign" component={CustomWebsiteDesign} />{" "}
-        <Route
-          path="/E-CommerceWebsiteDevelopment"
-          component={ECommerceWebsiteDevelopment}
-        />{" "}
-        <Route path="/inquirySurveyForm" component={InquirySurveyForm} />{" "}
-        <Route path="/webMaintenance" component={WebMaintenance} />{" "}
-        <Route path="/websiteUsability" component={WebsiteUsability} />{" "}
-        {/* //! SEO */} <Route path="/seoOrganic" component={OrganicSeo} />{" "}
-        <Route path="/seoFriendly" component={SeoFriendly} />{" "}
-        {/* //! Graphic Design Services */}{" "}
-        <Route
-          path="/printAndGraphicServices"
-          component={PrintAndGraphicServices}
-        />{" "}
-        {/* //! Web Design Services */}{" "}
-        <Route path="/printedMediaLogos" component={PrintedMediaLogos} />{" "}
-        <Route path="/websiteLogoDesign" component={WebsiteLogoDesign} />{" "}
-        <Route path="/portfolio" component={Portfolio} />{" "}
-        <Route path="/blog" component={Blog} />{" "}
-        <Route path="/contact" component={Contact} />{" "}
-        {/* <Route component={NoMatch} />{" "} */}
-      </Switch>{" "}
-      <Footer />
+      {isPlaying ? (
+        <video
+          type={"video/mp4"}
+          src={landingVideo}
+          preload={"auto"}
+          muted={true}
+          autoPlay
+          // loop
+          // onLoadedData=
+          // onPlay=
+          onEnded={() => {
+            setIsPlaying(false);
+            localStorage.setItem(
+              "landingVideo",
+              JSON.stringify({
+                value: true,
+                expiration: new Date().getTime() + 86400, //24hrs
+              })
+            );
+          }}
+        ></video>
+      ) : (
+        <>
+          <Header />
+          <Navigation />
+          <Switch>
+            <Route exact path="/" component={Home} />{" "}
+            <Route path="/team" component={Team} />{" "}
+            <Route path="/Ad-CopyWriting" component={AdCopyWriting} />{" "}
+            <Route
+              path="/customWebsiteDesign"
+              component={CustomWebsiteDesign}
+            />{" "}
+            <Route
+              path="/E-CommerceWebsiteDevelopment"
+              component={ECommerceWebsiteDevelopment}
+            />{" "}
+            <Route path="/inquirySurveyForm" component={InquirySurveyForm} />{" "}
+            <Route path="/webMaintenance" component={WebMaintenance} />{" "}
+            <Route path="/websiteUsability" component={WebsiteUsability} />{" "}
+            {/* //! SEO */} <Route path="/seoOrganic" component={OrganicSeo} />{" "}
+            <Route path="/seoFriendly" component={SeoFriendly} />{" "}
+            {/* //! Graphic Design Services */}{" "}
+            <Route
+              path="/printAndGraphicServices"
+              component={PrintAndGraphicServices}
+            />{" "}
+            {/* //! Web Design Services */}{" "}
+            <Route path="/printedMediaLogos" component={PrintedMediaLogos} />{" "}
+            <Route path="/websiteLogoDesign" component={WebsiteLogoDesign} />{" "}
+            <Route path="/portfolio" component={Portfolio} />{" "}
+            <Route path="/blog" component={Blog} />{" "}
+            <Route path="/contact" component={Contact} />{" "}
+            {/* <Route component={NoMatch} />{" "} */}{" "}
+          </Switch>{" "}
+          <Footer />
+        </>
+      )}
     </div>
   );
 }
@@ -75,6 +108,15 @@ function NoMatch({ location }) {
       </h3>{" "}
     </div>
   );
+}
+
+function getStorage() {
+  const item = JSON.parse(localStorage.getItem("landingVideo"));
+  if (!item || item.expiration < new Date().getTime()) {
+    return true;
+  } else {
+    return false;
+  }
 }
 
 export default App;
