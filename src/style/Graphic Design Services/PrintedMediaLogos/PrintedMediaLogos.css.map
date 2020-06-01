@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AACE,cADY,CACZ,GAAG,CAAC;EACF,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,IAAI;EACZ,UAAU,EAAE,eAAe;EAC3B,aAAa,EAAE,eAAe;CAC/B;;AANH,AASE,cATY,CASZ,CAAC,CAAC;EACA,MAAM,EAAE,OAAO;EACf,UAAU,EAAE,IAAI;CAIjB;;AAfH,AAYI,cAZU,CASZ,CAAC,CAGC,IAAI,CAAC;EACH,SAAS,EAAE,KAAK;CACjB",
+    "sources": [
+        "PrintedMediaLogos.scss"
+    ],
+    "names": [],
+    "file": "PrintedMediaLogos.css"
+}

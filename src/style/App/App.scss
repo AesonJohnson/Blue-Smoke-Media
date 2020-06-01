@@ -1,0 +1,25 @@
+// @mixin orange($orange);
+@import "../Utils/Mixins/Mixins.scss";
+
+// $orange: rgb(246, 74, 30);
+@mixin GOT() {
+  font-family: "GameOfThrones";
+  font-weight: 700;
+}
+
+html {
+  background: black;
+}
+
+//todo globe and socialMedia text on Laptop extreme sizes
+.App {
+  text-align: center;
+  background: #d7dae6;
+  width: 90%;
+  margin: auto;
+  font-family: "poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.5rem;
+  color: $darkBlue;
+}

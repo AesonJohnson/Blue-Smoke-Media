@@ -1,0 +1,43 @@
+.print-and-graphic-design-services img {
+  width: 100.1%;
+  height: 40vh;
+}
+
+.print-and-graphic-design-services h1 {
+  margin: 1em auto 0.6em;
+}
+
+.print-and-graphic-design-services .content p {
+  margin-bottom: 3em;
+  margin: 2em 2em;
+}
+
+.print-and-graphic-design-services .content section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 2rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.print-and-graphic-design-services .content section img {
+  height: 11em;
+  width: 12.5em;
+}
+
+.print-and-graphic-design-services .content section #coffeeShelf {
+  padding-top: 0.5em;
+  height: 14em;
+}
+
+.print-and-graphic-design-services .content section p {
+  text-align: left;
+  line-height: 1.27em;
+}
+
+.print-and-graphic-design-services .content section p span {
+  font-weight: 600;
+}
+/*# sourceMappingURL=PrintAndGraphicServices.css.map */

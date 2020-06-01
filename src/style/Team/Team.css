@@ -1,0 +1,88 @@
+.team {
+  text-align: justify;
+  margin: 3rem 3rem;
+}
+
+.team span {
+  font-weight: 600;
+}
+
+.team .team-top h1 {
+  font-size: 3em;
+  text-align: center;
+  margin-bottom: 3rem;
+  text-shadow: #40a5fb 2px -2.5px;
+}
+
+.team .team-top p a {
+  text-decoration: none;
+}
+
+.team .team-top p a:visited {
+  color: #40a5fb;
+}
+
+.team .team-top p a:hover {
+  color: #f64a1e;
+}
+
+.team .team-middle {
+  margin-top: 4rem;
+}
+
+.team .team-middle div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 2.5rem;
+}
+
+.team .team-middle div img {
+  width: 20%;
+  margin-right: 2.4rem;
+}
+
+.team .team-middle div video {
+  width: 20%;
+  height: 20%;
+  margin-right: 2.4rem;
+}
+
+.team .team-middle div p {
+  margin: auto;
+}
+
+.team .team-bottom {
+  margin-top: 4rem;
+  padding-bottom: 1.75rem;
+}
+
+.team .team-bottom p {
+  margin-bottom: 5rem;
+}
+
+.team .team-bottom .member {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 3rem auto;
+}
+
+.team .team-bottom .member img {
+  width: 15rem;
+  height: 15rem;
+  border-radius: 50%;
+  margin: auto 0rem;
+}
+
+.team .team-bottom .member p {
+  margin: auto;
+  margin-left: 2.4rem;
+  font-size: 1.1em;
+}
+
+.team .team-bottom .member p span {
+  font-size: 1.45em;
+  color: black;
+}
+/*# sourceMappingURL=Team.css.map */

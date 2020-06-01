@@ -1,0 +1,28 @@
+@import "../../Utils/Mixins/Mixins.scss";
+
+.ad-copy-writing {
+  img {
+    width: 100%;
+    height: 60vh;
+  }
+
+  .content {
+    margin: auto 2em 4em;
+
+    h1 {
+      margin: 1.8em auto 1.2em;
+    }
+
+    p {
+      text-align: left;
+
+      span {
+        font-weight: 600;
+      }
+
+      .orange {
+        color: $orange;
+      }
+    }
+  }
+}

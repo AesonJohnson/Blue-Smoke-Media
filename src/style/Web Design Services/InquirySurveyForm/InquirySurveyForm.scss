@@ -1,0 +1,129 @@
+@import "../../Utils/Mixins/Mixins.scss";
+
+.inquiryForm {
+  height: 100%;
+
+  h1 {
+    padding-top: .7em;
+    color: $darkBlue;
+  }
+
+  p {
+    font-style: italic;
+    margin: 1em auto 3em;
+  }
+
+  form {
+
+    .left {
+      display: flex;
+      flex-direction: column;
+      text-align: left;
+      margin: auto 3em;
+
+      label {
+        font-size: 1.2em;
+        margin-top: .25em;
+
+        input[type="text"] {
+          display: flex;
+          margin: .1em auto .2em .5em;
+          font-size: .9em;
+          width: 50%;
+        }
+
+        input[type='radio'] {
+          transform: scale(1.25);
+          margin: auto 1em;
+        }
+      }
+    }
+
+    h3 {
+      text-align: left;
+      margin: 2.5em 3em 1em;
+    }
+
+    .right {
+      margin: auto 3em;
+      // padding-left: 2em;
+      display: flex;
+      flex-wrap: wrap;
+
+      justify-content: space-around;
+
+      label {
+        font-size: 1.2em;
+        text-align: left;
+        width: 45%;
+        margin-bottom: .5em;
+
+        input[type="checkbox"] {
+          // visibility: hidden;
+        }
+
+        .check-mark {
+          position: absolute;
+          top: 0;
+          left: 0;
+          height: 25px;
+          width: 25px;
+          background-color: #eee;
+        }
+
+
+        // input:active~.check-mark {
+        //   background-color: red;
+        // }
+
+        input:checked~.check-mark {
+          background-color: green;
+        }
+
+        .check-mark:after {
+          content: "";
+          position: absolute;
+          display: none;
+        }
+
+        input:checked~.check-mark:after {
+          display: block;
+        }
+
+        .check-mark:after {
+          left: 8px;
+          bottom: 5px;
+          width: 6px;
+          height: 12px;
+          border: solid white;
+          border-width: 0 4px 4px 0;
+          -webkit-transform: rotate(45deg);
+          -ms-transform: rotate(45deg);
+          transform: rotate(45deg);
+        }
+      }
+    }
+
+    .actions {
+      width: 20%;
+      margin: 1em auto 2em;
+      display: flex;
+      justify-content: space-around;
+
+      input {
+        font-size: 1.1em;
+        margin: auto;
+
+        //todo fix this from moving other input around
+        &:hover {
+          // color: $orange;
+          background: $orange;
+          color: white;
+          font-weight: 700;
+          // transform: scale(1.1)
+        }
+
+      }
+    }
+  }
+}

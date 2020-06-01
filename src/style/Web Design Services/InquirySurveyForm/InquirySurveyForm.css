@@ -1,0 +1,124 @@
+.inquiryForm {
+  height: 100%;
+}
+
+.inquiryForm h1 {
+  padding-top: .7em;
+  color: #0b2673;
+}
+
+.inquiryForm p {
+  font-style: italic;
+  margin: 1em auto 3em;
+}
+
+.inquiryForm form .left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: left;
+  margin: auto 3em;
+}
+
+.inquiryForm form .left label {
+  font-size: 1.2em;
+  margin-top: .25em;
+}
+
+.inquiryForm form .left label input[type="text"] {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: .1em auto .2em .5em;
+  font-size: .9em;
+  width: 50%;
+}
+
+.inquiryForm form .left label input[type='radio'] {
+  -webkit-transform: scale(1.25);
+          transform: scale(1.25);
+  margin: auto 1em;
+}
+
+.inquiryForm form h3 {
+  text-align: left;
+  margin: 2.5em 3em 1em;
+}
+
+.inquiryForm form .right {
+  margin: auto 3em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.inquiryForm form .right label {
+  font-size: 1.2em;
+  text-align: left;
+  width: 45%;
+  margin-bottom: .5em;
+}
+
+.inquiryForm form .right label .check-mark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+}
+
+.inquiryForm form .right label input:checked ~ .check-mark {
+  background-color: green;
+}
+
+.inquiryForm form .right label .check-mark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.inquiryForm form .right label input:checked ~ .check-mark:after {
+  display: block;
+}
+
+.inquiryForm form .right label .check-mark:after {
+  left: 8px;
+  bottom: 5px;
+  width: 6px;
+  height: 12px;
+  border: solid white;
+  border-width: 0 4px 4px 0;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.inquiryForm form .actions {
+  width: 20%;
+  margin: 1em auto 2em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.inquiryForm form .actions input {
+  font-size: 1.1em;
+  margin: auto;
+}
+
+.inquiryForm form .actions input:hover {
+  background: #f64a1e;
+  color: white;
+  font-weight: 700;
+}
+/*# sourceMappingURL=InquirySurveyForm.css.map */

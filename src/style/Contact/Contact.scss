@@ -1,0 +1,15 @@
+@import "../Utils/Mixins/Mixins.scss";
+
+.contact {
+  height: 100%;
+
+  h2 {
+    padding-top: 2em;
+    color: blue;
+  }
+
+  p {
+    font-style: italic;
+    margin: 1em auto 3em;
+  }
+}

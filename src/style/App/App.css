@@ -1,0 +1,16 @@
+html {
+  background: black;
+}
+
+.App {
+  text-align: center;
+  background: #d7dae6;
+  width: 90%;
+  margin: auto;
+  font-family: "poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.5rem;
+  color: #0b2673;
+}
+/*# sourceMappingURL=App.css.map */

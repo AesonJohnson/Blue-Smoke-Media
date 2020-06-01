@@ -1,0 +1,27 @@
+@import "../../Utils/Mixins/Mixins.scss";
+
+.website-logo-design {
+  img {
+    width: 100%;
+    height: 50vh;
+  }
+
+  .content {
+    margin: 2em 3em 4em;
+
+    h1 {
+      font-size: 2em;
+      margin: 1.2em auto;
+    }
+
+    p {
+      text-align: left;
+      font-size: 1.05em;
+      margin-top: 1.5em;
+
+      span {
+        font-weight: 600;
+      }
+    }
+  }
+}

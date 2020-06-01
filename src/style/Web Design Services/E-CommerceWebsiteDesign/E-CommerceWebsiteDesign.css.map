@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AACE,+BAD6B,CAC7B,GAAG,CAAC;EACF,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,IAAI;CACb;;AAJH,AAME,+BAN6B,CAM7B,QAAQ,CAAC;EACP,MAAM,EAAE,QAAQ;CASjB;;AAhBH,AASI,+BAT2B,CAM7B,QAAQ,CAGN,EAAE,CAAC;EACD,MAAM,EAAE,cAAc;CACvB;;AAXL,AAaI,+BAb2B,CAM7B,QAAQ,CAON,CAAC,CAAC;EACA,UAAU,EAAE,IAAI;CACjB",
+    "sources": [
+        "E-CommerceWebsiteDesign.scss",
+        "../../Utils/Mixins/Mixins.scss"
+    ],
+    "names": [],
+    "file": "E-CommerceWebsiteDesign.css"
+}

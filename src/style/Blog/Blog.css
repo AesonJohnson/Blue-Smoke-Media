@@ -1,0 +1,17 @@
+.blog img {
+  width: 100%;
+  height: 60vh;
+}
+
+.blog .content {
+  margin: auto 2em;
+}
+
+.blog .content h1 {
+  margin: 1em auto 0.8em;
+}
+
+.blog .content p {
+  text-align: left;
+}
+/*# sourceMappingURL=Blog.css.map */

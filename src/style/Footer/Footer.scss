@@ -1,0 +1,109 @@
+@import "../Utils/Mixins/Mixins.scss";
+
+footer {
+  background-image: url("../../images/blue-background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: left;
+  border-top: 0.65rem solid $orange;
+
+  img {
+    width: 92%;
+    height: 20vh;
+    margin: 5% auto 1%;
+  }
+
+  #sub-header {
+    -webkit-text-stroke: 0.85px $darkBlue;
+    text-shadow: 5px 5px $darkBlue;
+  }
+
+  p {
+    font-weight: 600;
+    font-size: 3em;
+    letter-spacing: 5px;
+    color: $orange;
+    margin: 0.175em auto;
+    // text-shadow: -0.5px -0.5px white;
+  }
+
+  .bottom {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 2rem auto 0.5rem;
+
+    p {
+      color: white;
+      font-family: poppins, sans-serif;
+      font-weight: normal;
+      font-size: 1em;
+      letter-spacing: 1px;
+      text-align: justify;
+      padding: 0 10%;
+    }
+
+    .email {
+      width: 25%;
+      margin-left: 4%;
+      font-weight: 700;
+
+      span {
+        padding: 0 7%;
+        width: auto;
+        font-size: 1.35em;
+      }
+
+      p {
+        margin-top: 1rem;
+
+        a {
+          color: white;
+          text-decoration: none;
+        }
+      }
+
+      .smBtns {
+        display: flex;
+        justify-content: space-between;
+        margin: 1em 8% .25em;
+        width: 120%;
+
+        img {
+          height: 3em;
+          width: 3em;
+          // margin: .25em;
+        }
+      }
+    }
+
+    .contact {
+      width: 23%;
+      margin-right: 14%;
+      // padding-left: 1.367rem;
+
+      span {
+        color: white;
+        font-size: 1.35em;
+        text-align: justify;
+        padding: 0 7%;
+      }
+
+      p {
+        margin-top: 1rem;
+      }
+    }
+
+
+  }
+
+  span {
+    color: white;
+    font-size: 0.8rem;
+    font-weight: 700;
+    margin: 1.5rem auto 0.75rem;
+  }
+}

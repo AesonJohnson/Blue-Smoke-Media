@@ -1,0 +1,209 @@
+.home video {
+  width: 100%;
+  height: 100%;
+}
+
+.home .globe {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  background: url("../../images/globe-stretch-new.png");
+  background-size: 101% 101%;
+  background-repeat: no-repeat;
+  height: 55vh;
+  min-width: 80%;
+}
+
+.home .globe p {
+  text-align: center;
+  font-weight: normal;
+  padding-top: 1rem;
+  width: 40%;
+  height: 35%;
+  margin: auto;
+  margin-right: 55%;
+  color: white;
+}
+
+.home .globe p span {
+  font-size: 1.4em;
+  font-weight: bold;
+  color: #40a5fb;
+}
+
+.home .silhouette {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 3.9rem 1.5rem;
+}
+
+.home .silhouette img {
+  width: 50%;
+  height: 100%;
+  margin: auto 0.4rem;
+  border-radius: 5%;
+}
+
+.home .silhouette p {
+  width: 44%;
+  margin: auto;
+  text-align: justify;
+  padding: 1.4rem;
+}
+
+.home .silhouette p span {
+  font-size: 1.125em;
+  color: #40a5fb;
+}
+
+.home .social-media {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  padding: 0 1.5rem;
+  margin-bottom: 2.7rem;
+}
+
+.home .social-media img {
+  width: 50%;
+  height: 40vh;
+  margin-bottom: 1.5rem;
+  border-radius: 5%;
+}
+
+.home .social-media .content {
+  width: 50%;
+  margin: 5% auto;
+  text-align: justify;
+}
+
+.home .social-media .content p {
+  width: 80%;
+  margin: 0px auto 7%;
+}
+
+.home .social-media .content p :first-child {
+  color: #f64a1e;
+}
+
+.home .social-media .content span {
+  text-decoration: underline;
+  color: #1e92f6;
+}
+
+.home .mission {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 120%;
+  padding: 0 1.5rem;
+  margin-bottom: 5%;
+}
+
+.home .mission .left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: url("../../images/man-background.png");
+  background-size: 105% 105%;
+  width: 50%;
+  color: white;
+  border: #0b2673 2px ridge;
+  border-radius: 5%;
+}
+
+.home .mission .left p {
+  padding: 22% 17%;
+  line-height: 1.75em;
+  font-size: 1.2em;
+  text-align: justify;
+  margin: auto 3%;
+}
+
+.home .mission .right {
+  background: url("../../images/trees-background.png");
+  background-size: 100% 140%;
+  background-position-y: 10%;
+  background-repeat: no-repeat;
+  width: 50%;
+  margin-left: 2.65rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border: #0b2673 2px ridge;
+  border-radius: 5%;
+}
+
+.home .mission .right img {
+  width: 70%;
+  height: 10%;
+  margin: 3em auto 0.125rem;
+}
+
+.home .mission .right h4 {
+  font-size: 1.5em;
+  color: #f64a1e;
+  text-shadow: 2px 2px #1d1d1d;
+  margin: 0.7em auto 0px;
+}
+
+.home .mission .right p {
+  font-size: 1.25em;
+  margin-top: 0.15rem;
+  color: #0b2672;
+}
+
+.home .mission .right ul {
+  width: 72.5%;
+  margin: 1.5rem auto;
+  list-style: none;
+  text-align: left;
+  padding: 0.5rem;
+  padding-left: 1rem;
+}
+
+.home .mission .right ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: left;
+  line-height: 1.3em;
+  color: #0b2672;
+  font-size: 1.2em;
+  margin-bottom: 0.78rem;
+}
+
+.home .mission .right ul ::before {
+  content: "*";
+  color: #f64a1e;
+  margin-right: 0.8%;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  text-shadow: 0.75px 0.75px #1d1d1d;
+}
+
+.home .mission .right h3 {
+  font-size: 1.4em;
+  color: #f64a1e;
+  text-shadow: 2px 2px #1d1d1d;
+  margin: 0.85rem auto 0.25rem;
+}
+
+.home .mission .right #contact {
+  width: 85%;
+  margin: 0 auto 3.5rem;
+}
+/*# sourceMappingURL=Home.css.map */

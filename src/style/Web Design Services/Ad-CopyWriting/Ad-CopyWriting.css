@@ -1,0 +1,25 @@
+.ad-copy-writing img {
+  width: 100%;
+  height: 60vh;
+}
+
+.ad-copy-writing .content {
+  margin: auto 2em 4em;
+}
+
+.ad-copy-writing .content h1 {
+  margin: 1.8em auto 1.2em;
+}
+
+.ad-copy-writing .content p {
+  text-align: left;
+}
+
+.ad-copy-writing .content p span {
+  font-weight: 600;
+}
+
+.ad-copy-writing .content p .orange {
+  color: #f64a1e;
+}
+/*# sourceMappingURL=Ad-CopyWriting.css.map */
