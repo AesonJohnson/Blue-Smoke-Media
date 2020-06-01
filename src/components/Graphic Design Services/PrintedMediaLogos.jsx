@@ -1,9 +1,9 @@
 import React from "react";
 import { Helmet } from "react-helmet";
 //* Components
-import Header from "../Utils/Header";
-import Navigation from "../Utils/Navigation";
-import Footer from "../Utils/Footer";
+// import Header from "../Utils/Header";
+// import Navigation from "../Utils/Navigation";
+// import Footer from "../Utils/Footer";
 //* Images
 import printedMedia from "../../images/printed-media.png";
 
@@ -18,7 +18,7 @@ export default function PrintedMediaLogos() {
         />
       </Helmet>
       {/*{/* <Header /> */}
-      <Navigation /> */}
+      {/* <Navigation /> */}
       <div className="printed-logos">
         <img src={printedMedia} alt="this is the SEO" />
         <div>

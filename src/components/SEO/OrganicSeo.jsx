@@ -1,16 +1,16 @@
 import React from "react";
 import { Helmet } from "react-helmet";
 //* Components
-import Header from "../Utils/Header";
-import Navigation from "../Utils/Navigation";
-import Footer from "../Utils/Footer";
+// import Header from "../Utils/Header";
+// import Navigation from "../Utils/Navigation";
+// import Footer from "../Utils/Footer";
 import seoBanner from "../../images/seo-banner.png";
 
 export default function OrganicSeo() {
   return (
     <>
       <Helmet>
-        <title>Home</title>
+        <title>Organic Seo</title>
         <meta
           name="description"
           content="This is what you want to show as the page content in the Google SERP Listing"

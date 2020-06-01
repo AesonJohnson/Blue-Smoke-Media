@@ -1,8 +1,8 @@
 import React from "react";
 //* Components
-import Header from "../Utils/Header";
-import Navigation from "../Utils/Navigation";
-import Footer from "../Utils/Footer";
+// import Header from "../Utils/Header";
+// import Navigation from "../Utils/Navigation";
+// import Footer from "../Utils/Footer";
 //* Images
 import websiteMaintenance from "../../images/website-maintenance.jpg";
 

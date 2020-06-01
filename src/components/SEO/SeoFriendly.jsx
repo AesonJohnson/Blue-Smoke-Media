@@ -2,9 +2,9 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet";
 //* Components
-import Header from "../Utils/Header";
-import Navigation from "../Utils/Navigation";
-import Footer from "../Utils/Footer";
+// import Header from "../Utils/Header";
+// import Navigation from "../Utils/Navigation";
+// import Footer from "../Utils/Footer";
 //* Images
 import seoPuzzle from "../../images/seo-puzzle.png";
 

@@ -1,9 +1,9 @@
 import React from "react";
 import { Helmet } from "react-helmet";
 //* Components
-import Header from "../Utils/Header";
-import Navigation from "../Utils/Navigation";
-import Footer from "../Utils/Footer";
+// import Header from "../Utils/Header";
+// import Navigation from "../Utils/Navigation";
+// import Footer from "../Utils/Footer";
 //* Images
 import logoDesign from "../../images/Website-logo-design-services.png";
 
