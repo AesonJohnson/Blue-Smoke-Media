@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-// import "./style/App.css";
 import "./style/_Main.css";
 import { Switch, Route } from "react-router-dom";
 //* components
