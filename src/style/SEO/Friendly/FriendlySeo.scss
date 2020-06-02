@@ -3,39 +3,56 @@
 .seo-friendly {
   color: rgb(13, 41, 113);
   text-align: justify;
+
   img {
     width: 100%;
     height: 70vh;
+    border-bottom: 2px outset $darkBlue;
   }
+
   .wrapper {
     margin: 0 1.5rem;
 
-    .top {
-      font-size: 2rem;
-      display: flex;
-      flex-direction: column;
+    // .top {
+    //   font-size: 2rem;
+    //   display: flex;
+    //   flex-direction: column;
+    //   text-align: center;
+    //   margin: 1rem auto;
+    //   line-height: 1.2rem;
+
+    //   span:first-child {
+    //     margin-right: 48%;
+    //     padding-bottom: 1rem;
+    //   }
+
+    //   span:nth-child(2) {
+    //     margin-left: 48%;
+    //   }
+    // }
+    h1 {
       text-align: center;
-      margin: 1rem auto;
-      line-height: 1.2rem;
-      span:first-child {
-        margin-right: 48%;
-        padding-bottom: 1rem;
-      }
-      span:nth-child(2) {
-        margin-left: 48%;
-      }
+      margin: 1.25em auto;
     }
+
     p {
       a {
         text-decoration: none;
+
         span {
           font-weight: 600;
         }
       }
+
+      &:last-child {
+        margin-bottom: 2.2em;
+      }
     }
+
     h4 {
       font-size: 1.25em;
     }
+
     #contact {
       color: $orange;
     }

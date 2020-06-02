@@ -17,7 +17,7 @@ export default function WebsiteLogoDesign() {
           content="This is what you want to show as the page content in the Google SERP Listing"
         />
       </Helmet>
-      {/*{/* <Header /> */} */}
+      {/*{/* <Header /> */}
       {/* <Navigation /> */}{" "}
       <div className="website-logo-design">
         <img src={logoDesign} alt="Logos" />

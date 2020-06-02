@@ -44,8 +44,8 @@ export default function ECommerceWebsiteDevelopment() {
             two business Web sites are exactly alike - nor should they be.{" "}
           </p>{" "}
           <p>
-            E - commerce is no exception.Sure, the concept is the same(to sell a
-            product), but selling your product in the most efficient, cost -
+            E - commerce is no exception. Sure, the concept is the same(to sell
+            a product), but selling your product in the most efficient, cost -
             effective manner is what’ s going to help you grow, out - perform
             and out - last your competitors.{" "}
             <span

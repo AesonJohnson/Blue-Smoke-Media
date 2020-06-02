@@ -15,6 +15,7 @@
     height: 55vh;
     min-width: 80%;
     // margin: 3rem auto;
+    border-bottom: 2px solid $darkBlue;
 
     p {
       // font-size: 1.25rem;
@@ -45,7 +46,8 @@
       width: 50%;
       height: 100%;
       margin: auto 0.4rem;
-      // box-shadow: 7px 5px 5px rgb(153, 153, 153);
+      box-shadow: 9px 7px 5px rgb(153, 153, 153);
+      border: 1px solid $darkBlue;
       border-radius: 5%;
     }
 
@@ -73,7 +75,9 @@
       height: 40vh;
       margin-bottom: 1.5rem;
       // box-shadow: -6px -4.5px 4px rgb(153, 153, 153);
+      box-shadow: 9px 7px 5px rgb(153, 153, 153);
       border-radius: 5%;
+      border: 1px solid $darkBlue;
       // todo fix rounded corners
     }
 

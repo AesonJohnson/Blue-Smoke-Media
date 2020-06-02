@@ -5,6 +5,8 @@ nav {
   height: 11.5vh;
   min-height: 3em;
   background: $orange;
+  border-top: 2px solid $darkBlue;
+  border-bottom: 2px solid $darkBlue;
 
   div {
     margin: auto;

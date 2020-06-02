@@ -5,6 +5,8 @@ nav {
   height: 11.5vh;
   min-height: 3em;
   background: #f64a1e;
+  border-top: 2px solid #0b2673;
+  border-bottom: 2px solid #0b2673;
 }
 
 nav div {

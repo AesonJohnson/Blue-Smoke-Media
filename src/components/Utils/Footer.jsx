@@ -3,6 +3,7 @@ import blueSmoke from "../../images/blue-smoke.png";
 import youtube from "../../images/youTube.png";
 import twitter from "../../images/Twitter.png";
 import linkedIn from "../../images/linkedIn_social_media_button.png";
+import instagram from "../../images/instagram.png";
 import behance from "../../images/Behance.png";
 import facebook from "../../images/faceBook.png";
 
@@ -59,6 +60,9 @@ export default function Footer() {
             </a>
             <a href="#" rel="nofollow noopener noreferrer">
               <img src={linkedIn} alt="linkedIn" />
+            </a>
+            <a href="#" rel="nofollow noopener noreferrer">
+              <img src={instagram} alt="instagram" />
             </a>
             <a href="#" rel="nofollow noopener noreferrer">
               <img src={behance} alt="behance" />

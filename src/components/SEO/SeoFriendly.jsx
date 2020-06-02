@@ -23,10 +23,12 @@ export default function OrganicSeo() {
       <div className="seo-friendly">
         <img src={seoPuzzle} alt="seo" />
         <div className="wrapper">
-          <div className="top">
-            <span>Search Engine Friendly Web Design...</span>
-            <span>...and Search Engine Optimization</span>
-          </div>
+          {/* <div className="top"> */}
+          <h1>
+            Search Engine Friendly Web Design <br />
+            and Search Engine Optimization
+          </h1>
+          {/* </div> */}
           <h2>
             First, what is search engine friendly web design and search engine
             optimization?

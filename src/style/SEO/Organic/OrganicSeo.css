@@ -6,17 +6,23 @@
 .organic-seo img {
   width: 100%;
   height: 40vh;
+  border-bottom: 2px outset #0b2673;
 }
 
 .organic-seo h2 {
   text-align: center;
+  margin: 1.25em auto;
 }
 
 .organic-seo p {
-  margin: 0 1.5rem;
+  margin: .5em 1.5em;
+}
+
+.organic-seo p:last-child {
+  margin-bottom: 2em;
 }
 
 .organic-seo span {
-  font-size: 1.1rem;
+  font-weight: 600;
 }
 /*# sourceMappingURL=OrganicSeo.css.map */

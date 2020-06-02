@@ -1,8 +1,7 @@
 .website-programming-coding img {
   width: 100%;
   height: 60vh;
-  border-top: 2px solid #0b2673;
-  border-bottom: 2px solid #0b2673;
+  border-bottom: 2px outset #0b2673;
 }
 
 .website-programming-coding .content {
