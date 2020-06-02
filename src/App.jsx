@@ -22,7 +22,7 @@ import SeoFriendly from "./components/SEO/SeoFriendly";
 import PrintAndGraphicServices from "./components/Graphic Design Services/PrintAndGraphicServices";
 import PrintedMediaLogos from "./components/Graphic Design Services/PrintedMediaLogos";
 import WebsiteLogoDesign from "./components/Graphic Design Services/WebsiteLogoDesign";
-import Portfolio from "./components/Portfolio";
+// import Portfolio from "./components/Portfolio";
 import Blog from "./components/Blog";
 import Contact from "./components/Contact";
 
