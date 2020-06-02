@@ -64,9 +64,9 @@ export default function Navigation() {
         </div>
       </div>
 
-      <div className="dropdown">
+      {/* <div className="dropdown">
         <NavLink to="/portfolio">Portfolio</NavLink>
-      </div>
+      </div> */}
 
       <div className="dropdown">
         <NavLink to="/blog">Blog</NavLink>

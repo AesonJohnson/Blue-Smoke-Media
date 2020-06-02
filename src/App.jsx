@@ -38,6 +38,7 @@ function App() {
   }, []);
   return (
     <div className="App">
+      {" "}
       {isPlaying ? (
         <video
           type={"video/mp4"}
@@ -86,14 +87,14 @@ function App() {
             {/* //! Web Design Services */}{" "}
             <Route path="/printedMediaLogos" component={PrintedMediaLogos} />{" "}
             <Route path="/websiteLogoDesign" component={WebsiteLogoDesign} />{" "}
-            <Route path="/portfolio" component={Portfolio} />{" "}
+            {/* <Route path="/portfolio" component={Portfolio} />{" "} */}{" "}
             <Route path="/blog" component={Blog} />{" "}
             <Route path="/contact" component={Contact} />{" "}
             {/* <Route component={NoMatch} />{" "} */}{" "}
           </Switch>{" "}
           <Footer />
         </>
-      )}
+      )}{" "}
     </div>
   );
 }
