@@ -10,9 +10,21 @@
   text-align: left;
 }
 
+@media (min-width: 800px) {
+  .custom-website-design .content {
+    margin: 2em 2em 3em;
+  }
+}
+
 .custom-website-design .content h1 {
   text-align: center;
   margin-bottom: 1.5em;
+}
+
+@media (min-width: 800px) {
+  .custom-website-design .content h1 {
+    margin-bottom: 1.1em;
+  }
 }
 
 .custom-website-design .content ol {

@@ -30,9 +30,10 @@ export default function WebsiteProgrammingCoding() {
           <p>
             Allow us to help you navigate all these issues. We can work with
             your I.T. department in developing your code or integrating
-            applications as well. Ask Blue Smoke Digital Media to be your Web
-            department. It is beneficial to break down the abstract concept of
-            web technology into four subsections:{" "}
+            applications as well. Ask{" "}
+            <span className="bold">Blue Smoke Digital Media</span> to be your
+            Web department. It is beneficial to break down the abstract concept
+            of web technology into four subsections:{" "}
             <span
               style={{
                 fontStyle: "italic",

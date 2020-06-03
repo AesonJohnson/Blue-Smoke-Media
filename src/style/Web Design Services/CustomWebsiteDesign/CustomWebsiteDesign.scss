@@ -13,9 +13,17 @@
     margin: 2em 2em 4em;
     text-align: left;
 
+    @include breakpoint(laptop) {
+      margin: 2em 2em 3em;
+    }
+
     h1 {
       text-align: center;
       margin-bottom: 1.5em;
+
+      @include breakpoint(laptop) {
+        margin-bottom: 1.1em;
+      }
     }
 
     ol {

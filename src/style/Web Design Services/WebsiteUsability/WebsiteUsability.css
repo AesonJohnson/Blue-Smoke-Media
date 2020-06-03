@@ -15,6 +15,12 @@
   margin: 1.45em auto;
 }
 
+@media (min-width: 800px) {
+  .website-usability .content h1 {
+    margin: 1.1em auto;
+  }
+}
+
 .website-usability .content p span {
   font-weight: 600;
 }

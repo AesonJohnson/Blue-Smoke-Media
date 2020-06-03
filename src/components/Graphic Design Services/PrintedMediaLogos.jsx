@@ -30,13 +30,11 @@ export default function PrintedMediaLogos() {
             identities are the result of a process that remains flexible while
             at the same time building a brand. Looking for a unique image to
             represent your corporate identity? Or do you just need to modify
-            your current logo for your web site? At
-            <span>
-              your current logo for your web site? At Blue Smoke Printed and
-              Digital Media, your current logo for your web site? At
-            </span>
-            we create logos that capture the essence of your business, leaving
-            impact for both print and web display.
+            your current logo for your web site? At your current logo for your
+            web site? At <span>Blue Smoke Digital and Printed Media,</span> your
+            current logo for your web site? At we create logos that capture the
+            essence of your business, leaving impact for both print and web
+            display.
           </p>
           <p>
             If you’re looking for a new logo or redesigning your current one for
@@ -45,8 +43,9 @@ export default function PrintedMediaLogos() {
             and high-resolution (print) graphic images. If you are interested in
             the prospect for a new logo, a redesign of your current logo or are
             in need of a total corporate identity, please complete the
-            information request form. A representative will contact you within
-            24 hours of receipt of your request.
+            information request form. A representative will{" "}
+            <a href="contact">contact </a>you within 24 hours of receipt of your
+            request.
           </p>
         </div>
       </div>

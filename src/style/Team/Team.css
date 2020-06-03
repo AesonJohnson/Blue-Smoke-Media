@@ -69,16 +69,29 @@
 }
 
 .team .team-bottom .member img {
-  width: 15rem;
-  height: 15rem;
+  width: 10em;
+  height: 10em;
   border-radius: 50%;
   margin: auto 0rem;
 }
 
+@media (min-width: 800px) {
+  .team .team-bottom .member img {
+    width: 8em;
+    height: 8em;
+  }
+}
+
 .team .team-bottom .member p {
   margin: auto;
-  margin-left: 2.4rem;
+  margin-left: 1.5em;
   font-size: 1.1em;
+}
+
+@media (min-width: 800px) {
+  .team .team-bottom .member p {
+    font-size: 1em;
+  }
 }
 
 .team .team-bottom .member p span {

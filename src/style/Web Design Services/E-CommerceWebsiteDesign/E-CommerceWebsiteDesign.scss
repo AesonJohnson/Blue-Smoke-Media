@@ -6,14 +6,17 @@
     height: 65vh;
     // border-top: 2px solid $darkBlue;
     border-bottom: 2px outset $darkBlue;
-
   }
 
   .content {
-    margin: auto 2em;
+    margin: auto 2em 2em;
 
     h1 {
       margin: 1em auto 0.8em;
+
+      @include breakpoint(laptop) {
+        margin: .8em auto 0;
+      }
     }
 
     p {

@@ -77,6 +77,7 @@ export default function Footer() {
           <p>
             Blue Smoke Media
             <br />
+            {/* //todo get PO box number */}
             P.O. BOX /// <br />
             Erwin, TN 37650
             <br />

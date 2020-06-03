@@ -1,7 +1,19 @@
+@media (min-width: 800px) {
+  .printed-logos {
+    margin-bottom: 2.125em;
+  }
+}
+
 .printed-logos img {
   width: 100%;
   height: 60vh;
   border-bottom: 2px solid #0b2673;
+}
+
+@media (min-width: 800px) {
+  .printed-logos h1 {
+    margin: 1.1em auto;
+  }
 }
 
 .printed-logos p {
@@ -9,7 +21,23 @@
   text-align: left;
 }
 
+@media (min-width: 800px) {
+  .printed-logos p {
+    margin: 1em 2em 1.2em;
+  }
+}
+
 .printed-logos p span {
-  font-size: 1.1em;
+  font-weight: 600;
+}
+
+.printed-logos p a {
+  text-decoration: none;
+  color: #0b2673;
+  font-weight: 600;
+}
+
+.printed-logos p a:hover {
+  color: #f64a1e;
 }
 /*# sourceMappingURL=PrintedMediaLogos.css.map */

@@ -7,3 +7,37 @@ $darkBlue: #0b2673;
   font-family: "GameOfThrones";
   font-weight: 700;
 }
+
+@mixin breakpoint($size) {
+  @if $size==mobile {
+    @media (max-width: 480px) {
+      @content;
+    }
+  }
+
+  @else if $size==tablet {
+    @media (min-width: 481px) {
+      @content;
+    }
+  }
+
+  //laptop
+  @else if $size==laptop {
+    @media (min-width: 800px) {
+      @content;
+    }
+  }
+
+  //monitor
+  @else if $size==desktop {
+    @media (min-width: 1450px) {
+      @content;
+    }
+  }
+
+  @else if $size==desktop-lg {
+    @media (min-width: 2250px) {
+      @content;
+    }
+  }
+}

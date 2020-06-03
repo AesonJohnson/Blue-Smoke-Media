@@ -33,6 +33,16 @@
     h1 {
       text-align: center;
       margin: 1.25em auto;
+
+      @include breakpoint(laptop) {
+        margin: 1.2em auto;
+      }
+    }
+
+    h2 {
+      @include breakpoint(laptop) {
+        font-size: 1.35em;
+      }
     }
 
     p {
@@ -51,6 +61,10 @@
 
     h4 {
       font-size: 1.25em;
+
+      @include breakpoint(laptop) {
+        margin-bottom: 0;
+      }
     }
 
     #contact {

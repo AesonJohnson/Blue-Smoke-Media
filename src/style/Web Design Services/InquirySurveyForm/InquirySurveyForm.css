@@ -111,6 +111,12 @@
       justify-content: space-around;
 }
 
+@media (min-width: 800px) {
+  .inquiryForm form .actions {
+    margin: 1.2em auto 2em;
+  }
+}
+
 .inquiryForm form .actions input {
   font-size: 1.1em;
   margin: auto;

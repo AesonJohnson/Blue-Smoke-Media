@@ -4,7 +4,11 @@
   img {
     width: 100.1%;
     height: 40vh;
-    margin-bottom: 2px solid $darkBlue;
+    border-bottom: 2px solid $darkBlue;
+
+    @include breakpoint(laptop) {
+      height: 45vh;
+    }
   }
 
   h1 {
@@ -27,10 +31,18 @@
         width: 12.5em;
       }
 
+      #eagle {
+        height: 9.75em;
+      }
+
       #coffeeShelf {
         padding-top: 0.5em;
         height: 14em;
+
         // width: 12em;
+        @include breakpoint(laptop) {
+          height: 16em;
+        }
       }
 
       p {

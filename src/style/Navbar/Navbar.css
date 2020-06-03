@@ -9,6 +9,12 @@ nav {
   border-bottom: 2px solid #0b2673;
 }
 
+@media (min-width: 800px) {
+  nav {
+    height: 11vh;
+  }
+}
+
 nav div {
   margin: auto;
 }
@@ -22,6 +28,12 @@ nav div a {
   transition: 0.47s;
   -webkit-text-stroke: 1px #190b32;
   font-weight: 500;
+}
+
+@media (min-width: 800px) {
+  nav div a {
+    font-size: 1.05em;
+  }
 }
 
 nav div a:hover {

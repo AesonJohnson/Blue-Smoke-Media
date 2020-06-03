@@ -68,7 +68,7 @@ export default function PrintAndDesignGraphicServices() {
                 </p>
               </section>
               <section>
-                <img src={eagle} alt="eagle" />{" "}
+                <img src={eagle} alt="eagle" id="eagle" />{" "}
                 <p>
                   <span>Trust - </span>Respect leads to Trust and Trust is
                   priceless. Design plays a very important part in establishing

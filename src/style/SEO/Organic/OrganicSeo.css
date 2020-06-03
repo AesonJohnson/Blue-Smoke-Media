@@ -9,6 +9,12 @@
   border-bottom: 2px outset #0b2673;
 }
 
+@media (min-width: 800px) {
+  .organic-seo img {
+    height: 45vh;
+  }
+}
+
 .organic-seo h2 {
   text-align: center;
   margin: 1.25em auto;

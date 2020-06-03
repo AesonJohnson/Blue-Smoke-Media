@@ -1,5 +1,6 @@
 import React from "react";
 import blueSmoke from "../../images/blue-smoke.png";
+// import blueSmoke from "../../images/background_image_w_flame-BSlogo-only.png";
 
 export default function Header() {
   return (

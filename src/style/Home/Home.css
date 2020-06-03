@@ -1,3 +1,10 @@
+@charset "UTF-8";
+@media (min-width: 800px) {
+  .home {
+    margin-bottom: 3.1em;
+  }
+}
+
 .home video {
   width: 100%;
   height: 100%;
@@ -28,6 +35,13 @@
   margin: auto;
   margin-right: 55%;
   color: white;
+}
+
+@media (min-width: 800px) {
+  .home .globe p {
+    margin-top: 5%;
+    padding-top: 0;
+  }
 }
 
 .home .globe p span {
@@ -61,7 +75,7 @@
 }
 
 .home .silhouette p span {
-  font-size: 1.125em;
+  font-weight: 600;
   color: #40a5fb;
 }
 
@@ -93,6 +107,12 @@
   text-align: justify;
 }
 
+@media (min-width: 800px) {
+  .home .social-media .content {
+    margin-top: .25em;
+  }
+}
+
 .home .social-media .content p {
   width: 80%;
   margin: 0px auto 7%;
@@ -100,11 +120,13 @@
 
 .home .social-media .content p :first-child {
   color: #f64a1e;
+  font-weight: 500;
 }
 
 .home .social-media .content span {
   text-decoration: underline;
   color: #1e92f6;
+  font-weight: 600;
 }
 
 .home .mission {
@@ -136,6 +158,13 @@
   margin: auto 3%;
 }
 
+@media (min-width: 800px) {
+  .home .mission .left p {
+    font-size: 1.1em;
+    padding: 2% 12%;
+  }
+}
+
 .home .mission .right {
   background: url("../../images/trees-background.png");
   background-size: 100% 140%;
@@ -160,6 +189,13 @@
   margin: 3em auto 0.125rem;
 }
 
+@media (min-width: 800px) {
+  .home .mission .right img {
+    width: 72%;
+    height: 8%;
+  }
+}
+
 .home .mission .right h4 {
   font-size: 1.5em;
   color: #f64a1e;
@@ -167,10 +203,22 @@
   margin: 0.7em auto 0px;
 }
 
+@media (min-width: 800px) {
+  .home .mission .right h4 {
+    font-size: 1.4em;
+  }
+}
+
 .home .mission .right p {
   font-size: 1.25em;
   margin-top: 0.15rem;
   color: #0b2672;
+}
+
+@media (min-width: 800px) {
+  .home .mission .right p {
+    font-size: 1em;
+  }
 }
 
 .home .mission .right ul {
@@ -191,22 +239,35 @@
   color: #0b2672;
   font-size: 1.2em;
   margin-bottom: 0.78rem;
+  font-weight: 600;
+}
+
+@media (min-width: 800px) {
+  .home .mission .right ul li {
+    font-size: .95em;
+    line-height: 1.2em;
+  }
 }
 
 .home .mission .right ul ::before {
-  content: "*";
+  content: "»";
+  font-size: 1.2em;
   color: #f64a1e;
-  margin-right: 0.8%;
+  margin-right: 1%;
   -ms-flex-line-pack: center;
       align-content: center;
   text-shadow: 0.75px 0.75px #1d1d1d;
 }
 
 .home .mission .right h3 {
-  font-size: 1.4em;
+  margin: 0.5em auto .6em;
+}
+
+.home .mission .right h3 a {
+  text-decoration: none;
+  font-size: 1.2em;
   color: #f64a1e;
   text-shadow: 2px 2px #1d1d1d;
-  margin: 0.85rem auto 0.25rem;
 }
 
 .home .mission .right #contact {

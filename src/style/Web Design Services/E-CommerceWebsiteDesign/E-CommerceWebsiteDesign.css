@@ -5,11 +5,17 @@
 }
 
 .e-commerce-website-development .content {
-  margin: auto 2em;
+  margin: auto 2em 2em;
 }
 
 .e-commerce-website-development .content h1 {
   margin: 1em auto 0.8em;
+}
+
+@media (min-width: 800px) {
+  .e-commerce-website-development .content h1 {
+    margin: .8em auto 0;
+  }
 }
 
 .e-commerce-website-development .content p {

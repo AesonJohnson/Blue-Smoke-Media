@@ -1,5 +1,6 @@
 @import "../Utils/Mixins/Mixins.scss";
 
+
 .team {
   text-align: justify;
   margin: 3rem 3rem;
@@ -71,16 +72,25 @@
       margin: 3rem auto;
 
       img {
-        width: 15rem;
-        height: 15rem;
+        width: 10em;
+        height: 10em;
         border-radius: 50%;
         margin: auto 0rem;
+
+        @include breakpoint(laptop) {
+          width: 8em;
+          height: 8em;
+        }
       }
 
       p {
         margin: auto;
-        margin-left: 2.4rem;
+        margin-left: 1.5em;
         font-size: 1.1em;
+
+        @include breakpoint(laptop) {
+          font-size: 1em;
+        }
 
         span {
           font-size: 1.45em;

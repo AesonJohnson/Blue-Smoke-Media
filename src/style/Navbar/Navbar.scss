@@ -1,5 +1,6 @@
 @import "../Utils/Mixins/Mixins.scss";
 
+
 nav {
   display: flex;
   height: 11.5vh;
@@ -7,6 +8,10 @@ nav {
   background: $orange;
   border-top: 2px solid $darkBlue;
   border-bottom: 2px solid $darkBlue;
+
+  @include breakpoint(laptop) {
+    height: 11vh;
+  }
 
   div {
     margin: auto;
@@ -20,6 +25,10 @@ nav {
       transition: 0.47s;
       -webkit-text-stroke: 1px rgb(25, 11, 50);
       font-weight: 500;
+
+      @include breakpoint(laptop) {
+        font-size: 1.05em;
+      }
 
       &:hover {
         color: rgb(245, 214, 210);

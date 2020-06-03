@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Helmet } from "react-helmet";
+import { Link } from "react-router-dom";
 //* Components
 import Navigation from "./Utils/Navigation";
 import Header from "./Utils/Header";
@@ -61,7 +62,7 @@ export default function Home() {
           <p>
             <span>Bottom Line:</span> Consumer recognition increases consumer
             confidence, which in turn, increases sales. What do your customers
-            see... <span>...Are You Sure?</span>
+            see... &nbsp; <span>...Are You Sure?</span>
           </p>
         </div>
       </section>
@@ -87,7 +88,9 @@ export default function Home() {
             <li>Custom Tailored to YOUR Companies Objectives and Budget.</li>
             <li>Focus on Your Results.</li>
           </ul>
-          <h3>Contact Blue Smoke Media</h3>
+          <h3>
+            <Link to="contact">Contact Blue Smoke Media</Link>
+          </h3>
           <p id="contact">
             today and request a free consultation or quote. A friendly associate
             will get back to you within 24 hours to discuss your project in

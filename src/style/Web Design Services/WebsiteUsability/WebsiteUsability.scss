@@ -16,6 +16,10 @@
     h1 {
       text-align: center;
       margin: 1.45em auto;
+
+      @include breakpoint(laptop) {
+        margin: 1.1em auto;
+      }
     }
 
     p {

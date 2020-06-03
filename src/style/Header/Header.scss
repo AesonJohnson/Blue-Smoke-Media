@@ -1,12 +1,14 @@
 @import "../Utils/Mixins/Mixins.scss";
 
+
 @mixin GOT() {
   // font-family: "GameOfThrones";
   font-weight: 700;
 }
 
 header {
-  background-image: url("../../images/blue-background.png");
+  // background-image: url("../../images/blue-background.png");
+  background-image: url("../../images/background_image_w_flame-only.png");
   background-size: cover;
   background-repeat: no-repeat;
 
@@ -14,6 +16,11 @@ header {
     width: 92%;
     height: 20vh;
     margin: 4.5% auto 0.978%;
+
+    @include breakpoint(laptop) {
+      width: 80%;
+      margin: 4.5% auto .1% 17%;
+    }
   }
 
   p {
@@ -26,6 +33,13 @@ header {
     margin: 0.175em auto .35em;
     -webkit-text-stroke: 0.85px $darkBlue;
     text-shadow: 5px 5px $darkBlue;
+
+    @include breakpoint(laptop) {
+      font-size: 2.45em;
+      text-shadow: 4px 4px $darkBlue;
+      margin-left: 17%;
+      letter-spacing: 4px;
+    }
   }
 
   span {
@@ -39,7 +53,7 @@ header {
     display: flex;
     flex-direction: column;
     color: white;
-    font-size: 1.45rem;
+    font-size: .98em;
     text-align: right;
     letter-spacing: 0.12rem;
     margin-top: 2.4rem;
@@ -47,12 +61,18 @@ header {
     line-height: 1.45rem;
     text-shadow: 1.45px 1.45px black;
 
+    @include breakpoint(laptop) {
+      // font-size: 1.4em;
+    }
+
     span:first-child {
       padding-right: 14.5%;
+      margin-top: 1.25em;
     }
 
     span:nth-child(2) {
       padding-right: 5%;
+      margin-bottom: .5em;
     }
   }
 }

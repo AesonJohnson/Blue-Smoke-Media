@@ -18,6 +18,18 @@
   margin: 1.25em auto;
 }
 
+@media (min-width: 800px) {
+  .seo-friendly .wrapper h1 {
+    margin: 1.2em auto;
+  }
+}
+
+@media (min-width: 800px) {
+  .seo-friendly .wrapper h2 {
+    font-size: 1.35em;
+  }
+}
+
 .seo-friendly .wrapper p a {
   text-decoration: none;
 }
@@ -32,6 +44,12 @@
 
 .seo-friendly .wrapper h4 {
   font-size: 1.25em;
+}
+
+@media (min-width: 800px) {
+  .seo-friendly .wrapper h4 {
+    margin-bottom: 0;
+  }
 }
 
 .seo-friendly .wrapper #contact {
