@@ -13,4 +13,11 @@ html {
   font-size: 1.5rem;
   color: #0b2673;
 }
+
+@media (max-width: 480px) {
+  .App {
+    width: 100%;
+    font-size: 1.12rem;
+  }
+}
 /*# sourceMappingURL=App.css.map */

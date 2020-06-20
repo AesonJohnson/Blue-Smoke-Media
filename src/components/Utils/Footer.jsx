@@ -51,26 +51,6 @@ export default function Footer() {
               AR@BlueSmokeDigitalAndPrintedMedia.com
             </a>
           </p>
-          <div className="smBtns">
-            <a href="#" rel="nofollow noopener noreferrer">
-              <img src={youtube} alt="youtube" />
-            </a>
-            <a href="#" rel="nofollow noopener noreferrer">
-              <img src={twitter} alt="twitter" />
-            </a>
-            <a href="#" rel="nofollow noopener noreferrer">
-              <img src={linkedIn} alt="linkedIn" />
-            </a>
-            <a href="#" rel="nofollow noopener noreferrer">
-              <img src={instagram} alt="instagram" />
-            </a>
-            <a href="#" rel="nofollow noopener noreferrer">
-              <img src={behance} alt="behance" />
-            </a>
-            <a href="#" rel="nofollow noopener noreferrer">
-              <img src={facebook} alt="facebook" />
-            </a>
-          </div>
         </div>
         <div className="contact">
           <span>Contact:</span>
@@ -87,6 +67,38 @@ export default function Footer() {
             801.690.1189
           </p>
         </div>
+      </div>
+      <div className="smBtns">
+        <a href="#" rel="nofollow noopener noreferrer">
+          <img src={youtube} alt="youtube" />
+        </a>
+        <a href="#" rel="nofollow noopener noreferrer">
+          <img src={twitter} alt="twitter" />
+        </a>
+        <a href="#" rel="nofollow noopener noreferrer">
+          <img src={linkedIn} alt="linkedIn" />
+        </a>
+        {/* <script
+              src="https://platform.linkedin.com/in.js"
+              type="text/javascript"
+            >
+              {" "}
+              lang: en_US
+            </script>
+            <script
+              type="IN/FollowCompany"
+              data-id="1337"
+              data-counter="bottom"
+            ></script> */}
+        <a href="#" rel="nofollow noopener noreferrer">
+          <img src={instagram} alt="instagram" />
+        </a>
+        <a href="#" rel="nofollow noopener noreferrer">
+          <img src={behance} alt="behance" />
+        </a>
+        <a href="#" rel="nofollow noopener noreferrer">
+          <img src={facebook} alt="facebook" />
+        </a>
       </div>
       <span>
         2019 - 2020 ©Copyright. Blue Smoke Digital and Printed Media / All

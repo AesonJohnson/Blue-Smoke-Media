@@ -26,6 +26,13 @@
   border-bottom: 2px solid #0b2673;
 }
 
+@media (max-width: 480px) {
+  .home .globe {
+    height: 30vh;
+    background-size: 124%;
+  }
+}
+
 .home .globe p {
   text-align: center;
   font-weight: normal;
@@ -44,10 +51,27 @@
   }
 }
 
+@media (max-width: 480px) {
+  .home .globe p {
+    width: 90%;
+    height: 80%;
+    margin: 6% 30% auto 2%;
+    padding: 0;
+    text-align: left;
+    line-height: 1.25em;
+  }
+}
+
 .home .globe p span {
   font-size: 1.4em;
   font-weight: bold;
   color: #40a5fb;
+}
+
+@media (max-width: 480px) {
+  .home .globe p span {
+    font-size: 1em;
+  }
 }
 
 .home .silhouette {
@@ -55,6 +79,12 @@
   display: -ms-flexbox;
   display: flex;
   padding: 3.9rem 1.5rem;
+}
+
+@media (max-width: 480px) {
+  .home .silhouette {
+    padding: 2rem 1.5rem;
+  }
 }
 
 .home .silhouette img {
@@ -67,11 +97,24 @@
   border-radius: 5%;
 }
 
+@media (max-width: 480px) {
+  .home .silhouette img {
+    display: none;
+  }
+}
+
 .home .silhouette p {
   width: 44%;
   margin: auto;
   text-align: justify;
   padding: 1.4rem;
+}
+
+@media (max-width: 480px) {
+  .home .silhouette p {
+    width: 100%;
+    padding: 0;
+  }
 }
 
 .home .silhouette p span {
@@ -91,6 +134,14 @@
   margin-bottom: 2.7rem;
 }
 
+@media (max-width: 480px) {
+  .home .social-media {
+    display: inline-block;
+    padding: 0;
+    margin-bottom: 2rem;
+  }
+}
+
 .home .social-media img {
   width: 50%;
   height: 40vh;
@@ -99,6 +150,16 @@
           box-shadow: 9px 7px 5px #999999;
   border-radius: 5%;
   border: 1px solid #0b2673;
+}
+
+@media (max-width: 480px) {
+  .home .social-media img {
+    width: 100%;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    margin-bottom: 1rem;
+  }
 }
 
 .home .social-media .content {
@@ -113,6 +174,14 @@
   }
 }
 
+@media (max-width: 480px) {
+  .home .social-media .content {
+    margin: 0;
+    width: 90%;
+    padding: 1.4rem 1.4rem 0;
+  }
+}
+
 .home .social-media .content p {
   width: 80%;
   margin: 0px auto 7%;
@@ -123,10 +192,22 @@
   font-weight: 500;
 }
 
+@media (max-width: 480px) {
+  .home .social-media .content p {
+    width: 100%;
+  }
+}
+
 .home .social-media .content span {
   text-decoration: underline;
   color: #1e92f6;
   font-weight: 600;
+}
+
+@media (max-width: 480px) {
+  .home .social-media .content span {
+    text-decoration: none;
+  }
 }
 
 .home .mission {
@@ -136,6 +217,12 @@
   height: 120%;
   padding: 0 1.5rem;
   margin-bottom: 5%;
+}
+
+@media (max-width: 480px) {
+  .home .mission {
+    display: inline-block;
+  }
 }
 
 .home .mission .left {
@@ -150,6 +237,12 @@
   border-radius: 5%;
 }
 
+@media (max-width: 480px) {
+  .home .mission .left {
+    width: 100%;
+  }
+}
+
 .home .mission .left p {
   padding: 22% 17%;
   line-height: 1.75em;
@@ -162,6 +255,13 @@
   .home .mission .left p {
     font-size: 1.1em;
     padding: 2% 12%;
+  }
+}
+
+@media (max-width: 480px) {
+  .home .mission .left p {
+    padding: 20% 10%;
+    font-size: 1em;
   }
 }
 
@@ -183,6 +283,14 @@
   border-radius: 5%;
 }
 
+@media (max-width: 480px) {
+  .home .mission .right {
+    width: 100%;
+    margin: 0;
+    margin-top: 5%;
+  }
+}
+
 .home .mission .right img {
   width: 70%;
   height: 10%;
@@ -193,6 +301,12 @@
   .home .mission .right img {
     width: 72%;
     height: 8%;
+  }
+}
+
+@media (max-width: 480px) {
+  .home .mission .right img {
+    height: 50%;
   }
 }
 
@@ -230,6 +344,12 @@
   padding-left: 1rem;
 }
 
+@media (max-width: 480px) {
+  .home .mission .right ul {
+    margin: 0 auto;
+  }
+}
+
 .home .mission .right ul li {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -246,6 +366,12 @@
   .home .mission .right ul li {
     font-size: .95em;
     line-height: 1.2em;
+  }
+}
+
+@media (max-width: 480px) {
+  .home .mission .right ul li {
+    font-size: 1em;
   }
 }
 
@@ -273,5 +399,11 @@
 .home .mission .right #contact {
   width: 85%;
   margin: 0 auto 3.5rem;
+}
+
+@media (max-width: 480px) {
+  .home .mission .right #contact {
+    font-size: 1.2em;
+  }
 }
 /*# sourceMappingURL=Home.css.map */

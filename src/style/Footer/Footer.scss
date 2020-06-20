@@ -15,6 +15,10 @@ footer {
     width: 92%;
     height: 20vh;
     margin: 5% auto 1%;
+
+    @include breakpoint(mobile) {
+      height: 10vh;
+    }
   }
 
   #sub-header {
@@ -24,6 +28,12 @@ footer {
     @include breakpoint(laptop) {
       font-size: 2.75em;
     }
+
+    @include breakpoint(mobile) {
+      font-size: 1.2em;
+      text-shadow: 2px 2px $darkBlue;
+    }
+
   }
 
   p {
@@ -41,6 +51,11 @@ footer {
     width: 100%;
     margin: 2rem auto 0.5rem;
 
+    @include breakpoint(mobile) {
+      flex-direction: row-reverse;
+    }
+
+
     p {
       color: white;
       font-family: poppins, sans-serif;
@@ -49,40 +64,10 @@ footer {
       letter-spacing: 1px;
       text-align: justify;
       padding: 0 10%;
-    }
 
-    .email {
-      width: 50%;
-      margin-left: 4%;
-      font-weight: 700;
-
-      span {
-        padding: 0 7%;
-        width: auto;
-        font-size: 1.35em;
-      }
-
-      p {
-        margin-top: 1rem;
-
-        a {
-          color: white;
-          text-decoration: none;
-        }
-      }
-
-      .smBtns {
-        display: flex;
-        justify-content: space-between;
-        margin: 1em 8% .25em;
-        width: 100%;
-
-
-        img {
-          height: 3em;
-          width: 3em;
-          // margin: .25em;
-        }
+      @include breakpoint(mobile) {
+        padding: 0;
+        text-align: left;
       }
     }
 
@@ -96,12 +81,22 @@ footer {
         margin-right: 8%;
       }
 
+      @include breakpoint(mobile) {
+        margin-right: 0;
+        width: 35%;
+        margin-left: .8em;
+      }
+
+
       span {
         color: white;
         font-size: 1.35em;
         text-align: justify;
         padding: 0 7%;
 
+        @include breakpoint(mobile) {
+          display: none;
+        }
       }
 
       p {
@@ -110,16 +105,89 @@ footer {
         @include breakpoint(laptop) {
           text-align: left;
         }
+
+        @include breakpoint(mobile) {
+          margin: 0;
+
+        }
+
       }
+    }
+  }
+
+  .email {
+    width: 50%;
+    margin-left: 4%;
+    font-weight: 700;
+
+    @include breakpoint(mobile) {
+      // display: none;
+      // font-size: .8em;
+      // margin-left: 2%;
     }
 
 
+    span {
+      padding: 0 7%;
+      width: auto;
+      font-size: 1.35em;
+
+      @include breakpoint(mobile) {
+        display: none;
+      }
+
+    }
+
+    p {
+      margin-top: 1rem;
+
+      a {
+        color: white;
+        text-decoration: none;
+      }
+    }
+
   }
 
+  .smBtns {
+    display: flex;
+    justify-content: space-between;
+    margin: 1em 8% .25em;
+    width: 100%;
+
+    @include breakpoint(mobile) {
+      width: 80%;
+      margin: .8em auto 0;
+
+    }
+
+
+    img {
+      height: 3em;
+      width: 3em;
+
+      // margin: .25em;
+      @include breakpoint(mobile) {
+        height: 2em;
+        width: 2em;
+      }
+
+    }
+  }
+
+
+  //copy
   span {
     color: white;
     font-size: 0.8rem;
     font-weight: 700;
     margin: 1.5rem auto 0.75rem;
+
+    @include breakpoint(mobile) {
+      margin: 1.5rem auto .2rem;
+      text-align: center;
+      color: darkgrey;
+    }
+
   }
 }
