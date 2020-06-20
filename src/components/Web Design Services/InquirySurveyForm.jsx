@@ -224,7 +224,7 @@ export default function Contact() {
                 type="checkbox"
                 checked={data.adCopy}
                 onChange={onChangeHandler}
-              />
+              />˝
               {"  "} Ad-Copy Writing
             </label>
             <label for="webMaintenance">
