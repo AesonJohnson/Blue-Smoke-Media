@@ -158,33 +158,35 @@ export default function Contact() {
                 onChange={onChangeHandler}
               />
             </label>
-            <label for="time">
-              Best Time to be Reached:{" "}
-              <input
-                type="radio"
-                name="time"
-                className="radio"
-                value="morning"
-                onChange={onChangeHandler}
-              />
-              Morning
-              <input
-                type="radio"
-                name="time"
-                className="radio"
-                value="afternoon"
-                onChange={onChangeHandler}
-              />
-              Afternoon
-              <input
-                type="radio"
-                name="time"
-                className="radio"
-                value="evening"
-                onChange={onChangeHandler}
-              />
-              Evening
-            </label>
+            <div className="time">
+              <label for="time">Best Time to be Reached: </label>
+              <div>
+                <input
+                  type="radio"
+                  name="time"
+                  className="radio"
+                  value="morning"
+                  onChange={onChangeHandler}
+                />
+                Morning
+                <input
+                  type="radio"
+                  name="time"
+                  className="radio"
+                  value="afternoon"
+                  onChange={onChangeHandler}
+                />
+                Afternoon
+                <input
+                  type="radio"
+                  name="time"
+                  className="radio"
+                  value="evening"
+                  onChange={onChangeHandler}
+                />
+                Evening
+              </div>
+            </div>
           </div>
           <h3>Interested in:</h3>
           <div className="right">

@@ -12,6 +12,12 @@
   margin: 1em auto 3em;
 }
 
+@media (max-width: 480px) {
+  .inquiryForm p {
+    display: none;
+  }
+}
+
 .inquiryForm form .left {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -24,9 +30,21 @@
   margin: auto 3em;
 }
 
+@media (max-width: 480px) {
+  .inquiryForm form .left {
+    margin: auto 1em;
+  }
+}
+
 .inquiryForm form .left label {
   font-size: 1.2em;
   margin-top: .25em;
+}
+
+@media (max-width: 480px) {
+  .inquiryForm form .left label {
+    font-size: 1.05em;
+  }
 }
 
 .inquiryForm form .left label input[type="text"] {
@@ -38,15 +56,52 @@
   width: 50%;
 }
 
-.inquiryForm form .left label input[type='radio'] {
+@media (max-width: 480px) {
+  .inquiryForm form .left label input[type="text"] {
+    width: 95%;
+    margin: .1em auto .2em .5em;
+  }
+}
+
+.inquiryForm form .left .time {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+@media (max-width: 480px) {
+  .inquiryForm form .left .time label {
+    text-align: center;
+    margin: .3em auto .15em;
+  }
+}
+
+@media (max-width: 480px) {
+  .inquiryForm form .left .time div {
+    margin: auto;
+    width: 75%;
+  }
+}
+
+.inquiryForm form .left .time div input[type='radio'] {
+  margin: auto 1em;
   -webkit-transform: scale(1.25);
           transform: scale(1.25);
-  margin: auto 1em;
 }
 
 .inquiryForm form h3 {
   text-align: left;
   margin: 2.5em 3em 1em;
+}
+
+@media (max-width: 480px) {
+  .inquiryForm form h3 {
+    margin: 1.5em 1em 1em;
+  }
 }
 
 .inquiryForm form .right {
@@ -60,11 +115,25 @@
       justify-content: space-around;
 }
 
+@media (max-width: 480px) {
+  .inquiryForm form .right {
+    margin: auto 2em;
+  }
+}
+
 .inquiryForm form .right label {
   font-size: 1.2em;
   text-align: left;
   width: 45%;
   margin-bottom: .5em;
+}
+
+@media (max-width: 480px) {
+  .inquiryForm form .right label {
+    font-size: 1em;
+    margin-bottom: .6em;
+    width: 48%;
+  }
 }
 
 .inquiryForm form .right label .check-mark {
@@ -113,6 +182,13 @@
 
 @media (min-width: 800px) {
   .inquiryForm form .actions {
+    margin: 1.2em auto 2em;
+  }
+}
+
+@media (max-width: 480px) {
+  .inquiryForm form .actions {
+    width: 50%;
     margin: 1.2em auto 2em;
   }
 }

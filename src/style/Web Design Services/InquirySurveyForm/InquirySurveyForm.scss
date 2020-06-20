@@ -11,37 +11,81 @@
   p {
     font-style: italic;
     margin: 1em auto 3em;
+
+    @include breakpoint(mobile) {
+      display: none;
+    }
   }
 
   form {
-
     .left {
       display: flex;
       flex-direction: column;
       text-align: left;
       margin: auto 3em;
 
+      @include breakpoint(mobile) {
+        margin: auto 1em;
+      }
+
       label {
         font-size: 1.2em;
         margin-top: .25em;
+
+        @include breakpoint(mobile) {
+          font-size: 1.05em;
+        }
 
         input[type="text"] {
           display: flex;
           margin: .1em auto .2em .5em;
           font-size: .9em;
           width: 50%;
+
+          @include breakpoint(mobile) {
+            width: 95%;
+            margin: .1em auto .2em .5em;
+          }
         }
 
-        input[type='radio'] {
-          transform: scale(1.25);
-          margin: auto 1em;
+      }
+
+      .time {
+        display: flex;
+        flex-direction: column;
+
+        label {
+          @include breakpoint(mobile) {
+            text-align: center;
+            margin: .3em auto .15em;
+          }
         }
+
+        div {
+          @include breakpoint(mobile) {
+            // display: flex;
+            margin: auto;
+            width: 75%;
+          }
+
+          input[type='radio'] {
+            margin: auto 1em;
+            transform: scale(1.25);
+          }
+
+        }
+
       }
     }
 
     h3 {
       text-align: left;
       margin: 2.5em 3em 1em;
+
+      @include breakpoint(mobile) {
+        margin: 1.5em 1em 1em;
+      }
+
     }
 
     .right {
@@ -49,8 +93,12 @@
       // padding-left: 2em;
       display: flex;
       flex-wrap: wrap;
-
       justify-content: space-around;
+
+      @include breakpoint(mobile) {
+        margin: auto 2em;
+      }
+
 
       label {
         font-size: 1.2em;
@@ -58,6 +106,14 @@
         width: 45%;
         margin-bottom: .5em;
 
+        @include breakpoint(mobile) {
+          font-size: 1em;
+          margin-bottom: .6em;
+          width: 48%;
+        }
+
+
+        //todo custom checkbox
         input[type="checkbox"] {
           // visibility: hidden;
         }
@@ -113,6 +169,12 @@
       @include breakpoint(laptop) {
         margin: 1.2em auto 2em;
       }
+
+      @include breakpoint(mobile) {
+        width: 50%;
+        margin: 1.2em auto 2em;
+      }
+
 
       input {
         font-size: 1.1em;
