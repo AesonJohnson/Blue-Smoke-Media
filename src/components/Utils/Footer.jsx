@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useEffect } from "react";
+import axios from "axios";
 import blueSmoke from "../../images/blue-smoke.png";
 import youtube from "../../images/youTube.png";
 import twitter from "../../images/Twitter.png";
@@ -8,6 +9,14 @@ import behance from "../../images/Behance.png";
 import facebook from "../../images/faceBook.png";
 
 export default function Footer() {
+  useEffect(() => {
+    axios
+      .get(
+        "https://api.linkedin.com/v2/networkSizes/urn:li:organization:54284240"
+      )
+      .then((res) => console.log(res))
+      .catch((err) => console.log(err));
+  }, []);
   return (
     <footer>
       <img src={blueSmoke} alt="blue-smoke" />
@@ -17,38 +26,38 @@ export default function Footer() {
           <span>Email: </span>
           <p>
             <a
-              href="mailto: info@BlueSmokeDigitalAndPrintedMedia.com"
+              href="mailto: info@BlueSmokeMedia.net"
               rel="nofollow noopener noreferrer"
             >
-              info@BlueSmokeDigitalAndPrintedMedia.com
+              info@BlueSmokeMedia.net
             </a>
             <br />
             <a
-              href="mailto: CoBe@BlueSmokeDigitalAndPrintedMedia.com"
+              href="mailto: CoBe@BlueSmokeMedia.net"
               rel="nofollow noopener noreferrer"
             >
-              CoBe@BlueSmokeDigitalAndPrintedMedia.com
+              CoBe@BlueSmokeMedia.net
             </a>
             <br />
             <a
-              href="mailto: Braden@BlueSmokeDigitalAndPrintedMedia.com"
+              href="mailto: Braden@BlueSmokeMedia.net"
               rel="nofollow noopener noreferrer"
             >
-              Braden@BlueSmokeDigitalAndPrintedMedia.com
+              Braden@BlueSmokeMedia.net
             </a>
             <br />
             <a
-              href="mailto: Aeson@BlueSmokeDigitalAndPrintedMedia.com"
+              href="mailto: Aeson@BlueSmokeMedia.net"
               rel="nofollow noopener noreferrer"
             >
-              Aeson@BlueSmokeDigitalAndPrintedMedia.com
+              Aeson@BlueSmokeMedia.net
             </a>
             <br />
             <a
-              href="mailto: AR@BlueSmokeDigitalAndPrintedMedia.com"
+              href="mailto: AR@BlueSmokeMedia.net"
               rel="nofollow noopener noreferrer"
             >
-              AR@BlueSmokeDigitalAndPrintedMedia.com
+              AR@BlueSmokeMedia.net
             </a>
           </p>
         </div>
@@ -78,18 +87,18 @@ export default function Footer() {
         <a href="#" rel="nofollow noopener noreferrer">
           <img src={linkedIn} alt="linkedIn" />
         </a>
-        {/* <script
-              src="https://platform.linkedin.com/in.js"
-              type="text/javascript"
-            >
-              {" "}
-              lang: en_US
-            </script>
-            <script
-              type="IN/FollowCompany"
-              data-id="1337"
-              data-counter="bottom"
-            ></script> */}
+        <script
+          src="https://platform.linkedin.com/in.js"
+          type="text/javascript"
+        >
+          {" "}
+          lang: en_US
+        </script>
+        <script
+          type="IN/FollowCompany"
+          data-id="54284240"
+          data-counter="bottom"
+        ></script>
         <a href="#" rel="nofollow noopener noreferrer">
           <img src={instagram} alt="instagram" />
         </a>
@@ -101,8 +110,8 @@ export default function Footer() {
         </a>
       </div>
       <span>
-        2019 - 2020 ©Copyright. Blue Smoke Digital and Printed Media / All
-        Rights Reserved / Tennessee, Utah, Florida, Washington, Idaho
+        2019 - 2020 ©Blue Smoke Digital and Printed Media / All Rights Reserved
+        / Tennessee, Utah, Florida, Washington, Idaho, South Carolina
       </span>
     </footer>
   );

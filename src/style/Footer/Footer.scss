@@ -125,7 +125,8 @@ footer {
     @include breakpoint(mobile) {
       // display: none;
       // font-size: .8em;
-      // margin-left: 2%;
+      margin-left: 0;
+      width: auto;
     }
 
 
@@ -155,11 +156,13 @@ footer {
     display: flex;
     justify-content: space-between;
     margin: 1em 8% .25em;
-    width: 100%;
+    width: 50%;
+    margin-left: 4%;
+    margin-top: -3.5em;
 
     @include breakpoint(mobile) {
       width: 80%;
-      margin: .8em auto 0;
+      ` margin: .8em auto 0;
 
     }
 

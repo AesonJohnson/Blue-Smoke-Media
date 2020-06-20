@@ -136,40 +136,6 @@
   }
 }
 
-.inquiryForm form .right label .check-mark {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 25px;
-  width: 25px;
-  background-color: #eee;
-}
-
-.inquiryForm form .right label input:checked ~ .check-mark {
-  background-color: green;
-}
-
-.inquiryForm form .right label .check-mark:after {
-  content: "";
-  position: absolute;
-  display: none;
-}
-
-.inquiryForm form .right label input:checked ~ .check-mark:after {
-  display: block;
-}
-
-.inquiryForm form .right label .check-mark:after {
-  left: 8px;
-  bottom: 5px;
-  width: 6px;
-  height: 12px;
-  border: solid white;
-  border-width: 0 4px 4px 0;
-  -webkit-transform: rotate(45deg);
-  transform: rotate(45deg);
-}
-
 .inquiryForm form .actions {
   width: 20%;
   margin: 1em auto 2em;

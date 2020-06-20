@@ -146,6 +146,13 @@ footer .email {
   font-weight: 700;
 }
 
+@media (max-width: 480px) {
+  footer .email {
+    margin-left: 0;
+    width: auto;
+  }
+}
+
 footer .email span {
   padding: 0 7%;
   width: auto;
@@ -175,7 +182,9 @@ footer .smBtns {
       -ms-flex-pack: justify;
           justify-content: space-between;
   margin: 1em 8% .25em;
-  width: 100%;
+  width: 50%;
+  margin-left: 4%;
+  margin-top: -3.5em;
 }
 
 @media (max-width: 480px) {

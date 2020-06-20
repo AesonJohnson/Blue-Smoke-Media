@@ -114,49 +114,49 @@
 
 
         //todo custom checkbox
-        input[type="checkbox"] {
-          // visibility: hidden;
-        }
+        //   input[type="checkbox"] {
+        //     // visibility: hidden;
+        //   }
 
-        .check-mark {
-          position: absolute;
-          top: 0;
-          left: 0;
-          height: 25px;
-          width: 25px;
-          background-color: #eee;
-        }
+        //   .check-mark {
+        //     position: absolute;
+        //     top: 0;
+        //     left: 0;
+        //     height: 25px;
+        //     width: 25px;
+        //     background-color: #eee;
+        //   }
 
 
-        // input:active~.check-mark {
-        //   background-color: red;
-        // }
+        //   // input:active~.check-mark {
+        //   //   background-color: red;
+        //   // }
 
-        input:checked~.check-mark {
-          background-color: green;
-        }
+        //   input:checked~.check-mark {
+        //     background-color: green;
+        //   }
 
-        .check-mark:after {
-          content: "";
-          position: absolute;
-          display: none;
-        }
+        //   .check-mark:after {
+        //     content: "";
+        //     position: absolute;
+        //     display: none;
+        //   }
 
-        input:checked~.check-mark:after {
-          display: block;
-        }
+        //   input:checked~.check-mark:after {
+        //     display: block;
+        //   }
 
-        .check-mark:after {
-          left: 8px;
-          bottom: 5px;
-          width: 6px;
-          height: 12px;
-          border: solid white;
-          border-width: 0 4px 4px 0;
-          -webkit-transform: rotate(45deg);
-          -ms-transform: rotate(45deg);
-          transform: rotate(45deg);
-        }
+        //   .check-mark:after {
+        //     left: 8px;
+        //     bottom: 5px;
+        //     width: 6px;
+        //     height: 12px;
+        //     border: solid white;
+        //     border-width: 0 4px 4px 0;
+        //     -webkit-transform: rotate(45deg);
+        //     -ms-transform: rotate(45deg);
+        //     transform: rotate(45deg);
+        //   }
       }
     }
 
