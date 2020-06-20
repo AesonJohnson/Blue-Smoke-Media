@@ -32,6 +32,8 @@ footer {
     @include breakpoint(mobile) {
       font-size: 1.2em;
       text-shadow: 2px 2px $darkBlue;
+      -webkit-text-stroke: 0px;
+
     }
 
   }

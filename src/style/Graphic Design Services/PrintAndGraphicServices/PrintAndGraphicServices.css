@@ -10,13 +10,33 @@
   }
 }
 
+@media (max-width: 480px) {
+  .print-and-graphic-design-services img {
+    height: 17vh;
+  }
+}
+
 .print-and-graphic-design-services h1 {
   margin: 1em auto 0.6em;
+}
+
+@media (max-width: 480px) {
+  .print-and-graphic-design-services h1 {
+    font-size: 1.5em;
+  }
 }
 
 .print-and-graphic-design-services .content p {
   margin-bottom: 3em;
   margin: 2em 2em;
+}
+
+@media (max-width: 480px) {
+  .print-and-graphic-design-services .content p {
+    margin: auto;
+    text-align: justify;
+    margin: 1em;
+  }
 }
 
 .print-and-graphic-design-services .content section {
@@ -29,9 +49,26 @@
           align-items: center;
 }
 
+@media (max-width: 480px) {
+  .print-and-graphic-design-services .content section {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: 1rem auto;
+  }
+}
+
 .print-and-graphic-design-services .content section img {
   height: 11em;
   width: 12.5em;
+}
+
+@media (max-width: 480px) {
+  .print-and-graphic-design-services .content section img {
+    margin-top: 1.5em;
+    width: 15em;
+  }
 }
 
 .print-and-graphic-design-services .content section #eagle {
@@ -49,9 +86,22 @@
   }
 }
 
+@media (max-width: 480px) {
+  .print-and-graphic-design-services .content section #coffeeShelf {
+    display: none;
+  }
+}
+
 .print-and-graphic-design-services .content section p {
   text-align: left;
   line-height: 1.27em;
+}
+
+@media (max-width: 480px) {
+  .print-and-graphic-design-services .content section p {
+    margin-top: 1.25em;
+    margin-bottom: 0;
+  }
 }
 
 .print-and-graphic-design-services .content section p span {

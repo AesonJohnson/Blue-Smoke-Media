@@ -42,6 +42,7 @@ footer #sub-header {
   footer #sub-header {
     font-size: 1.2em;
     text-shadow: 2px 2px #0b2673;
+    -webkit-text-stroke: 0px;
   }
 }
 

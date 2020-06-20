@@ -9,16 +9,31 @@
     @include breakpoint(laptop) {
       height: 45vh;
     }
+
+    @include breakpoint(mobile) {
+      height: 17vh;
+    }
+
   }
 
   h1 {
     margin: 1em auto 0.6em;
+
+    @include breakpoint(mobile) {
+      font-size: 1.5em;
+    }
   }
 
   .content {
     p {
       margin-bottom: 3em;
       margin: 2em 2em;
+
+      @include breakpoint(mobile) {
+        margin: auto;
+        text-align: justify;
+        margin: 1em;
+      }
     }
 
     section {
@@ -26,9 +41,20 @@
       margin: 2rem;
       align-items: center;
 
+      @include breakpoint(mobile) {
+
+        flex-direction: column;
+        margin: 1rem auto;
+      }
+
       img {
         height: 11em;
         width: 12.5em;
+
+        @include breakpoint(mobile) {
+          margin-top: 1.5em;
+          width: 15em;
+        }
       }
 
       #eagle {
@@ -43,12 +69,21 @@
         @include breakpoint(laptop) {
           height: 16em;
         }
+
+        @include breakpoint(mobile) {
+          display: none;
+        }
+
       }
 
       p {
         text-align: left;
-        // margin: 2em 1em;
         line-height: 1.27em;
+
+        @include breakpoint(mobile) {
+          margin-top: 1.25em;
+          margin-bottom: 0;
+        }
 
         span {
           font-weight: 600;
