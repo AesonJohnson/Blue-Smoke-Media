@@ -5,6 +5,10 @@
   text-align: justify;
   margin: 3rem 3rem;
 
+  @include breakpoint(mobile) {
+    margin: 1.5rem;
+  }
+
   span {
     // color: $darkBlue;
     font-weight: 600;
@@ -18,6 +22,11 @@
       margin-bottom: 3rem;
       //todo change color
       text-shadow: $lightBlue 2px -2.5px;
+
+      @include breakpoint(mobile) {
+        margin: 1.5rem auto;
+      }
+
     }
 
     p {
@@ -38,23 +47,47 @@
   .team-middle {
     margin-top: 4rem;
 
+    @include breakpoint(mobile) {
+      margin-top: 2rem;
+    }
+
     div {
       display: flex;
       margin-bottom: 2.5rem;
 
+      @include breakpoint(mobile) {
+        flex-direction: column;
+      }
+
+
       img {
         width: 20%;
         margin-right: 2.4rem;
+
+        @include breakpoint(mobile) {
+          width: 70%;
+          margin: auto;
+        }
       }
 
       video {
         width: 20%;
         height: 20%;
         margin-right: 2.4rem;
+
+        @include breakpoint(mobile) {
+          width: 70%;
+          margin: auto;
+        }
       }
 
       p {
         margin: auto;
+
+        @include breakpoint(mobile) {
+          margin-top: 1rem;
+        }
+
       }
     }
   }
@@ -81,6 +114,12 @@
           width: 8em;
           height: 8em;
         }
+
+        @include breakpoint(mobile) {
+          width: 5.5em;
+          height: 5.5em;
+        }
+
       }
 
       p {
@@ -92,10 +131,22 @@
           font-size: 1em;
         }
 
+        @include breakpoint(mobile) {
+          font-size: 1em;
+          margin-left: 1em;
+        }
+
+
         span {
           font-size: 1.45em;
           color: black;
+
+          @include breakpoint(mobile) {
+            font-size: 1.2em;
+          }
+
         }
+
       }
     }
   }
