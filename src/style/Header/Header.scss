@@ -8,9 +8,10 @@
 
 header {
   // background-image: url("../../images/blue-background.png");
-  background-image: url("../../images/background_image_w_flame-only.png");
+  background-image: url("../../images/blue-background.png");
   background-size: cover;
   background-repeat: no-repeat;
+  display: flex;
 
   @include breakpoint(mobile) {
     background-image: url("../../images/background_image_w_flame-only.png");
@@ -18,88 +19,98 @@ header {
     height: 12vh;
   }
 
-
-  img {
-    width: 92%;
-    height: 20vh;
-    margin: 4.5% auto 0.978%;
-
-    @include breakpoint(laptop) {
-      width: 80%;
-      margin: 4.5% auto .1% 17%;
-    }
-
-    @include breakpoint(mobile) {
-      // display: none;
-      height: 7vh;
-      width: 50%;
-      margin: 4% auto;
-    }
-
+  #flame {
+    width: 20%;
   }
 
-  p {
-    @include GOT;
-    // font-size: 3.765rem;
-    font-size: 3em;
-    letter-spacing: 5px;
-    line-height: 1.2;
-    color: $orange;
-    margin: 0.175em auto .35em;
-    -webkit-text-stroke: 0.85px $darkBlue;
-    text-shadow: 5px 5px $darkBlue;
+  div {
+    // width: 80%;
+    // margin: auto;
 
-    @include breakpoint(laptop) {
-      font-size: 2.45em;
-      text-shadow: 4px 4px $darkBlue;
-      margin-left: 17%;
-      letter-spacing: 4px;
+    img {
+      width: 92%;
+      height: 20vh;
+      margin: 4.5% auto 0.978%;
+
+      @include breakpoint(laptop) {
+        width: 80%;
+        // margin: 4.5% auto .1% 17%;
+      }
+
+      @include breakpoint(mobile) {
+        // display: none;
+        height: 7vh;
+        width: 50%;
+        margin: 4% auto;
+      }
+
     }
 
-    @include breakpoint(mobile) {
-      font-size: 1em;
-      display: none;
-      //todo fix this
+    p {
+      @include GOT;
+      // font-size: 3.765rem;
+      font-size: 3em;
+      letter-spacing: 5px;
+      line-height: 1.2;
+      color: $orange;
+      margin: 0.175em auto .35em;
+      -webkit-text-stroke: 0.85px $darkBlue;
+      text-shadow: 5px 5px $darkBlue;
+
+      @include breakpoint(laptop) {
+        font-size: 2.45em;
+        text-shadow: 4px 4px $darkBlue;
+        margin-left: 17%;
+        letter-spacing: 4px;
+      }
+
+      @include breakpoint(mobile) {
+        font-size: 1em;
+        display: none;
+        //todo fix this
+      }
+
     }
 
-  }
+    span {
+      margin-top: .9em;
+      font-weight: 700;
+      -webkit-text-stroke: .5px $darkBlue;
+      font-size: 1.05em;
 
-  span {
-    margin-top: .9em;
-    font-weight: 700;
-    -webkit-text-stroke: .5px $darkBlue;
-    font-size: 1.05em;
+      @include breakpoint(mobile) {
+        display: none;
+      }
 
-    @include breakpoint(mobile) {
-      display: none;
     }
 
-  }
+    .sub-text {
+      display: flex;
+      flex-direction: column;
+      color: white;
+      font-size: .98em;
+      text-align: right;
+      letter-spacing: 0.12rem;
+      width: 75%;
+      margin-top: 2.4rem;
+      padding-bottom: 2rem;
+      line-height: 1.45rem;
+      text-shadow: 1.45px 1.45px black;
+      margin-left: 25%;
 
-  .sub-text {
-    display: flex;
-    flex-direction: column;
-    color: white;
-    font-size: .98em;
-    text-align: right;
-    letter-spacing: 0.12rem;
-    margin-top: 2.4rem;
-    padding-bottom: 2rem;
-    line-height: 1.45rem;
-    text-shadow: 1.45px 1.45px black;
+      @include breakpoint(laptop) {
+        // font-size: 1.4em;
+      }
 
-    @include breakpoint(laptop) {
-      // font-size: 1.4em;
-    }
+      span:first-child {
+        padding-right: 14.5%;
+        margin-top: 1.25em;
+      }
 
-    span:first-child {
-      padding-right: 14.5%;
-      margin-top: 1.25em;
-    }
-
-    span:nth-child(2) {
-      padding-right: 5%;
-      margin-bottom: .5em;
+      span:nth-child(2) {
+        padding-right: 5%;
+        margin-bottom: .5em;
+      }
     }
   }
 }

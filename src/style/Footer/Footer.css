@@ -33,7 +33,7 @@ footer #sub-header {
   text-align: center;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 800px) and (max-width: 1449px) {
   footer #sub-header {
     font-size: 2.75em;
   }
@@ -94,10 +94,10 @@ footer .bottom p {
 
 footer .bottom .contact {
   width: 23%;
-  margin-right: 14%;
+  margin-right: 4%;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 800px) and (max-width: 1449px) {
   footer .bottom .contact {
     width: 25%;
     margin-right: 8%;
@@ -127,12 +127,8 @@ footer .bottom .contact span {
 
 footer .bottom .contact p {
   margin-top: 1rem;
-}
-
-@media (min-width: 800px) {
-  footer .bottom .contact p {
-    text-align: left;
-  }
+  text-align: left;
+  padding-left: 3em;
 }
 
 @media (max-width: 480px) {
@@ -182,10 +178,8 @@ footer .smBtns {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin: 1em 8% .25em;
+  margin: -2em auto .25em;
   width: 50%;
-  margin-left: 4%;
-  margin-top: -3.5em;
 }
 
 @media (max-width: 480px) {

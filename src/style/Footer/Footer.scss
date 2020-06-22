@@ -76,7 +76,7 @@ footer {
 
     .contact {
       width: 23%;
-      margin-right: 14%;
+      margin-right: 4%;
 
       // padding-left: 1.367rem;
       @include breakpoint(laptop) {
@@ -104,10 +104,8 @@ footer {
 
       p {
         margin-top: 1rem;
-
-        @include breakpoint(laptop) {
-          text-align: left;
-        }
+        text-align: left;
+        padding-left: 3em;
 
         @include breakpoint(mobile) {
           margin: 0;
@@ -156,10 +154,8 @@ footer {
   .smBtns {
     display: flex;
     justify-content: space-between;
-    margin: 1em 8% .25em;
+    margin: -2em auto .25em;
     width: 50%;
-    margin-left: 4%;
-    margin-top: -3.5em;
 
     @include breakpoint(mobile) {
       width: 80%;

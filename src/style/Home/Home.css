@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@media (min-width: 800px) {
+@media (min-width: 800px) and (max-width: 1449px) {
   .home {
     margin-bottom: 3.1em;
   }
@@ -19,7 +19,7 @@
       -ms-flex-direction: row-reverse;
           flex-direction: row-reverse;
   background: url("../../images/globe-stretch-new.png");
-  background-size: 101% 101%;
+  background-size: 101% 105%;
   background-repeat: no-repeat;
   height: 55vh;
   min-width: 80%;
@@ -36,15 +36,13 @@
 .home .globe p {
   text-align: center;
   font-weight: normal;
-  padding-top: 1rem;
   width: 40%;
-  height: 35%;
   margin: auto;
   margin-right: 55%;
   color: white;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 800px) and (max-width: 1449px) {
   .home .globe p {
     margin-top: 5%;
     padding-top: 0;
@@ -144,7 +142,7 @@
 
 .home .social-media img {
   width: 50%;
-  height: 40vh;
+  height: 100%;
   margin-bottom: 1.5rem;
   -webkit-box-shadow: 9px 7px 5px #999999;
           box-shadow: 9px 7px 5px #999999;
@@ -164,12 +162,14 @@
 
 .home .social-media .content {
   width: 50%;
-  margin: 5% auto;
+  margin: 1rem auto;
+  padding-top: 10%;
   text-align: justify;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 800px) and (max-width: 1449px) {
   .home .social-media .content {
+    padding-top: 6%;
     margin-top: .25em;
   }
 }
@@ -184,7 +184,7 @@
 
 .home .social-media .content p {
   width: 80%;
-  margin: 0px auto 7%;
+  margin: 0 auto 7%;
 }
 
 .home .social-media .content p :first-child {
@@ -251,7 +251,7 @@
   margin: auto 3%;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 800px) and (max-width: 1449px) {
   .home .mission .left p {
     font-size: 1.1em;
     padding: 2% 12%;
@@ -297,7 +297,7 @@
   margin: 3em auto 0.125rem;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 800px) and (max-width: 1449px) {
   .home .mission .right img {
     width: 72%;
     height: 8%;
@@ -317,7 +317,7 @@
   margin: 0.7em auto 0px;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 800px) and (max-width: 1449px) {
   .home .mission .right h4 {
     font-size: 1.4em;
   }
@@ -329,7 +329,7 @@
   color: #0b2672;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 800px) and (max-width: 1449px) {
   .home .mission .right p {
     font-size: 1em;
   }
@@ -362,7 +362,7 @@
   font-weight: 600;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 800px) and (max-width: 1449px) {
   .home .mission .right ul li {
     font-size: .95em;
     line-height: 1.2em;

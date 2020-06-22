@@ -16,21 +16,21 @@ $darkBlue: #0b2673;
   }
 
   @else if $size==tablet {
-    @media (min-width: 481px) {
+    @media (min-width: 481px) and (max-width: 799px) {
       @content;
     }
   }
 
   //laptop
   @else if $size==laptop {
-    @media (min-width: 800px) {
+    @media (min-width: 800px) and (max-width: 1449px) {
       @content;
     }
   }
 
   //monitor
   @else if $size==desktop {
-    @media (min-width: 1450px) {
+    @media (min-width: 1450px) and (max-width: 2249px) {
       @content;
     }
   }

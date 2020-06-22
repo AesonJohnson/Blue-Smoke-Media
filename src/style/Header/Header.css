@@ -1,7 +1,10 @@
 header {
-  background-image: url("../../images/background_image_w_flame-only.png");
+  background-image: url("../../images/blue-background.png");
   background-size: cover;
   background-repeat: no-repeat;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 @media (max-width: 480px) {
@@ -12,28 +15,31 @@ header {
   }
 }
 
-header img {
+header #flame {
+  width: 20%;
+}
+
+header div img {
   width: 92%;
   height: 20vh;
   margin: 4.5% auto 0.978%;
 }
 
-@media (min-width: 800px) {
-  header img {
+@media (min-width: 800px) and (max-width: 1299px) {
+  header div img {
     width: 80%;
-    margin: 4.5% auto .1% 17%;
   }
 }
 
 @media (max-width: 480px) {
-  header img {
+  header div img {
     height: 7vh;
     width: 50%;
     margin: 4% auto;
   }
 }
 
-header p {
+header div p {
   font-weight: 700;
   font-size: 3em;
   letter-spacing: 5px;
@@ -44,8 +50,8 @@ header p {
   text-shadow: 5px 5px #0b2673;
 }
 
-@media (min-width: 800px) {
-  header p {
+@media (min-width: 800px) and (max-width: 1299px) {
+  header div p {
     font-size: 2.45em;
     text-shadow: 4px 4px #0b2673;
     margin-left: 17%;
@@ -54,13 +60,13 @@ header p {
 }
 
 @media (max-width: 480px) {
-  header p {
+  header div p {
     font-size: 1em;
     display: none;
   }
 }
 
-header span {
+header div span {
   margin-top: .9em;
   font-weight: 700;
   -webkit-text-stroke: 0.5px #0b2673;
@@ -68,12 +74,12 @@ header span {
 }
 
 @media (max-width: 480px) {
-  header span {
+  header div span {
     display: none;
   }
 }
 
-header .sub-text {
+header div .sub-text {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -85,18 +91,20 @@ header .sub-text {
   font-size: .98em;
   text-align: right;
   letter-spacing: 0.12rem;
+  width: 75%;
   margin-top: 2.4rem;
   padding-bottom: 2rem;
   line-height: 1.45rem;
   text-shadow: 1.45px 1.45px black;
+  margin-left: 25%;
 }
 
-header .sub-text span:first-child {
+header div .sub-text span:first-child {
   padding-right: 14.5%;
   margin-top: 1.25em;
 }
 
-header .sub-text span:nth-child(2) {
+header div .sub-text span:nth-child(2) {
   padding-right: 5%;
   margin-bottom: .5em;
 }
