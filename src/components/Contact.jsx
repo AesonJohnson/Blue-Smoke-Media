@@ -88,12 +88,16 @@ export default function Contact() {
       {/* <Header /> */}
       {/* <Navigation /> */}{" "}
       <div className="contact">
-        <h2>Contact</h2>
+        <h2>Contact Us</h2>
         <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae
-          et neque quae voluptatibus aut, voluptatem ducimus omnis repellat,
-          aliquid totam nihil quidem, quam quia veniam earum vero facilis sunt?
-          Dicta?
+          Effective Internet marketing and Web site Design requires a staff of
+          diverse disciplines. Our full-service approach will save you time and
+          the added expense of discovering the missing pieces and hiring
+          multiple companies to collaborate. For quick answers, accurate quotes
+          and 24/7 customer service, please call{" "}
+          <a href="tel:865-274-1371">865.274.1371</a> or complete the inquiry
+          form below and we will contact you at a time and date that is
+          convenient to you.
         </p>
       </div>
       {/* <Footer /> */}

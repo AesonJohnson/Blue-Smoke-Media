@@ -30,6 +30,7 @@ footer img {
 footer #sub-header {
   -webkit-text-stroke: 0.85px #0b2673;
   text-shadow: 5px 5px #0b2673;
+  text-align: center;
 }
 
 @media (min-width: 800px) {

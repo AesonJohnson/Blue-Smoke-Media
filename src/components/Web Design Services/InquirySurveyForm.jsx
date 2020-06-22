@@ -25,6 +25,7 @@ export default function Contact() {
     webLogo: false,
     blog: false,
     printedMedia: false,
+    antiSpam: "",
   });
 
   const onChangeHandler = (evt) => {
@@ -43,7 +44,9 @@ export default function Contact() {
 
   const onSubmitHandler = (evt) => {
     evt.preventDefault();
+    //todo submit handler
     console.log(data);
+    //* check if antiSpam is empty string or not
     // const templateParams = {
     //   reply_to: data.email,
     //   subject: "Portfolio Contact",
@@ -91,10 +94,9 @@ export default function Contact() {
       <div className="inquiryForm">
         <h1>Inquiry Form</h1>
         <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae
-          et neque quae voluptatibus aut, voluptatem ducimus omnis repellat,
-          aliquid totam nihil quidem, quam quia veniam earum vero facilis sunt?
-          Dicta?
+          To receive more information about our company, services,
+          industry-specific recent projects and case studies, please fill out
+          the form below.
         </p>
         <form onSubmit={onSubmitHandler}>
           <div className="left">
@@ -281,6 +283,12 @@ export default function Contact() {
               />
               {"  "} Printed Media{" "}
             </label>
+            <input
+              name="antiSpam"
+              type="text"
+              onChange={onChangeHandler}
+              value={data.antiSpam}
+            />
           </div>
           <div className="actions">
             <input type="submit" />

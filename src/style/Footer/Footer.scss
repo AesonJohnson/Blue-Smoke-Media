@@ -24,6 +24,7 @@ footer {
   #sub-header {
     -webkit-text-stroke: 0.85px $darkBlue;
     text-shadow: 5px 5px $darkBlue;
+    text-align: center;
 
     @include breakpoint(laptop) {
       font-size: 2.75em;
@@ -162,7 +163,7 @@ footer {
 
     @include breakpoint(mobile) {
       width: 80%;
-      ` margin: .8em auto 0;
+      margin: .8em auto 0;
 
     }
 
