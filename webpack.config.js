@@ -1,6 +1,8 @@
 module.exports = {
   module: {
-    rules: [{
+    loaders: [{ test: /.(png|jpg|woff|woff2|eot|ttf|svg|gif)$/, loader: 'url-loader?limit=1024000' }],
+    rules: [
+      {
         test: /\.mp4$/,
         use: "file-loader?name=videos/[name].[ext]",
       },

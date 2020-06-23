@@ -1,8 +1,4 @@
 import React from "react";
-//* Components
-import Header from "./Utils/Header";
-import Navigation from "./Utils/Navigation";
-import Footer from "./Utils/Footer";
 //* Data
 import team from "../data/team";
 //* Images

@@ -13,15 +13,15 @@ header {
   background-repeat: no-repeat;
   display: flex;
 
+  #flame {
+    width: 20%;
+  }
   @include breakpoint(mobile) {
     background-image: url("../../images/background_image_w_flame-only.png");
     width: 100%;
     height: 12vh;
   }
 
-  #flame {
-    width: 20%;
-  }
 
   div {
     // width: 80%;

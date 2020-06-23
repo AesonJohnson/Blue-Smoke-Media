@@ -1,20 +1,15 @@
-import React, { useState } from "react";
+import React from "react";
 import { Helmet } from "react-helmet";
 import { Link } from "react-router-dom";
-//* Components
-import Navigation from "./Utils/Navigation";
-import Header from "./Utils/Header";
-import Footer from "./Utils/Footer";
 //* Images/Video
 import silhouette from "./../images/silhouette.png";
 import socialMediaPhone from "./../images/social-media-phone.jpg";
 import blueSmoke from "./../images/blue-smoke.png";
-import landingVideo from "../videos/LandingPageVideo.mp4";
 
 //todo SEO FOR REACTJS!!!!
 //todo set up google analytics
 //analytics.google.com/analytics/web/provision/#/a168002604p234303565/admin/streams/promo
-//todo implement react helmet
+// todo implement react helmet
 //todo check margins on replaced footer and header components
 export default function Home() {
   //todo set all titles and meta description tags
@@ -27,8 +22,6 @@ export default function Home() {
           content="This is what you want to show as the page content in the Google SERP Listing"
         />
       </Helmet>
-      {/* <Header /> */}
-      {/* <Navigation /> */}{" "}
       <section className="globe">
         <p>
           <span>Blue Smoke Digital and Printed Media</span>

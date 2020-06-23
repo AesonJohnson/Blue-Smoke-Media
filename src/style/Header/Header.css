@@ -7,16 +7,16 @@ header {
   display: flex;
 }
 
+header #flame {
+  width: 20%;
+}
+
 @media (max-width: 480px) {
   header {
     background-image: url("../../images/background_image_w_flame-only.png");
     width: 100%;
     height: 12vh;
   }
-}
-
-header #flame {
-  width: 20%;
 }
 
 header div img {

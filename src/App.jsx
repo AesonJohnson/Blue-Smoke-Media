@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./style/_Main.css";
-import { Switch, Route, BrowserRouter as Router } from "react-router-dom";
-//todo change back to BrowserRouter
+import { Switch, Route } from "react-router-dom";
 
 //* components
 import Home from "./components/Home";
@@ -34,12 +33,10 @@ import landingVideo from "./videos/LandingPageVideo.mp4";
 function App() {
   //! enable video here
   const [isPlaying, setIsPlaying] = useState(false);
-  // localStorage.setItem("videoPlayed", false);
   useEffect(() => {
     setIsPlaying(getStorage());
   }, []);
   return (
-    // <Router>
     <div className="App">
       {" "}
       {isPlaying ? (
@@ -99,19 +96,18 @@ function App() {
         </>
       )}{" "}
     </div>
-    // </Router>
   );
 }
 
-function NoMatch({ location }) {
-  return (
-    <div className="error 404">
-      <h3>
-        404 No match for <code> {location.pathname} </code>{" "}
-      </h3>{" "}
-    </div>
-  );
-}
+// function NoMatch({ location }) {
+//   return (
+//     <div className="error 404">
+//       <h3>
+//         404 No match for <code> {location.pathname} </code>{" "}
+//       </h3>{" "}
+//     </div>
+//   );
+// }
 
 function getStorage() {
   const item = JSON.parse(localStorage.getItem("landingVideo"));
