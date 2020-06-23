@@ -91,21 +91,23 @@ export default function Footer() {
         <a href="#" rel="nofollow noopener noreferrer">
           <img src={twitter} alt="twitter" />
         </a>
-        <a href="#" rel="nofollow noopener noreferrer">
-          <img src={linkedIn} alt="linkedIn" />
-        </a>
-        <script
-          src="https://platform.linkedin.com/in.js"
-          type="text/javascript"
-        >
-          {" "}
-          lang: en_US
-        </script>
-        <script
-          type="IN/FollowCompany"
-          data-id="54284240"
-          data-counter="bottom"
-        ></script>
+        <div className="linkedIn">
+          <a href="#" rel="nofollow noopener noreferrer">
+            <img src={linkedIn} alt="linkedIn" />
+          </a>
+          <script
+            src="https://platform.linkedin.com/in.js"
+            type="text/javascript"
+          >
+            {" "}
+            lang: en_US
+          </script>
+          <script
+            type="IN/FollowCompany"
+            data-id="54284240"
+            data-counter="bottom"
+          ></script>
+        </div>
         <a href="#" rel="nofollow noopener noreferrer">
           <img src={instagram} alt="instagram" />
         </a>
@@ -116,6 +118,7 @@ export default function Footer() {
           <img src={facebook} alt="facebook" />
         </a>
       </div>
+
       <span>
         2019 - 2020 ©Blue Smoke Digital and Printed Media / All Rights Reserved
         / Tennessee, Utah, Florida, Washington, Idaho, South Carolina

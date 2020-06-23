@@ -1,6 +1,5 @@
 @import "../Utils/Mixins/Mixins.scss";
 
-
 footer {
   background-image: url("../../images/blue-background.png");
   background-size: cover;
@@ -34,9 +33,7 @@ footer {
       font-size: 1.2em;
       text-shadow: 2px 2px $darkBlue;
       -webkit-text-stroke: 0px;
-
     }
-
   }
 
   p {
@@ -57,7 +54,6 @@ footer {
     @include breakpoint(mobile) {
       flex-direction: row-reverse;
     }
-
 
     p {
       color: white;
@@ -87,9 +83,8 @@ footer {
       @include breakpoint(mobile) {
         margin-right: 0;
         width: 35%;
-        margin-left: .8em;
+        margin-left: 0.8em;
       }
-
 
       span {
         color: white;
@@ -109,9 +104,7 @@ footer {
 
         @include breakpoint(mobile) {
           margin: 0;
-
         }
-
       }
     }
   }
@@ -128,7 +121,6 @@ footer {
       width: auto;
     }
 
-
     span {
       padding: 0 7%;
       width: auto;
@@ -137,7 +129,6 @@ footer {
       @include breakpoint(mobile) {
         display: none;
       }
-
     }
 
     p {
@@ -148,21 +139,18 @@ footer {
         text-decoration: none;
       }
     }
-
   }
 
   .smBtns {
     display: flex;
     justify-content: space-between;
-    margin: -2em auto .25em;
+    margin: -2em auto 0.25em;
     width: 50%;
 
     @include breakpoint(mobile) {
       width: 80%;
-      margin: .8em auto 0;
-
+      margin: 0.8em auto 0;
     }
-
 
     img {
       height: 3em;
@@ -173,8 +161,13 @@ footer {
         height: 2em;
         width: 2em;
       }
-
     }
+
+    .linkedIn {
+      display: flex;
+      flex-direction: column;
+    }
+
   }
 
 
@@ -186,10 +179,9 @@ footer {
     margin: 1.5rem auto 0.75rem;
 
     @include breakpoint(mobile) {
-      margin: 1.5rem auto .2rem;
+      margin: 1.5rem auto 0.2rem;
       text-align: center;
       color: darkgrey;
     }
-
   }
 }
