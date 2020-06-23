@@ -1,16 +1,12 @@
 import React from "react";
-//* Components
-// import Header from "../Utils/Header";
-// import Navigation from "../Utils/Navigation";
-// import Footer from "../Utils/Footer";
+
 //* Images
-import placeholder from "../../images/globe-stretch.png";
+import placeholder https://blue-smoke-media.s3-us-west-1.amazonaws.com/globe-stretch.png";
 
 export default function ReDesignAndUpdates() {
   return (
     <>
-      {/* <Header /> */}
-      {/* <Navigation /> */}{" "}
+      {" "}
       <div className="re-design-and-updates">
         <img src={placeholder} alt="this is the SEO" />
         <div className="content">
@@ -18,7 +14,7 @@ export default function ReDesignAndUpdates() {
           <p>lorem</p>
         </div>
       </div>
-      {/* <Footer /> */}
+      
     </>
   );
 }

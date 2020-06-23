@@ -1,15 +1,16 @@
 import React from "react";
 import { Helmet } from "react-helmet";
-//* Components
-// import Header from "../Utils/Header";
-// import Navigation from "../Utils/Navigation";
-// import Footer from "../Utils/Footer";
+
 //* Images
-import fingersCrossed from "../../images/fingers-crossed.png";
-import light from "../../images/recognition-rememberance-image.png";
-import respect from "../../images/respect-image.png";
-import eagle from "../../images/eagle.png";
-import coffeeShelf from "../../images/coffee-shelf.png";
+const fingersCrossed =
+  "https://blue-smoke-media.s3-us-west-1.amazonaws.com/fingers-crossed.png";
+const light =
+  "https://blue-smoke-media.s3-us-west-1.amazonaws.com/recognition-rememberance-image.png";
+const respect =
+  "https://blue-smoke-media.s3-us-west-1.amazonaws.com/respect-image.png";
+const eagle = "https://blue-smoke-media.s3-us-west-1.amazonaws.com/eagle.png";
+const coffeeShelf =
+  "https://blue-smoke-media.s3-us-west-1.amazonaws.com/coffee-shelf.png";
 
 export default function PrintAndDesignGraphicServices() {
   return (
@@ -21,8 +22,6 @@ export default function PrintAndDesignGraphicServices() {
           content="This is what you want to show as the page content in the Google SERP Listing"
         />
       </Helmet>
-      {/*{/* <Header /> */}
-      {/* <Navigation /> */}
       <div className="print-and-graphic-design-services">
         <img src={fingersCrossed} alt="Experts" />
         <h1>Print and Graphic Design Services</h1>
@@ -100,7 +99,6 @@ export default function PrintAndDesignGraphicServices() {
           </div>
         </div>
       </div>
-      {/*  {/* <Footer /> */}
     </>
   );
 }

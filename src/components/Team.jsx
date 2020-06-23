@@ -10,8 +10,7 @@ import globeVid from "../videos/local-regional-nationalClients-MTT-globe.mp4";
 export default function Team() {
   return (
     <>
-      {/* <Header /> */}
-      {/* <Navigation /> */}{" "}
+      {" "}
       <div className="team">
         <section className="team-top">
           <h1>Meet Our Team</h1>
@@ -107,7 +106,6 @@ export default function Team() {
           {teamMembers(team)}
         </section>
       </div>
-      {/* <Footer /> */}
     </>
   );
 }

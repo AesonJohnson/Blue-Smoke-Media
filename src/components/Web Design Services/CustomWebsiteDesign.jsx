@@ -1,16 +1,13 @@
 import React from "react";
-//* Components
-// import Header from "../Utils/Header";
-// import Navigation from "../Utils/Navigation";
-// import Footer from "../Utils/Footer";
+
 //* Images
-import customDesign from "../../images/watercolor-papers.jpg";
+const customDesign =
+  "https://blue-smoke-media.s3-us-west-1.amazonaws.com/watercolor-papers.jpg";
 
 export default function CustomWebsiteDesign() {
   return (
     <>
-      {/* <Header /> */}
-      {/* <Navigation /> */}{" "}
+      {" "}
       <div className="custom-website-design">
         <img src={customDesign} alt="imageHere" />
         <div className="content">
@@ -58,7 +55,6 @@ export default function CustomWebsiteDesign() {
           </p>
         </div>
       </div>
-      {/* <Footer /> */}
     </>
   );
 }

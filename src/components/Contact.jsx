@@ -81,8 +81,7 @@ export default function Contact() {
 
   return (
     <>
-      {/* <Header /> */}
-      {/* <Navigation /> */}{" "}
+      {" "}
       <div className="contact">
         <h2>Contact Us</h2>
         <p>
@@ -96,7 +95,6 @@ export default function Contact() {
           convenient to you.
         </p>
       </div>
-      {/* <Footer /> */}
     </>
   );
 }

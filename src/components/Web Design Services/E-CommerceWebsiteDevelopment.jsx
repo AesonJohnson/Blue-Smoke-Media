@@ -1,16 +1,12 @@
 import React from "react";
-//* Components
-// import Header from "../Utils/Header";
-// import Navigation from "../Utils/Navigation";
-// import Footer from "../Utils/Footer";
+
 //* Images
-import eCommerce from "../../images/E-commerce_image.png";
+const eCommerce =
+  "https://blue-smoke-media.s3-us-west-1.amazonaws.com/E-commerce_image.png";
 
 export default function ECommerceWebsiteDevelopment() {
   return (
     <>
-      {" "}
-      {/* <Header /> */} {/* <Navigation /> */}{" "}
       <div className="e-commerce-website-development">
         <img src={eCommerce} alt="this is the SEO" />
         <div className="content">
@@ -59,7 +55,6 @@ export default function ECommerceWebsiteDevelopment() {
           </p>{" "}
         </div>{" "}
       </div>{" "}
-      {/* <Footer /> */}{" "}
     </>
   );
 }

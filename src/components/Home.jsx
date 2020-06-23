@@ -2,9 +2,12 @@ import React from "react";
 import { Helmet } from "react-helmet";
 import { Link } from "react-router-dom";
 //* Images/Video
-import silhouette from "./../images/silhouette.png";
-import socialMediaPhone from "./../images/social-media-phone.jpg";
-import blueSmoke from "./../images/blue-smoke.png";
+const silhouette =
+  "https://blue-smoke-media.s3-us-west-1.amazonaws.com/silhouette.png";
+const socialMediaPhone =
+  "https://blue-smoke-media.s3-us-west-1.amazonaws.com/social-media-phone.jpg";
+const blueSmoke =
+  "https://blue-smoke-media.s3-us-west-1.amazonaws.com/blue-smoke.png";
 
 //todo SEO FOR REACTJS!!!!
 //todo set up google analytics
@@ -91,7 +94,6 @@ export default function Home() {
           </p>
         </div>
       </section>
-      {/* <Footer /> */}
     </div>
   );
 }

@@ -1,16 +1,13 @@
 import React from "react";
-//* Components
-// import Header from "../Utils/Header";
-// import Navigation from "../Utils/Navigation";
-// import Footer from "../Utils/Footer";
+
 //* Images
-import websiteMaintenance from "../../images/website-maintenance.jpg";
+const websiteMaintenance =
+  "https://blue-smoke-media.s3-us-west-1.amazonaws.com/website-maintenance.jpg";
 
 export default function WebMaintenance() {
   return (
     <>
-      {/* <Header /> */}
-      {/* <Navigation /> */}{" "}
+      {" "}
       <div className="web-maintenance">
         <img src={websiteMaintenance} alt="bug fixes, updates" />
         <div className="content">
@@ -48,7 +45,6 @@ export default function WebMaintenance() {
           </p>
         </div>
       </div>
-      {/* <Footer /> */}
     </>
   );
 }

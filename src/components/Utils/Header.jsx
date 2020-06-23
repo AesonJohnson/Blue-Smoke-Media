@@ -1,7 +1,7 @@
 import React from "react";
-import blueSmoke from "../../images/blue-smoke.png";
-// import blueSmoke from "../../images/blue-background.png";
-import flame from "../../images/flame.png";
+const blueSmoke =
+  "https://blue-smoke-media.s3-us-west-1.amazonaws.com/blue-smoke.png";
+const flame = "https://blue-smoke-media.s3-us-west-1.amazonaws.com/flame.png";
 
 export default function Header() {
   return (

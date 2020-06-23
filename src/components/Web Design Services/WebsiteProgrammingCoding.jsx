@@ -1,15 +1,12 @@
 import React from "react";
-//* Components
-// import Header from "../Utils/Header";
-// import Navigation from "../Utils/Navigation";
-// import Footer from "../Utils/Footer";
+
 //* Images
-import coding from "../../images/programming_coding.png";
+const coding =
+  "https://blue-smoke-media.s3-us-west-1.amazonaws.com/programming_coding.png";
 
 export default function WebsiteProgrammingCoding() {
   return (
     <>
-      {/* <Header /> */} {/* <Navigation /> */}
       <div className="website-programming-coding">
         <img src={coding} alt="this is the SEO" />
         <div className="content">
@@ -72,7 +69,6 @@ export default function WebsiteProgrammingCoding() {
           </ul>
         </div>
       </div>
-      {/* <Footer /> */}
     </>
   );
 }

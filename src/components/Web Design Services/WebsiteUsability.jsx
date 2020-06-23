@@ -1,16 +1,13 @@
 import React from "react";
-//* Components
-// import Header from "../Utils/Header";
-// import Navigation from "../Utils/Navigation";
-// import Footer from "../Utils/Footer";
+
 //* Images
-import websiteUsability from "../../images/website_design_useability.png";
+const websiteUsability =
+  "https://blue-smoke-media.s3-us-west-1.amazonaws.com/website_design_useability.png";
 
 export default function WebsiteUsability() {
   return (
     <>
-      {/* <Header /> */}
-      {/* <Navigation /> */}{" "}
+      {" "}
       <div className="website-usability">
         <img src={websiteUsability} alt="this is the SEO" />
         <div className="content">
@@ -63,7 +60,6 @@ export default function WebsiteUsability() {
           </ul>
         </div>
       </div>
-      {/* <Footer /> */}
     </>
   );
 }
