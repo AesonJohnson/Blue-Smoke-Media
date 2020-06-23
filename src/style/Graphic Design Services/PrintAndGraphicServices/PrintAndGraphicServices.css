@@ -4,7 +4,7 @@
   border-bottom: 2px solid #0b2673;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 800px) and (max-width: 1449px) {
   .print-and-graphic-design-services img {
     height: 45vh;
   }
@@ -80,7 +80,7 @@
   height: 14em;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 800px) and (max-width: 1449px) {
   .print-and-graphic-design-services .content section #coffeeShelf {
     height: 16em;
   }

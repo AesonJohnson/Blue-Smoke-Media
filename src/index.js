@@ -6,10 +6,12 @@ import * as serviceWorker from "./serviceWorker";
 import { BrowserRouter as Router } from "react-router-dom";
 import "./fonts/GameOfThrones.ttf";
 
-ReactDOM.render(
+ReactDOM.hydrate(
   <React.StrictMode>
+    {" "}
     <Router>
-      <App />
+      {" "}
+      <App />{" "}
     </Router>{" "}
   </React.StrictMode>,
   document.getElementById("root")

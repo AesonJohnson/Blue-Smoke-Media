@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from "react";
 import "./style/_Main.css";
-import { Switch, Route } from "react-router-dom";
+import { Switch, Route, BrowserRouter as Router } from "react-router-dom";
+//todo change back to BrowserRouter
+
 //* components
 import Home from "./components/Home";
 import Team from "./components/Team";
@@ -37,6 +39,7 @@ function App() {
     setIsPlaying(getStorage());
   }, []);
   return (
+    // <Router>
     <div className="App">
       {" "}
       {isPlaying ? (
@@ -96,6 +99,7 @@ function App() {
         </>
       )}{" "}
     </div>
+    // </Router>
   );
 }
 

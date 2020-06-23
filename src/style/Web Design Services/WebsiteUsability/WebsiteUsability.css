@@ -15,7 +15,7 @@
   margin: 1.45em auto;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 800px) and (max-width: 1449px) {
   .website-usability .content h1 {
     margin: 1.1em auto;
   }

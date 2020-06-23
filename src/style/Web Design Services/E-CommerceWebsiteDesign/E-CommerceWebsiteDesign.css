@@ -12,7 +12,7 @@
   margin: 1em auto 0.8em;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 800px) and (max-width: 1449px) {
   .e-commerce-website-development .content h1 {
     margin: .8em auto 0;
   }

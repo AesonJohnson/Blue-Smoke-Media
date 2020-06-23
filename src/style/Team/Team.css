@@ -122,7 +122,7 @@
   margin: auto 0rem;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 800px) and (max-width: 1449px) {
   .team .team-bottom .member img {
     width: 8em;
     height: 8em;
@@ -142,7 +142,7 @@
   font-size: 1.1em;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 800px) and (max-width: 1449px) {
   .team .team-bottom .member p {
     font-size: 1em;
   }

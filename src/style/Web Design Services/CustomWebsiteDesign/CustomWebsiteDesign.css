@@ -10,7 +10,7 @@
   text-align: left;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 800px) and (max-width: 1449px) {
   .custom-website-design .content {
     margin: 2em 2em 3em;
   }
@@ -27,7 +27,7 @@
   margin-bottom: 1.5em;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 800px) and (max-width: 1449px) {
   .custom-website-design .content h1 {
     margin-bottom: 1.1em;
   }

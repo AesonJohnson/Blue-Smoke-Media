@@ -6,7 +6,6 @@ import flame from "../../images/flame.png";
 export default function Header() {
   return (
     <header>
-      {/* <img src={blueSmoke} alt="blue-smoke" /> */}
       <img src={flame} alt="logo-flame" id="flame" />
       <div>
         <img src={blueSmoke} alt="blue-smoke" />

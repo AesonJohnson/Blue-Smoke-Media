@@ -9,7 +9,7 @@
   border-bottom: 2px outset #0b2673;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 800px) and (max-width: 1449px) {
   .organic-seo img {
     height: 45vh;
   }
