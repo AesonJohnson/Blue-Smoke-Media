@@ -31,6 +31,11 @@ footer #sub-header {
   -webkit-text-stroke: 0.85px #0b2673;
   text-shadow: 5px 5px #0b2673;
   text-align: center;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
 }
 
 @media (min-width: 800px) and (max-width: 1449px) {
@@ -201,7 +206,7 @@ footer .smBtns img {
   }
 }
 
-footer .smBtns .linkedIn {
+footer .smBtns .counter {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -209,6 +214,7 @@ footer .smBtns .linkedIn {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  margin: auto;
 }
 
 footer span {

@@ -30,6 +30,7 @@ import Contact from "./components/Contact";
 import landingVideo from "./videos/LandingPageVideo.mp4";
 //todo learn E-Commerce
 //todo add SEO to website w/ CoBe
+//todo web hosting for ssr less than $150
 function App() {
   //! enable video here
   const [isPlaying, setIsPlaying] = useState(false);

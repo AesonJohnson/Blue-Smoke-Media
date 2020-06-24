@@ -169,4 +169,8 @@
   color: white;
   font-weight: 700;
 }
+
+.inquiryForm form .antiSpam {
+  display: none;
+}
 /*# sourceMappingURL=InquirySurveyForm.css.map */

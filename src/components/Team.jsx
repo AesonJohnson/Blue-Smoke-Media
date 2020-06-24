@@ -48,13 +48,12 @@ export default function Team() {
           </div>
           <div>
             <img src={languages} alt="alternation" />
-            {/* //todo fix this paragraph ADD COMPUTER SCIENCE SOMEWHERE} */}
             <p>
               The <span>Blue Smoke Media</span> Full-Stack developers are
               proficient in the following languages, but not limited to: HTML5 •
               CSS3 • SASS • Tailwind • Bootstrap • JSON • Javascript • Python •
               React • Redux • NodeJS • Express • REST • SQL • SQLite • Postgres
-              • UI/UX • Github • Testing (Jest • Cypress)
+              • UI/UX • Github • Testing (Jest • Cypress) • Computer Science
             </p>
           </div>
           <div>

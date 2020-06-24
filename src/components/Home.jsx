@@ -12,10 +12,8 @@ const blueSmoke =
 //todo SEO FOR REACTJS!!!!
 //todo set up google analytics
 //analytics.google.com/analytics/web/provision/#/a168002604p234303565/admin/streams/promo
-// todo implement react helmet
-//todo check margins on replaced footer and header components
+// todo implement react helmet (set all titles and meta description tags)
 export default function Home() {
-  //todo set all titles and meta description tags
   return (
     <div className="home">
       <Helmet>

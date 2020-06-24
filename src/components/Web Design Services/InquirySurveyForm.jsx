@@ -282,6 +282,7 @@ export default function Contact() {
               {"  "} Printed Media{" "}
             </label>
             <input
+              className="antiSpam"
               name="antiSpam"
               type="text"
               onChange={onChangeHandler}
