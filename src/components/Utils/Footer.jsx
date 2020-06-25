@@ -85,22 +85,25 @@ export default function Footer() {
         </div>
       </div>
       <div className="smBtns">
-        <div className="counter">
-          <a href="#" rel="nofollow noopener noreferrer">
-            <img src={youtube} alt="youtube" />
-          </a>
-          {/* <iframe
+        {/* <div className="counter"> */}
+        <a href="#" rel="nofollow noopener noreferrer">
+          <img src={youtube} alt="youtube" />
+        </a>
+        {/* <iframe
             src="https://youcount.github.io/e/#!/channelname"
             height="100"
             width="250"
             frameborder="0"
           ></iframe> */}
-        </div>
+        {/* </div> */}
         <a href="#" rel="nofollow noopener noreferrer">
           <img src={twitter} alt="twitter" />
         </a>
         <div className="counter">
-          <a href="#" rel="nofollow noopener noreferrer">
+          <a
+            href="https://www.linkedin.com/company/54284240"
+            rel="nofollow noopener noreferrer"
+          >
             <img src={linkedIn} alt="linkedIn" />
           </a>
           <script

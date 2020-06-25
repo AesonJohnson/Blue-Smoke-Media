@@ -69,7 +69,8 @@ export default function Navigation() {
       </div> */}
 
       <div className="dropdown">
-        <NavLink to="/blog">Blog</NavLink>
+        {/* //todo link to blog */}
+        <a href="#">Blog</a>
       </div>
 
       <div className="dropdown">

@@ -214,7 +214,6 @@ footer .smBtns .counter {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  margin: auto;
 }
 
 footer span {

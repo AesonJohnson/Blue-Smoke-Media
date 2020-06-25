@@ -2,6 +2,7 @@
 
 
 .blog {
+  display: flex;
 
   .post {
     display: flex;
@@ -19,10 +20,8 @@
       width: 35%;
 
       img {
-        width: 80%;
+        width: 100%;
         height: 100%;
-        // margin: auto;
-        border: 1px solid lime;
       }
     }
 
