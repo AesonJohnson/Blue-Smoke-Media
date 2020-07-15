@@ -6,17 +6,13 @@ import { NavLink } from "react-router-dom";
 export default function Navigation() {
   return (
     <nav>
-      <ul>
+      <ul id="menu">
         <li>
           <NavLink to="#">Services</NavLink>
-          <ul className="dropdown">
+          <ul>
             <li>
-              <NavLink to="#">
-                Web Design
-                <br />
-                Services
-              </NavLink>
-              <ul className="sub-menu">
+              <NavLink to="#"> Website Design</NavLink>
+              <ul>
                 <li>
                   <NavLink to="/customWebsiteDesign">
                     Custom Website Design
@@ -49,11 +45,8 @@ export default function Navigation() {
               </ul>
             </li>
             <li>
-              <NavLink to="#">
-                Search Engine <br />
-                Optimization
-              </NavLink>
-              <ul className="sub-menu">
+              <NavLink to="#">Search Engine Optimization</NavLink>
+              <ul>
                 <li>
                   <NavLink to="/seoFriendly">
                     SEO - Search Engine Optimization
@@ -67,12 +60,8 @@ export default function Navigation() {
               </ul>
             </li>
             <li>
-              <NavLink to="#">
-                Graphic Design
-                <br />
-                Services
-              </NavLink>
-              <ul className="sub-menu">
+              <NavLink to="#">Graphic Design</NavLink>
+              <ul>
                 <li>
                   <NavLink to="/websiteLogoDesign">Website Logo Design</NavLink>
                 </li>
