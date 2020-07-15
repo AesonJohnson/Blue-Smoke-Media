@@ -20,4 +20,34 @@ html {
     font-size: 1.12rem;
   }
 }
+
+.App header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.App header .cta {
+  background: orange;
+  width: 20%;
+}
+
+.App header .cta p {
+  height: 80%;
+  margin: auto;
+}
+
+.App header .cta .btns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 20%;
+  margin-top: 0px;
+}
+
+.App header .cta .btns .phone {
+  background: white;
+  width: 10%;
+  height: 10%;
+}
 /*# sourceMappingURL=App.css.map */

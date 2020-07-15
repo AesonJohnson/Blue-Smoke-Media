@@ -6,80 +6,103 @@ import { NavLink } from "react-router-dom";
 export default function Navigation() {
   return (
     <nav>
-      <div className="dropdown">
-        <NavLink to="/">Home</NavLink>
-      </div>
-      <div>
-        <NavLink to="/team" id="team">
-          Meet the
-          <br />
-          Team
-        </NavLink>
-      </div>
-
-      <div className="dropdown">
-        <NavLink to="#">
-          Web Design
-          <br />
-          Services
-        </NavLink>
-        <div className="drop-content">
-          <NavLink to="/customWebsiteDesign">Custom Website Design</NavLink>
-          <NavLink to="/E-CommerceWebsiteDevelopment">
-            E-Commerce Website Development
+      <ul>
+        <li>
+          <NavLink to="#">Services</NavLink>
+          <ul className="dropdown">
+            <li>
+              <NavLink to="#">
+                Web Design
+                <br />
+                Services
+              </NavLink>
+              <ul className="sub-menu">
+                <li>
+                  <NavLink to="/customWebsiteDesign">
+                    Custom Website Design
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink to="/E-CommerceWebsiteDevelopment">
+                    E-Commerce Website Development
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink to="/coding">Coding and Programming</NavLink>
+                </li>
+                <li>
+                  <NavLink to="/websiteUsability">
+                    Creating Your Website-Useability
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink to="/ad-CopyWriting">
+                    Website Ad-Copy Writing
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink to="/webMaintenance">Website Maintenance</NavLink>
+                </li>
+                <li>
+                  <NavLink to="/inquirySurveyForm">Inquiry/Survey Form</NavLink>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <NavLink to="#">
+                Search Engine <br />
+                Optimization
+              </NavLink>
+              <ul className="sub-menu">
+                <li>
+                  <NavLink to="/seoFriendly">
+                    SEO - Search Engine Optimization
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink to="/seoOrganic">
+                    Organic Search Engine Optimization
+                  </NavLink>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <NavLink to="#">
+                Graphic Design
+                <br />
+                Services
+              </NavLink>
+              <ul className="sub-menu">
+                <li>
+                  <NavLink to="/websiteLogoDesign">Website Logo Design</NavLink>
+                </li>
+                <li>
+                  <NavLink to="/printedMediaLogos">Print Logo Design</NavLink>
+                </li>
+                <li>
+                  <NavLink to="/printAndGraphicServices">
+                    Print & Graphic Design Services
+                  </NavLink>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <NavLink to="/team" id="team">
+            Our Team
           </NavLink>
-          <NavLink to="/coding">Coding and Programming</NavLink>
-          <NavLink to="/websiteUsability">
-            Creating Your Website-Useability
-          </NavLink>
-          <NavLink to="/ad-CopyWriting">Website Ad-Copy Writing</NavLink>
-          <NavLink to="/webMaintenance">Website Maintenance</NavLink>
-          <NavLink to="/inquirySurveyForm">Inquiry/Survey Form</NavLink>
-        </div>
-      </div>
-
-      <div className="dropdown">
-        <NavLink to="#">
-          Search Engine <br />
-          Optimization
-        </NavLink>
-        <div className="drop-content">
-          <NavLink to="/seoFriendly">SEO - Search Engine Optimization</NavLink>
-          <NavLink to="/seoOrganic">Organic Search Engine Optimization</NavLink>
-        </div>
-      </div>
-
-      <div className="dropdown">
-        <NavLink to="#">
-          Graphic Design
-          <br />
-          Services
-        </NavLink>
-        <div className="drop-content">
-          <NavLink to="/websiteLogoDesign">Website Logo Design</NavLink>
-          <NavLink to="/printedMediaLogos">Print Logo Design</NavLink>
-          <NavLink to="/printAndGraphicServices">
-            Print & Graphic Design Services
-          </NavLink>
-        </div>
-      </div>
-
-      {/* <div className="dropdown">
-        <NavLink to="/portfolio">Portfolio</NavLink>
-      </div> */}
-
-      <div className="dropdown">
-        {/* //todo link to blog */}
-        <a href="#">Blog</a>
-      </div>
-
-      <div className="dropdown">
-        <NavLink to="/contact">
-          Contact
-          <br />
-          Us
-        </NavLink>
-      </div>
+        </li>
+        <li>
+          <NavLink to="/portfolio">Our Work</NavLink>
+        </li>
+        <li>
+          <a href="#">Blog</a>
+        </li>
+        <li>
+          <NavLink to="/contact">Contact</NavLink>
+        </li>
+      </ul>
     </nav>
   );
 }

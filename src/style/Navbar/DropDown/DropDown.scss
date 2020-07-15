@@ -9,7 +9,12 @@
     transition: all 3s;
   }
 
-  //todo fix dropdown later
+  .sub-drop-content {
+    display: none;
+    position: absolute;
+    transition: all 3s;
+  }
+
   &:hover .drop-content {
     display: flex;
     flex-direction: column;
@@ -24,6 +29,28 @@
       width: 80%;
       margin: 0.4em auto;
       font-size: 0.875em;
+
     }
+
+    &:hover .sub-drop-content {
+      display: flex;
+      flex-direction: column;
+      width: 12em;
+      background: $orange;
+      left: 200%;
+      transform: translateX(-100%);
+      padding: 0.5em 0;
+      box-shadow: black 4px 6px;
+
+      a {
+        width: 80%;
+        margin: 0.4em auto;
+        font-size: 0.875em;
+
+      }
+    }
+
   }
+
+
 }

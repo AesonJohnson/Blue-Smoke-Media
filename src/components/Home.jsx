@@ -1,7 +1,12 @@
 import React from "react";
-import { Helmet } from "react-helmet";
 import { Link } from "react-router-dom";
 //* Images/Video
+import component1 from "../images/component1.png";
+import component2 from "../images/component2.png";
+import component3 from "../images/component3.png";
+import component4 from "../images/component4.png";
+import component5 from "../images/component5.png";
+import component6 from "../images/component6.png";
 const silhouette =
   "https://blue-smoke-media.s3-us-west-1.amazonaws.com/silhouette.png";
 const socialMediaPhone =
@@ -12,17 +17,19 @@ const blueSmoke =
 //todo SEO FOR REACTJS!!!!
 //todo set up google analytics
 //analytics.google.com/analytics/web/provision/#/a168002604p234303565/admin/streams/promo
-// todo implement react helmet (set all titles and meta description tags)
+// todo remove react helmet
 export default function Home() {
   return (
     <div className="home">
-      <Helmet>
-        <title>Home</title>
-        <meta
-          name="description"
-          content="This is what you want to show as the page content in the Google SERP Listing"
-        />
-      </Helmet>
+      {/* <section className="six-steps">
+        <div className="row1">
+          <div className="left" />
+          <div className="right">
+            <p>lorem ipsum</p>
+          </div>
+        </div>
+      </section> */}
+
       <section className="globe">
         <p>
           <span>Blue Smoke Digital and Printed Media</span>
@@ -31,6 +38,7 @@ export default function Home() {
           Engine Optimized, visually appealing, and easy to navigate.
         </p>
       </section>
+
       <section className="silhouette">
         <img src={silhouette} alt="Digital Marketing" />
         <p>

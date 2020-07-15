@@ -29,4 +29,30 @@ html {
     font-size: 1.12rem;
   }
 
+  header {
+    display: flex;
+
+    .cta {
+      background: orange;
+      width: 20%;
+
+      p {
+        height: 80%;
+        margin: auto;
+      }
+
+      .btns {
+        display: flex;
+        height: 20%;
+        margin-top: 0px;
+
+        .phone {
+          background: white;
+          width: 10%;
+          height: 10%;
+        }
+
+      }
+    }
+  }
 }

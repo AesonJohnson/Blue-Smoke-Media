@@ -60,8 +60,26 @@ function App() {
         ></video>
       ) : (
         <>
-          <Header />
-          <Navigation />
+          <header>
+            <div>
+              <Header />
+              <Navigation />
+            </div>
+            {/* //! extract to component */}
+            <div className="cta">
+              <p>
+                Request
+                <br /> A <span>FREE</span>
+                Consultation
+              </p>
+              <div className="btns">
+                <div className="phone" />
+                <div className="phone" />
+                {/* <img src="" /> */}
+                {/* <img src="" /> */}
+              </div>
+            </div>
+          </header>
           <Switch>
             <Route exact path="/" component={Home} />{" "}
             <Route path="/team" component={Team} />{" "}

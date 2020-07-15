@@ -2,9 +2,9 @@ nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: 11.5vh;
+  height: 4vh;
   min-height: 3em;
-  background: #f64a1e;
+  background: #0b2673;
   border-top: 2px solid #0b2673;
   border-bottom: 2px solid #0b2673;
   -webkit-user-select: none;
@@ -26,34 +26,49 @@ nav {
   }
 }
 
-nav div {
+nav ul {
   margin: auto;
+  list-style: none;
 }
 
-nav div a {
-  color: #190b32;
+nav ul li {
+  width: 120px;
+  color: white;
+  float: left;
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+  margin-right: 2px;
+  position: relative;
   text-decoration: none;
-  margin: auto;
-  font-size: 1.1em;
-  -webkit-transition: 0.47s;
-  transition: 0.47s;
-  -webkit-text-stroke: 1px #190b32;
-  font-weight: 500;
 }
 
-@media (min-width: 800px) and (max-width: 1449px) {
-  nav div a {
-    font-size: 1.05em;
-  }
+nav ul li:hover {
+  background: #f64a1e;
 }
 
-nav div a:hover {
-  color: #f5d6d2;
-  -webkit-transform: scale(1.3);
-          transform: scale(1.3);
-  -webkit-transition: 0.57s;
-  transition: 0.57s;
-  text-shadow: 1.4px 1.65px #190b32;
-  -webkit-text-stroke: 0px;
+nav ul li:hover .dropdown {
+  display: block;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  display: block;
+}
+
+nav ul li .dropdown {
+  display: none;
+}
+
+nav ul li .dropdown .sub-menu {
+  position: absolute;
+  left: 122px;
+  top: 0;
+  display: none;
+}
+
+nav ul li .dropdown:hover .sub-menu {
+  display: block;
 }
 /*# sourceMappingURL=Navbar.css.map */

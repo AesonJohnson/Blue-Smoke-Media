@@ -13,8 +13,7 @@ header {
 }
 
 header #flame {
-  width: 20%;
-  padding-top: 2%;
+  width: 7%;
 }
 
 @media (max-width: 480px) {
@@ -25,29 +24,33 @@ header #flame {
   }
 }
 
-header div img {
-  width: 92%;
-  height: 20vh;
-  margin: 4.5% auto 0.978%;
+header .blue-smoke {
+  width: 30%;
+  margin: auto;
+}
+
+header .blue-smoke img {
+  width: 100%;
+  height: 40%;
 }
 
 @media (min-width: 800px) and (max-width: 1449px) {
-  header div img {
+  header .blue-smoke img {
     width: 80%;
   }
 }
 
 @media (max-width: 480px) {
-  header div img {
+  header .blue-smoke img {
     height: 7vh;
     width: 50%;
     margin: 4% auto;
   }
 }
 
-header div p {
+header .blue-smoke p {
   font-weight: 700;
-  font-size: 3em;
+  font-size: 1.35em;
   letter-spacing: 5px;
   line-height: 1.2;
   color: #f64a1e;
@@ -57,8 +60,8 @@ header div p {
 }
 
 @media (min-width: 800px) and (max-width: 1449px) {
-  header div p {
-    font-size: 2.45em;
+  header .blue-smoke p {
+    font-size: 1em;
     text-shadow: 4px 4px #0b2673;
     margin-left: 17%;
     letter-spacing: 4px;
@@ -66,13 +69,13 @@ header div p {
 }
 
 @media (max-width: 480px) {
-  header div p {
+  header .blue-smoke p {
     font-size: 1em;
     display: none;
   }
 }
 
-header div span {
+header .blue-smoke span {
   margin-top: .9em;
   font-weight: 700;
   -webkit-text-stroke: 0.5px #0b2673;
@@ -80,12 +83,12 @@ header div span {
 }
 
 @media (max-width: 480px) {
-  header div span {
+  header .blue-smoke span {
     display: none;
   }
 }
 
-header div .sub-text {
+header .blue-smoke .sub-text {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -105,13 +108,32 @@ header div .sub-text {
   margin-left: 25%;
 }
 
-header div .sub-text span:first-child {
+header .blue-smoke .sub-text span:first-child {
   padding-right: 14.5%;
   margin-top: 1.25em;
 }
 
-header div .sub-text span:nth-child(2) {
+header .blue-smoke .sub-text span:nth-child(2) {
   padding-right: 5%;
   margin-bottom: .5em;
+}
+
+header .center {
+  color: white;
+  width: 40%;
+  margin: auto;
+}
+
+header .center p:first-child {
+  padding-right: 50%;
+}
+
+header .center p:nth-child(2) {
+  padding-left: 50%;
+}
+
+header .people {
+  background-image: url("../../images/silhouette.png");
+  width: 20%;
 }
 /*# sourceMappingURL=Header.css.map */
