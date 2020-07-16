@@ -1,7 +1,6 @@
 @import "./App/App.css";
 @import "./Header/Header.css";
-@import "./Navbar/Navbar.css";
-@import "./Navbar/DropDown/DropDown.css";
+@import "./Navigation/Navigation.css";
 @import "./Footer/Footer.css";
 
 @import "./Home/Home.css";

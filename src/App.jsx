@@ -75,8 +75,8 @@ function App() {
               <div className="btns">
                 <div className="phone" />
                 <div className="phone" />
-                {/* <img src="" /> */}
-                {/* <img src="" /> */}
+                <img src="./images/Mail Icon.png" alt="contact-mail" />
+                <img src="./images/phone.png" alt="contact-phone" />
               </div>
             </div>
           </header>
