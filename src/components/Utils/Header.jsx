@@ -1,14 +1,17 @@
 import React from "react";
-const blueBackground =
+const blueSmoke =
   "https://blue-smoke-media.s3-us-west-1.amazonaws.com/blue-smoke.png";
+
 const flame = "https://blue-smoke-media.s3-us-west-1.amazonaws.com/flame.png";
+
+const silhouettes = "../../images/black-silhouettes.png";
 
 export default function Header() {
   return (
     <header>
       <img src={flame} alt="logo-flame" id="flame" />
       <div className="blue-smoke">
-        <img src={blueBackground} alt="blue-smoke" />
+        <img src={blueSmoke} alt="blue-smoke" />
         <p>Digital and Printed Media</p>
       </div>
       <div className="center">
@@ -20,7 +23,7 @@ export default function Header() {
         </p>
       </div>
       {/* <div className="people" /> */}
-      <img src="../../images/black-silhouettes.png" alt="silhouettes" />
+      <img src={silhouettes} alt="people silhouettes" />
     </header>
   );
 }

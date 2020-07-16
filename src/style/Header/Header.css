@@ -1,5 +1,5 @@
 header {
-  background-image: url("../../images/blue-background.png");
+  background-image: url("../../images/headerGlobe.png");
   background-size: cover;
   background-repeat: no-repeat;
   display: -webkit-box;
@@ -27,6 +27,7 @@ header #flame {
 header .blue-smoke {
   width: 30%;
   margin: auto;
+  padding-top: .5em;
 }
 
 header .blue-smoke img {

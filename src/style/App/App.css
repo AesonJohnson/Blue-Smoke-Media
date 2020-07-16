@@ -28,7 +28,9 @@ html {
 }
 
 .App header .cta {
-  background: orange;
+  background: #f83600;
+  background: -webkit-gradient(linear, left bottom, left top, from(#f83600), to(#facc22));
+  background: linear-gradient(0deg, #f83600 0%, #facc22 100%);
   width: 20%;
 }
 

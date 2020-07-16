@@ -27,7 +27,10 @@ import WebsiteLogoDesign from "./components/Graphic Design Services/WebsiteLogoD
 import Blog from "./components/Blog";
 import Contact from "./components/Contact";
 
+// * Media
 import landingVideo from "./videos/LandingPageVideo.mp4";
+import phone from "./images/phone.png";
+import email from "./images/Mail Icon.png";
 //todo learn E-Commerce
 //todo add SEO to website w/ CoBe
 //todo web hosting for ssr less than $150
@@ -65,7 +68,7 @@ function App() {
               <Header />
               <Navigation />
             </div>
-            {/* //! extract to component */}
+            {/* //todo extract to component */}
             <div className="cta">
               <p>
                 Request
@@ -73,10 +76,8 @@ function App() {
                 Consultation
               </p>
               <div className="btns">
-                <div className="phone" />
-                <div className="phone" />
-                <img src="./images/Mail Icon.png" alt="contact-mail" />
-                <img src="./images/phone.png" alt="contact-phone" />
+                <img src={email} alt="contact-mail" id="cta-mail" />
+                <img src={phone} alt="contact-phone" id="cta-phone" />
               </div>
             </div>
           </header>

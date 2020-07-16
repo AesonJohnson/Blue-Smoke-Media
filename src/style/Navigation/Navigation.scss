@@ -61,7 +61,9 @@ nav {
       // display: none;
       display: flex;
       position: absolute;
-      background-color: #f9f9f9;
+      background: #020723;
+      padding: 1em;
+      opacity: 90%;
       // min-width: 160px;
       width: 50%;
       box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
@@ -78,13 +80,14 @@ nav {
 
         .drop-item {
           float: none;
-          color: black;
+          color: white;
           padding: .5em .65em;
           margin: .2em;
           text-decoration: none;
           display: block;
-          // text-align: left;
+          text-align: left;
           font-size: .85em;
+          font-weight: inherit;
 
           &:hover {
             color: $orange;
@@ -96,123 +99,3 @@ nav {
     }
   }
 }
-
-// ul {
-//   margin: 0;
-//   padding: 0;
-//   list-style: none;
-// }
-
-// .menu {
-//   display: flex;
-//   width: 90%;
-//   margin: auto;
-//   // background-color: $orange;
-//   color: white;
-//   border-radius: 6px;
-
-//   li {
-//     margin: auto;
-
-//     a {
-//       color: white;
-//       text-decoration: none;
-//       display: block;
-//     }
-//   }
-
-//   .dropdown {
-//     position: relative;
-//     display: inline-block;
-
-//     ul {
-//       display: none;
-//       position: absolute;
-//       z-index: 1;
-//     }
-
-//     &:hover ul {
-//       display: block;
-//     }
-//   }
-
-//   li {
-//     // float: left;
-//     position: relative;
-//   margin: auto;
-//   // width: 100%;
-
-//   &:hover>a {
-//     color: $orange;
-//     // background: rebeccapurple;
-// }
-
-//   &:hover>ul {
-//     visibility: visible;
-//     // opacity: 1;
-//   }
-// }
-
-// a {
-//   float: left;
-//   // padding: 12px 30px;
-//   padding: .5rem 1rem;
-//   // margin: auto;
-//   // text-transform: uppercase;
-//   text-decoration: none;
-//   color: white;
-//   font-size: 1.2em;
-// }
-
-// ul {
-//   margin-top: .5em;
-//   // opacity: 0;
-//   visibility: hidden;
-//   position: absolute;
-//   top: 2em;
-//   left: 0;
-//   z-index: 1;
-//   background: green;
-//   border-radius: 3px;
-//   transition: all .3s ease-in-out;
-
-//   ul {
-//     top: 0;
-//     left: 150px;
-//     // margin-left: .25em;
-//     margin-top: 0;
-//   }
-
-//   li {
-//     float: none;
-//     display: block;
-//     border: 0;
-//     box-shadow: 0 1px 0 black, 0 2px 0 grey;
-
-//     &:last-child {
-//       box-shadow: none;
-//     }
-
-//     &:first-child>a {
-//       border-radius: 0 0 3px 3px;
-//     }
-
-//     &:first-child a:hover:after {
-//       border-bottom-color: white;
-//     }
-//   }
-
-//   a {
-//     padding: 10px;
-//     width: 130px;
-//     display: block;
-//     white-space: none;
-//     // text-transform: uppercase;
-
-//     &:hover {
-//       background-color: peach;
-//     }
-//   }
-// }
-//   }
-// }

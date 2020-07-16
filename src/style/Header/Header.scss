@@ -7,7 +7,7 @@
 }
 
 header {
-  background-image: url("../../images/blue-background.png");
+  background-image: url("../../images/headerGlobe.png");
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
@@ -34,6 +34,7 @@ header {
   .blue-smoke {
     width: 30%;
     margin: auto;
+    padding-top: .5em;
 
     img {
       width: 100%;
