@@ -8,6 +8,8 @@ nav {
   background: $darkBlue;
   border-top: 2px solid $darkBlue;
   border-bottom: 2px solid $darkBlue;
+  padding: 0 15%;
+  justify-content: space-around;
 
   -webkit-user-select: none;
   -khtml-user-select: none;
@@ -58,8 +60,8 @@ nav {
     }
 
     .dropdown-content {
-      // display: none;
-      display: flex;
+      display: none;
+      // display: flex;
       position: absolute;
       background: #020723;
       padding: 1em;

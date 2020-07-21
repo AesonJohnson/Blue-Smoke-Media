@@ -29,26 +29,45 @@ html {
 
 .App header .cta {
   background: #f83600;
-  background: -webkit-gradient(linear, left bottom, left top, from(#f83600), to(#facc22));
-  background: linear-gradient(0deg, #f83600 0%, #facc22 100%);
-  width: 20%;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(10%, #f83600), color-stop(80%, #facc22));
+  background: linear-gradient(0deg, #f83600 10%, #facc22 80%);
+  width: 27%;
 }
 
 .App header .cta p {
-  height: 80%;
-  margin: auto;
+  height: 60%;
+  margin: 0;
+  font-size: 1.3em;
+  font-weight: 700;
+}
+
+.App header .cta p span {
+  color: #0b2673;
 }
 
 .App header .cta .btns {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: 20%;
-  margin-top: 0px;
+  -webkit-box-pack: space space-around;
+      -ms-flex-pack: space space-around;
+          justify-content: space space-around;
+  height: 40%;
+  width: 80%;
+  margin: auto;
 }
 
-.App header .cta .btns .phone {
-  width: 40%;
-  height: 40%;
+.App header .cta .btns .cta-btn {
+  margin: auto;
+}
+
+.App header .cta .btns .cta-mail {
+  width: 45%;
+  height: 65%;
+}
+
+.App header .cta .btns .cta-phone {
+  width: 25%;
+  height: 65%;
 }
 /*# sourceMappingURL=App.css.map */

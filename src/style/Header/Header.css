@@ -16,6 +16,12 @@ header #flame {
   width: 7%;
 }
 
+@media (min-width: 800px) and (max-width: 1449px) {
+  header #flame {
+    width: 15%;
+  }
+}
+
 @media (max-width: 480px) {
   header {
     background-image: url("../../images/background_image_w_flame-only.png");
@@ -25,14 +31,14 @@ header #flame {
 }
 
 header .blue-smoke {
-  width: 30%;
+  width: 35%;
   margin: auto;
+  margin-left: .4%;
   padding-top: .5em;
 }
 
 header .blue-smoke img {
   width: 100%;
-  height: 40%;
 }
 
 @media (min-width: 800px) and (max-width: 1449px) {
@@ -51,13 +57,15 @@ header .blue-smoke img {
 
 header .blue-smoke p {
   font-weight: 700;
-  font-size: 1.35em;
+  font-size: 1.4em;
   letter-spacing: 5px;
   line-height: 1.2;
   color: #f64a1e;
   margin: 0.175em auto .35em;
-  -webkit-text-stroke: 0.85px #0b2673;
-  text-shadow: 5px 5px #0b2673;
+  text-shadow: 3px 3px #0b2673;
+  font-weight: 900;
+  white-space: nowrap;
+  text-align: center;
 }
 
 @media (min-width: 800px) and (max-width: 1449px) {
@@ -89,52 +97,35 @@ header .blue-smoke span {
   }
 }
 
-header .blue-smoke .sub-text {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  color: white;
-  font-size: .98em;
-  text-align: right;
-  letter-spacing: 0.12rem;
-  width: 75%;
-  margin-top: 2.4rem;
-  padding-bottom: 2rem;
-  line-height: 1.45rem;
-  text-shadow: 1.45px 1.45px black;
-  margin-left: 25%;
-}
-
-header .blue-smoke .sub-text span:first-child {
-  padding-right: 14.5%;
-  margin-top: 1.25em;
-}
-
-header .blue-smoke .sub-text span:nth-child(2) {
-  padding-right: 5%;
-  margin-bottom: .5em;
-}
-
 header .center {
   color: white;
-  width: 40%;
-  margin: auto;
+  width: 30%;
+  margin: auto 0;
+  text-align: left;
 }
 
-header .center p:first-child {
-  padding-right: 50%;
+header .center p {
+  font-weight: 900;
+  font-size: 1.4em;
+  text-shadow: black 1px 4px 4px;
+  letter-spacing: 2px;
+  -webkit-margin-after: .5em;
+          margin-block-end: .5em;
 }
 
 header .center p:nth-child(2) {
-  padding-left: 50%;
+  text-align: right;
+  -webkit-margin-before: 0;
+          margin-block-start: 0;
 }
 
-header .people {
-  background-image: url("../../images/black-silhouettes.png");
-  width: 20%;
+header .center p span {
+  text-transform: uppercase;
+  color: #f64a1e;
+}
+
+header .silhouettes {
+  width: 25%;
+  margin: 0;
 }
 /*# sourceMappingURL=Header.css.map */

@@ -73,11 +73,20 @@ function App() {
               <p>
                 Request
                 <br /> A <span>FREE</span>
+                <br />
                 Consultation
               </p>
               <div className="btns">
-                <img src={email} alt="contact-mail" id="cta-mail" />
-                <img src={phone} alt="contact-phone" id="cta-phone" />
+                <img
+                  src={email}
+                  alt="contact-mail"
+                  className="cta-mail cta-btn"
+                />
+                <img
+                  src={phone}
+                  alt="contact-phone"
+                  className="cta-phone cta-btn"
+                />
               </div>
             </div>
           </header>

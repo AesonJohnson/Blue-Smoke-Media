@@ -1,10 +1,10 @@
 import React from "react";
+import silhouettes from "../../images/black-silhouettes.png";
+
 const blueSmoke =
   "https://blue-smoke-media.s3-us-west-1.amazonaws.com/blue-smoke.png";
 
 const flame = "https://blue-smoke-media.s3-us-west-1.amazonaws.com/flame.png";
-
-const silhouettes = "../../images/black-silhouettes.png";
 
 export default function Header() {
   return (
@@ -19,11 +19,10 @@ export default function Header() {
           Getting <span>your</span> business
         </p>
         <p>
-          <span>Back</span> into Business
+          <span>Back</span> into Business!!
         </p>
       </div>
-      {/* <div className="people" /> */}
-      <img src={silhouettes} alt="people silhouettes" />
+      <img src={silhouettes} alt="people silhouettes" className="silhouettes" />
     </header>
   );
 }

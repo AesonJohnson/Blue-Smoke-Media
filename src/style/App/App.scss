@@ -34,22 +34,41 @@ html {
 
     .cta {
       background: rgb(248, 54, 0);
-      background: linear-gradient(0deg, rgba(248, 54, 0, 1) 0%, rgba(250, 204, 34, 1) 100%);
-      width: 20%;
+      background: linear-gradient(0deg, rgba(248, 54, 0, 1) 10%, rgba(250, 204, 34, 1) 80%);
+      width: 27%;
 
       p {
-        height: 80%;
-        margin: auto;
+        height: 60%;
+        margin: 0;
+        font-size: 1.3em;
+        font-weight: 700;
+        // padding-top: 5%;
+
+        span {
+          color: $darkBlue;
+        }
       }
 
       .btns {
         display: flex;
-        height: 20%;
-        margin-top: 0px;
+        justify-content: space space-around;
+        height: 40%;
+        width: 80%;
+        margin: auto;
 
-        .phone {
-          width: 40%;
-          height: 40%;
+        .cta-btn {
+          margin: auto;
+        }
+
+        .cta-mail {
+          // 2:3 ratio
+          width: 45%;
+          height: 65%;
+        }
+
+        .cta-phone {
+          width: 25%;
+          height: 65%;
         }
 
       }
