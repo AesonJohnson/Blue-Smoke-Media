@@ -1,8 +1,8 @@
 import React from "react";
-
+import eCommerce from "../../images/E-commerce_image.png";
 //* Images
-const eCommerce =
-  "https://blue-smoke-media.s3-us-west-1.amazonaws.com/E-commerce_image.png";
+// const eCommerce =
+//   "https://blue-smoke-media.s3-us-west-1.amazonaws.com/E-commerce_image.png";
 
 export default function ECommerceWebsiteDevelopment() {
   return (

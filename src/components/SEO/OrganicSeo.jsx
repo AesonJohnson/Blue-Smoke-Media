@@ -1,7 +1,8 @@
 import React from "react";
 import { Helmet } from "react-helmet";
-const seoBanner =
-  "https://blue-smoke-media.s3-us-west-1.amazonaws.com/seo-banner.png";
+import seoBanner from "../../images/seo-banner.png";
+// const seoBanner =
+// "https://blue-smoke-media.s3-us-west-1.amazonaws.com/seo-banner.png";
 
 export default function OrganicSeo() {
   return (

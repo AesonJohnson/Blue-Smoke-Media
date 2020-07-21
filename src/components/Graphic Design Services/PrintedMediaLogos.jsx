@@ -1,8 +1,9 @@
 import React from "react";
 import { Helmet } from "react-helmet";
+import printedMedia from "../../images/printed-media.png";
 //* Images
-const printedMedia =
-  "https://blue-smoke-media.s3-us-west-1.amazonaws.com/printed-media.png";
+// const printedMedia =
+//   "https://blue-smoke-media.s3-us-west-1.amazonaws.com/printed-media.png";
 
 export default function PrintedMediaLogos() {
   return (

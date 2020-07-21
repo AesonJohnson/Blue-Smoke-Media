@@ -1,10 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet";
-
+import seoPuzzle from "../../images/seo-puzzle.png";
 //* Images
-const seoPuzzle =
-  "https://blue-smoke-media.s3-us-west-1.amazonaws.com/seo-puzzle.png";
+// const seoPuzzle =
+// "https://blue-smoke-media.s3-us-west-1.amazonaws.com/seo-puzzle.jpg";
 
 export default function OrganicSeo() {
   return (

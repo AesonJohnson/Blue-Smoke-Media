@@ -1,18 +1,22 @@
 import React from "react";
 import { Link } from "react-router-dom";
 //* Images/Video
+import silhouette from "../images/silhouette.png";
+import socialMedia from "../images/social-media.jpg";
+import blueSmoke from "../images/blue-smoke.png";
+
 import component1 from "../images/component1.png";
 import component2 from "../images/component2.png";
 import component3 from "../images/component3.png";
 import component4 from "../images/component4.png";
 import component5 from "../images/component5.png";
 import component6 from "../images/component6.png";
-const silhouette =
-  "https://blue-smoke-media.s3-us-west-1.amazonaws.com/silhouette.png";
-const socialMediaPhone =
-  "https://blue-smoke-media.s3-us-west-1.amazonaws.com/social-media-phone.jpg";
-const blueSmoke =
-  "https://blue-smoke-media.s3-us-west-1.amazonaws.com/blue-smoke.png";
+// const silhouette =
+//   "https://blue-smoke-media.s3-us-west-1.amazonaws.com/silhouette.png";
+// const socialMedia =
+//   "https://blue-smoke-media.s3-us-west-1.amazonaws.com/social-media.jpg";
+// const blueSmoke =
+//   "https://blue-smoke-media.s3-us-west-1.amazonaws.com/blue-smoke.png";
 
 //todo SEO FOR REACTJS!!!!
 //todo set up google analytics
@@ -54,7 +58,7 @@ export default function Home() {
         </p>
       </section>
       <section className="social-media">
-        <img src={socialMediaPhone} alt="social media" />
+        <img src={socialMedia} alt="social media" />
         <div className="content">
           <p>
             Web Design is the process of creating a user experience and is made

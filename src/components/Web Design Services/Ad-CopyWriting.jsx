@@ -1,8 +1,8 @@
 import React from "react";
-
+import AdCopyWritingImg from "../../images/ad-copy-writing-image.png";
 //* Images
-const AdCopyWritingImg =
-  "https://blue-smoke-media.s3-us-west-1.amazonaws.com/ad-copy-writing-image.png";
+// const AdCopyWritingImg =
+//   "https://blue-smoke-media.s3-us-west-1.amazonaws.com/ad-copy-writing-image.png";
 
 export default function AdCopyWriting() {
   return (

@@ -1,8 +1,9 @@
 import React from "react";
+import customDesign from "../../images/watercolor-papers.jpg";
 
 //* Images
-const customDesign =
-  "https://blue-smoke-media.s3-us-west-1.amazonaws.com/watercolor-papers.jpg";
+// const customDesign =
+//   "https://blue-smoke-media.s3-us-west-1.amazonaws.com/watercolor-papers.jpg";
 
 export default function CustomWebsiteDesign() {
   return (

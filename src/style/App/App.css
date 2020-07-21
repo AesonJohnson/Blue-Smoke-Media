@@ -79,10 +79,10 @@ html {
   height: 65%;
 }
 
-@media (max-width: 480px) {
+@media (min-width: 800px) and (max-width: 1449px) {
   .App header .cta .btns .cta-mail {
-    width: 40%;
-    height: 60%;
+    width: 43%;
+    height: 63%;
   }
 }
 
@@ -91,10 +91,10 @@ html {
   height: 65%;
 }
 
-@media (max-width: 480px) {
+@media (min-width: 800px) and (max-width: 1449px) {
   .App header .cta .btns .cta-phone {
     width: 20%;
-    height: 40%;
+    height: 45%;
   }
 }
 /*# sourceMappingURL=App.css.map */

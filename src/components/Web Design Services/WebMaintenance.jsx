@@ -1,8 +1,8 @@
 import React from "react";
-
+import websiteMaintenance from "../../images/website-maintenance.jpg";
 //* Images
-const websiteMaintenance =
-  "https://blue-smoke-media.s3-us-west-1.amazonaws.com/website-maintenance.jpg";
+// const websiteMaintenance =
+//   "https://blue-smoke-media.s3-us-west-1.amazonaws.com/website-maintenance.jpg";
 
 export default function WebMaintenance() {
   return (

@@ -1,8 +1,8 @@
 import React from "react";
-
+import coding from "../../images/programming_coding.png";
 //* Images
-const coding =
-  "https://blue-smoke-media.s3-us-west-1.amazonaws.com/programming_coding.png";
+// const coding =
+//   "https://blue-smoke-media.s3-us-west-1.amazonaws.com/programming_coding.png";
 
 export default function WebsiteProgrammingCoding() {
   return (

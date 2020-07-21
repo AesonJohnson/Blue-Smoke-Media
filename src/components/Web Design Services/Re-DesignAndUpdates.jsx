@@ -1,7 +1,7 @@
 import React from "react";
-
+import placeholder from "../../images/eagle.png";
 //* Images
-import placeholder https://blue-smoke-media.s3-us-west-1.amazonaws.com/globe-stretch.png";
+// import placeholder = https://blue-smoke-media.s3-us-west-1.amazonaws.com/globe-stretch.png";
 
 export default function ReDesignAndUpdates() {
   return (
@@ -14,7 +14,6 @@ export default function ReDesignAndUpdates() {
           <p>lorem</p>
         </div>
       </div>
-      
     </>
   );
 }

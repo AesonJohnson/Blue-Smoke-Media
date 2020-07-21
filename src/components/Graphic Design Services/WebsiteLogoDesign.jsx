@@ -1,8 +1,9 @@
 import React from "react";
 import { Helmet } from "react-helmet";
+import logoDesign from "../../images/Website-logo-design-services.png";
 //* Images
-const logoDesign =
-  "https://blue-smoke-media.s3-us-west-1.amazonaws.com/Website-logo-design-services.png";
+// const logoDesign =
+//   "https://blue-smoke-media.s3-us-west-1.amazonaws.com/Website-logo-design-services.png";
 
 export default function WebsiteLogoDesign() {
   return (

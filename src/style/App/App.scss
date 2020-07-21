@@ -74,9 +74,9 @@ html {
           width: 45%;
           height: 65%;
 
-          @include breakpoint(mobile) {
-            width: 40%;
-            height: 60%;
+          @include breakpoint(laptop) {
+            width: 43%;
+            height: 63%;
           }
         }
 
@@ -84,9 +84,9 @@ html {
           width: 25%;
           height: 65%;
 
-          @include breakpoint(mobile) {
+          @include breakpoint(laptop) {
             width: 20%;
-            height: 40%;
+            height: 45%;
           }
         }
 

@@ -1,8 +1,8 @@
 import React from "react";
-
+import websiteUsability from "../../images/website_design_useability.png";
 //* Images
-const websiteUsability =
-  "https://blue-smoke-media.s3-us-west-1.amazonaws.com/website_design_useability.png";
+// const websiteUsability =
+//   "https://blue-smoke-media.s3-us-west-1.amazonaws.com/website_design_useability.png";
 
 export default function WebsiteUsability() {
   return (

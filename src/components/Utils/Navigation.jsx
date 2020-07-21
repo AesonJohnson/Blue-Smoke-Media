@@ -9,7 +9,7 @@ export default function Navigation() {
         Home
       </NavLink>
       <div class="dropdown">
-        <button class="dropbtn nav-item">Services</button>
+        <button class="drop-btn nav-item">Services</button>
         <div class="dropdown-content">
           <div className="nav-section">
             <h3>SEO</h3>
