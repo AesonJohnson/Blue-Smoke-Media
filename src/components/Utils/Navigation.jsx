@@ -20,37 +20,41 @@ export default function Navigation() {
               Organic Search Engine Optimization
             </NavLink>
           </div>
-          <div className="nav-section">
+          <div className="nav-section ">
             <h3>Web Design</h3>
-            <div>
-              <NavLink to="/customWebsiteDesign" className="drop-item">
-                Custom Website Design
-              </NavLink>
+            <div className="split">
+              <div>
+                <NavLink to="/customWebsiteDesign" className="drop-item">
+                  Custom Website Design
+                </NavLink>
 
-              <NavLink to="/E-CommerceWebsiteDevelopment" className="drop-item">
-                E-Commerce Website Development
-              </NavLink>
+                <NavLink
+                  to="/E-CommerceWebsiteDevelopment"
+                  className="drop-item"
+                >
+                  E-Commerce Website Development
+                </NavLink>
 
-              <NavLink to="/coding" className="drop-item">
-                Coding and Programming
-              </NavLink>
-              <NavLink to="/websiteUsability" className="drop-item">
-                Creating Your Website-Useability
-              </NavLink>
+                <NavLink to="/websiteUsability" className="drop-item">
+                  Creating Your Website-Useability
+                </NavLink>
+              </div>
+              <div>
+                <NavLink to="/ad-CopyWriting" className="drop-item">
+                  Website Ad-Copy Writing
+                </NavLink>
+
+                <NavLink to="/webMaintenance" className="drop-item">
+                  Website Maintenance
+                </NavLink>
+                <NavLink to="/coding" className="drop-item">
+                  Coding and Programming
+                </NavLink>
+              </div>
             </div>
-            <div>
-              <NavLink to="/ad-CopyWriting" className="drop-item">
-                Website Ad-Copy Writing
-              </NavLink>
-
-              <NavLink to="/webMaintenance" className="drop-item">
-                Website Maintenance
-              </NavLink>
-
-              <NavLink to="/inquirySurveyForm" className="drop-item">
-                Inquiry/Survey Form
-              </NavLink>
-            </div>
+            <NavLink to="/inquirySurveyForm" className="drop-item">
+              Inquiry/Survey Form
+            </NavLink>
           </div>
           <div className="nav-section">
             <h3>Graphic Design</h3>

@@ -10,7 +10,6 @@ nav {
   border-bottom: 2px solid $darkBlue;
   padding: 0 15%;
   justify-content: space-around;
-
   -webkit-user-select: none;
   -khtml-user-select: none;
   -moz-user-select: none;
@@ -20,7 +19,7 @@ nav {
 
 
   @include breakpoint(laptop) {
-    height: 11vh;
+    padding: 0 7%;
   }
 
   @include breakpoint(mobile) {
@@ -61,18 +60,29 @@ nav {
 
     .dropdown-content {
       display: none;
+      // ! DISPLAY FLEX
       // display: flex;
       position: absolute;
       background: #020723;
-      padding: 1em;
+      padding: .15em 1em .5em;
       opacity: 90%;
       // min-width: 160px;
-      width: 50%;
+      width: 65%;
       box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-      justify-content: space-around;
+      justify-content: space-between;
 
       .nav-section {
-        width: 30%;
+        width: 23%;
+
+        &:nth-child(2) {
+          width: 50%;
+
+          .split {
+            display: flex;
+            justify-content: center;
+            // margin: auto;
+          }
+        }
 
         h3 {
           color: $orange;
@@ -87,9 +97,10 @@ nav {
           margin: .2em;
           text-decoration: none;
           display: block;
-          text-align: left;
+          text-align: center;
           font-size: .85em;
           font-weight: inherit;
+          // width: 90%;
 
           &:hover {
             color: $orange;

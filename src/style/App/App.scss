@@ -37,15 +37,25 @@ html {
       background: linear-gradient(0deg, rgba(248, 54, 0, 1) 10%, rgba(250, 204, 34, 1) 80%);
       width: 27%;
 
+      @include breakpoint(laptop) {
+        width: 50%;
+      }
+
       p {
-        height: 60%;
-        margin: 0;
+        // height: 60%;
+        // margin: 0;
+        margin: 7.5% auto;
         font-size: 1.3em;
         font-weight: 700;
-        // padding-top: 5%;
+
+        @include breakpoint(laptop) {
+          font-size: 1.15em;
+          margin: 25% auto 10%;
+        }
 
         span {
           color: $darkBlue;
+          text-decoration: underline;
         }
       }
 
@@ -61,14 +71,23 @@ html {
         }
 
         .cta-mail {
-          // 2:3 ratio
           width: 45%;
           height: 65%;
+
+          @include breakpoint(mobile) {
+            width: 40%;
+            height: 60%;
+          }
         }
 
         .cta-phone {
           width: 25%;
           height: 65%;
+
+          @include breakpoint(mobile) {
+            width: 20%;
+            height: 40%;
+          }
         }
 
       }

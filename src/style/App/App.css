@@ -34,15 +34,28 @@ html {
   width: 27%;
 }
 
+@media (min-width: 800px) and (max-width: 1449px) {
+  .App header .cta {
+    width: 50%;
+  }
+}
+
 .App header .cta p {
-  height: 60%;
-  margin: 0;
+  margin: 7.5% auto;
   font-size: 1.3em;
   font-weight: 700;
 }
 
+@media (min-width: 800px) and (max-width: 1449px) {
+  .App header .cta p {
+    font-size: 1.15em;
+    margin: 25% auto 10%;
+  }
+}
+
 .App header .cta p span {
   color: #0b2673;
+  text-decoration: underline;
 }
 
 .App header .cta .btns {
@@ -66,8 +79,22 @@ html {
   height: 65%;
 }
 
+@media (max-width: 480px) {
+  .App header .cta .btns .cta-mail {
+    width: 40%;
+    height: 60%;
+  }
+}
+
 .App header .cta .btns .cta-phone {
   width: 25%;
   height: 65%;
+}
+
+@media (max-width: 480px) {
+  .App header .cta .btns .cta-phone {
+    width: 20%;
+    height: 40%;
+  }
 }
 /*# sourceMappingURL=App.css.map */
