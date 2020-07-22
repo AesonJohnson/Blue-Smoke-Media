@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 
-//todo fix the order, set up links to pages, get site map
+// todo fix the order, set up links to pages, get site map
 export default function Navigation() {
   return (
     <nav>
@@ -13,74 +13,79 @@ export default function Navigation() {
         <div class="dropdown-content">
           <div className="nav-section">
             <h3>SEO</h3>
-            <NavLink to="/seoFriendly" className="drop-item">
+            <a href="/seoFriendly" className="drop-item">
               SEO - Search Engine Optimization
-            </NavLink>
-            <NavLink to="/seoOrganic" className="drop-item">
+            </a>
+
+            <a href="/seoOrganic" className="drop-item">
               Organic Search Engine Optimization
-            </NavLink>
+            </a>
           </div>
           <div className="nav-section ">
             <h3>Web Design</h3>
             <div className="split">
               <div>
-                <NavLink to="/customWebsiteDesign" className="drop-item">
+                <a href="/customWebsiteDesign" className="drop-item">
                   Custom Website Design
-                </NavLink>
+                </a>
 
-                <NavLink
-                  to="/E-CommerceWebsiteDevelopment"
+                <a
+                  href="/E-CommerceWebsiteDevelopment"
                   className="drop-item"
                 >
                   E-Commerce Website Development
-                </NavLink>
+                </a>
 
-                <NavLink to="/websiteUsability" className="drop-item">
+                <a href="/websiteUsability" className="drop-item">
                   Creating Your Website-Useability
-                </NavLink>
+                </a>
               </div>
               <div>
-                <NavLink to="/ad-CopyWriting" className="drop-item">
+                <a href="/ad-CopyWriting" className="drop-item">
                   Website Ad-Copy Writing
-                </NavLink>
+                </a>
 
-                <NavLink to="/webMaintenance" className="drop-item">
+                <a href="/webMaintenance" className="drop-item">
                   Website Maintenance
-                </NavLink>
-                <NavLink to="/coding" className="drop-item">
+                </a>
+
+                <a href="/coding" className="drop-item">
                   Coding and Programming
-                </NavLink>
+                </a>
               </div>
             </div>
-            <NavLink to="/inquirySurveyForm" className="drop-item">
+            <a href="/inquirySurveyForm" className="drop-item">
               Inquiry/Survey Form
-            </NavLink>
+            </a>
           </div>
           <div className="nav-section">
             <h3>Graphic Design</h3>
-            <NavLink to="/websiteLogoDesign" className="drop-item">
+            <a href="/websiteLogoDesign" className="drop-item">
               Website Logo Design
-            </NavLink>
+            </a>
 
-            <NavLink to="/printedMediaLogos" className="drop-item">
+            <a href="/printedMediaLogos" className="drop-item">
               Print Logo Design
-            </NavLink>
+            </a>
 
-            <NavLink to="/printAndGraphicServices" className="drop-item">
+            <a href="/printAndGraphicServices" className="drop-item">
               Print & Graphic Design Services
-            </NavLink>
+            </a>
           </div>
         </div>
       </div>
       <NavLink to="/team" className="nav-item">
         Our Team
       </NavLink>
+
       <NavLink to="/portfolio" className="nav-item">
         Our Work
       </NavLink>
+
       <a href="#blog" className="nav-item">
         Blog
       </a>
+      
       <NavLink to="/contact" className="nav-item">
         Contact
       </NavLink>

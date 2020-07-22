@@ -13,7 +13,7 @@ export default function OrganicSeo() {
           name="description"
           content="This is what you want to show as the page content in the Google SERP Listing"
         />
-      </Helmet>{" "}
+      </Helmet>
       <div className="organic-seo">
         <img src={seoBanner} alt="seo" />
         <h2>Organic Search Engine Optimization</h2>

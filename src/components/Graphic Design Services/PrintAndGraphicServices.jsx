@@ -29,6 +29,7 @@ export default function PrintAndDesignGraphicServices() {
       </Helmet>
       <div className="print-and-graphic-design-services">
         <img src={fingersCrossed} alt="Experts" />
+
         <h1>Print and Graphic Design Services</h1>
         <div className="content">
           <p>
@@ -42,7 +43,7 @@ export default function PrintAndDesignGraphicServices() {
             <div className="images-left"></div>
             <div className="text-right">
               <section>
-                <img src={light} alt="recognition" />
+                <img src={light} loading="lazy" alt="recognition" />
                 <div>
                   <p>
                     <span>Recognition - </span>Who are you? What do you do? It’s
@@ -60,7 +61,7 @@ export default function PrintAndDesignGraphicServices() {
                 </div>
               </section>
               <section>
-                <img src={respect} alt="respect" />{" "}
+                <img src={respect} loading="lazy" alt="respect" />{" "}
                 <p>
                   <span>Respect - </span>Believe it or not, good design is
                   apparent to almost everyone. They might not know exactly why,
@@ -72,7 +73,7 @@ export default function PrintAndDesignGraphicServices() {
                 </p>
               </section>
               <section>
-                <img src={eagle} alt="eagle" id="eagle" />{" "}
+                <img src={eagle} loading="lazy" alt="eagle" id="eagle" />{" "}
                 <p>
                   <span>Trust - </span>Respect leads to Trust and Trust is
                   priceless. Design plays a very important part in establishing
@@ -83,7 +84,7 @@ export default function PrintAndDesignGraphicServices() {
                 </p>
               </section>
               <section>
-                <img src={coffeeShelf} alt="branding" id="coffeeShelf" />
+                <img src={coffeeShelf} loading="lazy" alt="branding" id="coffeeShelf" />
                 <p>
                   An appropriate brochure, business card, logo or any printed
                   media is a necessity when it comes to spreading the word about

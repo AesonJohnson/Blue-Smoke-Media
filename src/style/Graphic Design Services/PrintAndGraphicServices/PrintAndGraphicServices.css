@@ -1,7 +1,6 @@
 .print-and-graphic-design-services img {
   width: 100.1%;
   height: 40vh;
-  border-bottom: 2px solid #0b2673;
 }
 
 @media (min-width: 800px) and (max-width: 1449px) {

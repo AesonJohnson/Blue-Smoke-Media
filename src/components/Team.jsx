@@ -37,7 +37,7 @@ export default function Team() {
               src={womanStudio}
               preload="auto"
               autoPlay
-              // muted="true"
+              loading="lazy"
               loop
             ></video>
             <p>
@@ -63,7 +63,7 @@ export default function Team() {
               src={seoVid}
               preload="auto"
               autoPlay
-              // muted="true"
+              loading="lazy"
               loop
             ></video>
             <p>
@@ -80,7 +80,7 @@ export default function Team() {
               src={globeVid}
               preload="auto"
               autoPlay
-              // muted="true"
+              loading="lazy"
               loop
             ></video>
             <p>
@@ -112,7 +112,7 @@ export default function Team() {
 function teamMembers(team) {
   return team.map((member) => (
     <div className="member">
-      <img src={member.img} alt="profile img" />
+      <img src={member.img} loading="lazy" alt="profile img" />
       <p>
         <span>{member.name}</span>
         {"  "}-{"  "} {member.description}

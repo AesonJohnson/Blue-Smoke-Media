@@ -4,7 +4,6 @@
   img {
     width: 100.1%;
     height: 40vh;
-    border-bottom: 2px solid $darkBlue;
 
     @include breakpoint(laptop) {
       height: 45vh;
