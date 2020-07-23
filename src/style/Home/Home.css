@@ -10,7 +10,7 @@
   height: 100%;
 }
 
-.home .globe {
+.globe {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -27,13 +27,13 @@
 }
 
 @media (max-width: 480px) {
-  .home .globe {
+  .globe {
     height: 30vh;
     background-size: 124%;
   }
 }
 
-.home .globe p {
+.globe p {
   text-align: center;
   font-weight: normal;
   width: 40%;
@@ -43,14 +43,14 @@
 }
 
 @media (min-width: 800px) and (max-width: 1449px) {
-  .home .globe p {
+  .globe p {
     margin-top: 5%;
     padding-top: 0;
   }
 }
 
 @media (max-width: 480px) {
-  .home .globe p {
+  .globe p {
     width: 90%;
     height: 80%;
     margin: 6% 30% auto 2%;
@@ -60,19 +60,19 @@
   }
 }
 
-.home .globe p span {
+.globe p span {
   font-size: 1.4em;
   font-weight: bold;
   color: #40a5fb;
 }
 
 @media (max-width: 480px) {
-  .home .globe p span {
+  .globe p span {
     font-size: 1em;
   }
 }
 
-.home .silhouette {
+.silhouette {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -80,12 +80,12 @@
 }
 
 @media (max-width: 480px) {
-  .home .silhouette {
+  .silhouette {
     padding: 2rem 1.5rem;
   }
 }
 
-.home .silhouette img {
+.silhouette img {
   width: 50%;
   height: 100%;
   margin: auto 0.4rem;
@@ -96,12 +96,12 @@
 }
 
 @media (max-width: 480px) {
-  .home .silhouette img {
+  .silhouette img {
     display: none;
   }
 }
 
-.home .silhouette p {
+.silhouette p {
   width: 44%;
   margin: auto;
   text-align: justify;
@@ -109,18 +109,18 @@
 }
 
 @media (max-width: 480px) {
-  .home .silhouette p {
+  .silhouette p {
     width: 100%;
     padding: 0;
   }
 }
 
-.home .silhouette p span {
+.silhouette p span {
   font-weight: 600;
   color: #40a5fb;
 }
 
-.home .social-media {
+.social-media {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -133,14 +133,14 @@
 }
 
 @media (max-width: 480px) {
-  .home .social-media {
+  .social-media {
     display: inline-block;
     padding: 0;
     margin-bottom: 2rem;
   }
 }
 
-.home .social-media img {
+.social-media img {
   width: 50%;
   height: 100%;
   margin-bottom: 1.5rem;
@@ -151,7 +151,7 @@
 }
 
 @media (max-width: 480px) {
-  .home .social-media img {
+  .social-media img {
     width: 100%;
     border-radius: 0;
     -webkit-box-shadow: none;
@@ -160,7 +160,7 @@
   }
 }
 
-.home .social-media .content {
+.social-media .content {
   width: 50%;
   margin: 1rem auto;
   padding-top: 10%;
@@ -168,49 +168,49 @@
 }
 
 @media (min-width: 800px) and (max-width: 1449px) {
-  .home .social-media .content {
+  .social-media .content {
     padding-top: 6%;
     margin-top: .25em;
   }
 }
 
 @media (max-width: 480px) {
-  .home .social-media .content {
+  .social-media .content {
     margin: 0;
     width: 90%;
     padding: 1.4rem 1.4rem 0;
   }
 }
 
-.home .social-media .content p {
+.social-media .content p {
   width: 80%;
   margin: 0 auto 7%;
 }
 
-.home .social-media .content p :first-child {
+.social-media .content p :first-child {
   color: #f64a1e;
   font-weight: 500;
 }
 
 @media (max-width: 480px) {
-  .home .social-media .content p {
+  .social-media .content p {
     width: 100%;
   }
 }
 
-.home .social-media .content span {
+.social-media .content span {
   text-decoration: underline;
   color: #1e92f6;
   font-weight: 600;
 }
 
 @media (max-width: 480px) {
-  .home .social-media .content span {
+  .social-media .content span {
     text-decoration: none;
   }
 }
 
-.home .mission {
+.mission {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -220,12 +220,12 @@
 }
 
 @media (max-width: 480px) {
-  .home .mission {
+  .mission {
     display: inline-block;
   }
 }
 
-.home .mission .left {
+.mission .left {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -238,12 +238,12 @@
 }
 
 @media (max-width: 480px) {
-  .home .mission .left {
+  .mission .left {
     width: 100%;
   }
 }
 
-.home .mission .left p {
+.mission .left p {
   padding: 22% 17%;
   line-height: 1.75em;
   font-size: 1.2em;
@@ -252,20 +252,20 @@
 }
 
 @media (min-width: 800px) and (max-width: 1449px) {
-  .home .mission .left p {
+  .mission .left p {
     font-size: 1.1em;
     padding: 2% 12%;
   }
 }
 
 @media (max-width: 480px) {
-  .home .mission .left p {
+  .mission .left p {
     padding: 20% 10%;
     font-size: 1em;
   }
 }
 
-.home .mission .right {
+.mission .right {
   background: url("../../images/trees-background.png");
   background-size: 100% 140%;
   background-position-y: 10%;
@@ -284,33 +284,33 @@
 }
 
 @media (max-width: 480px) {
-  .home .mission .right {
+  .mission .right {
     width: 100%;
     margin: 0;
     margin-top: 5%;
   }
 }
 
-.home .mission .right img {
+.mission .right img {
   width: 70%;
   height: 10%;
   margin: 3em auto 0.125rem;
 }
 
 @media (min-width: 800px) and (max-width: 1449px) {
-  .home .mission .right img {
+  .mission .right img {
     width: 72%;
     height: 8%;
   }
 }
 
 @media (max-width: 480px) {
-  .home .mission .right img {
+  .mission .right img {
     height: 50%;
   }
 }
 
-.home .mission .right h4 {
+.mission .right h4 {
   font-size: 1.5em;
   color: #f64a1e;
   text-shadow: 2px 2px #1d1d1d;
@@ -318,24 +318,24 @@
 }
 
 @media (min-width: 800px) and (max-width: 1449px) {
-  .home .mission .right h4 {
+  .mission .right h4 {
     font-size: 1.4em;
   }
 }
 
-.home .mission .right p {
+.mission .right p {
   font-size: 1.25em;
   margin-top: 0.15rem;
   color: #0b2672;
 }
 
 @media (min-width: 800px) and (max-width: 1449px) {
-  .home .mission .right p {
+  .mission .right p {
     font-size: 1em;
   }
 }
 
-.home .mission .right ul {
+.mission .right ul {
   width: 72.5%;
   margin: 1.5rem auto;
   list-style: none;
@@ -345,12 +345,12 @@
 }
 
 @media (max-width: 480px) {
-  .home .mission .right ul {
+  .mission .right ul {
     margin: 0 auto;
   }
 }
 
-.home .mission .right ul li {
+.mission .right ul li {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -363,19 +363,19 @@
 }
 
 @media (min-width: 800px) and (max-width: 1449px) {
-  .home .mission .right ul li {
+  .mission .right ul li {
     font-size: .95em;
     line-height: 1.2em;
   }
 }
 
 @media (max-width: 480px) {
-  .home .mission .right ul li {
+  .mission .right ul li {
     font-size: 1em;
   }
 }
 
-.home .mission .right ul ::before {
+.mission .right ul ::before {
   content: "»";
   font-size: 1.2em;
   color: #f64a1e;
@@ -385,24 +385,24 @@
   text-shadow: 0.75px 0.75px #1d1d1d;
 }
 
-.home .mission .right h3 {
+.mission .right h3 {
   margin: 0.5em auto .6em;
 }
 
-.home .mission .right h3 a {
+.mission .right h3 a {
   text-decoration: none;
   font-size: 1.2em;
   color: #f64a1e;
   text-shadow: 2px 2px #1d1d1d;
 }
 
-.home .mission .right #contact {
+.mission .right #contact {
   width: 85%;
   margin: 0 auto 3.5rem;
 }
 
 @media (max-width: 480px) {
-  .home .mission .right #contact {
+  .mission .right #contact {
     font-size: 1.2em;
   }
 }

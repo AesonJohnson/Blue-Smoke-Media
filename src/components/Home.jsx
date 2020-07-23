@@ -5,12 +5,6 @@ import silhouette from "../images/silhouette.png";
 import socialMedia from "../images/social-media.jpg";
 import blueSmoke from "../images/blue-smoke.png";
 
-import component1 from "../images/component1.png";
-import component2 from "../images/component2.png";
-import component3 from "../images/component3.png";
-import component4 from "../images/component4.png";
-import component5 from "../images/component5.png";
-import component6 from "../images/component6.png";
 // const silhouette =
 //   "https://blue-smoke-media.s3-us-west-1.amazonaws.com/silhouette.png";
 // const socialMedia =
